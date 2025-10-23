@@ -1,0 +1,130 @@
+@prefix ex: <http://example.org/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hico: <http://purl.org/emmedi/hico/> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:facts_peeters_1973 {
+    ex:1258 a crm:E52_Time-Span ;
+        rdfs:label "1258" .
+
+    ex:Flanders a crm:E53_Place ;
+        crm:P1_is_identified_by ex:Flanders_appellation .
+
+    ex:Land_of_Waas a crm:E53_Place ;
+        crm:P1_is_identified_by ex:Land_of_Waas_appellation .
+
+    ex:Reinaert a crm:E21_Person ;
+        crm:P1_is_identified_by ex:Reinaert_appellation .
+
+    ex:Van_den_vos_Reynaerde a crm:E89_Propositional_Object ;
+        crm:P1_is_identified_by ex:Van_den_vos_Reynaerde_appellation .
+
+    ex:Willem_van_Baudelo a crm:E21_Person ;
+        crm:P1_is_identified_by ex:Willem_van_Baudelo_appellation .
+
+    ex:contemporary_events a crm:E55_Type ;
+        rdfs:label "contemporary events" .
+
+    ex:court_of_Margareta_of_Flanders a crm:E74_Group ;
+        crm:P1_is_identified_by ex:court_of_Margareta_of_Flanders_appellation .
+
+    ex:peeters_1973 a fabio:BookChapter ;
+        dc:date "1999" ;
+        dc:title "Historiciteit en chronologie in 'Van den vos Reynaerde'" ;
+        frbr:partOf ex:pade_crom_ende_menichfoude_het_reynaert_onderzoek_in_de_tweede_helft_van_de_twintigste_eeuw .
+
+    ex:political_and_social_fabric a crm:E55_Type ;
+        rdfs:label "political and social fabric" .
+
+    ex:socio_political_landscape a crm:E55_Type ;
+        rdfs:label "socio-political landscape" .
+
+    ex:Flanders_appellation a crm:E41_Appellation ;
+        rdfs:label "Flanders" .
+
+    ex:Land_of_Waas_appellation a crm:E41_Appellation ;
+        rdfs:label "Land of Waas" .
+
+    ex:Reinaert_appellation a crm:E41_Appellation ;
+        rdfs:label "Reinaert" .
+
+    ex:Van_den_vos_Reynaerde_appellation a crm:E41_Appellation ;
+        rdfs:label "Van den vos Reynaerde" .
+
+    ex:Willem_van_Baudelo_appellation a crm:E41_Appellation ;
+        rdfs:label "Willem van Baudelo" .
+
+    ex:court_of_Margareta_of_Flanders_appellation a crm:E41_Appellation ;
+        rdfs:label "court of Margareta of Flanders" .
+
+    ex:pade_crom_ende_menichfoude_het_reynaert_onderzoek_in_de_tweede_helft_van_de_twintigste_eeuw a fabio:Book ;
+        dc:title "'Pade crom ende menichfoude'. Het Reynaert-onderzoek in de tweede helft van de twintigste eeuw" .
+}
+
+ex:assertion_peeters_1973 {
+    ex:Van_den_vos_Reynaerde_Creation a crm:E65_Creation ;
+        crm:P14_carried_out_by ex:Willem_van_Baudelo ;
+        crm:P15_was_influenced_by ex:court_of_Margareta_of_Flanders ;
+        crm:P94_has_created ex:Van_den_vos_Reynaerde .
+
+    ex:Van_den_vos_Reynaerde crm:P67_refers_to ex:Reinaert,
+            ex:contemporary_events,
+            ex:further_research,
+            ex:political_and_social_fabric,
+            ex:socio_political_landscape .
+}
+
+ex:provenance_peeters_1973 {
+    ex:assertion_peeters_1973 a prov:Entity ;
+        prov:wasGeneratedBy ex:interpretation_act_peeters_1973_leopold_peeters .
+
+    ex:ContextualAnalysis a hico:InterpretationCriterion .
+
+    ex:LiteraryAnalysis a hico:InterpretationCriterion .
+
+    ex:PhilologicalAnalysis a hico:InterpretationType .
+
+    ex:ScholarlyReview a hico:InterpretationCriterion .
+
+    ex:interpretation_act_peeters_1973_leopold_peeters a hico:InterpretationAct ;
+        hico:hasInterpretationCriterion ex:ContextualAnalysis,
+            ex:LiteraryAnalysis,
+            ex:ScholarlyReview ;
+        hico:hasInterpretationType ex:PhilologicalAnalysis ;
+        hico:isExtractedFrom ex:peeters_1973 ;
+        cwrc:hasCertainty cwrc:medium_certainty ;
+        prov:wasAssociatedWith ex:leopold_peeters .
+
+    ex:leopold_peeters a foaf:Person .
+}
+
+ex:pubInfo_peeters_1973 {
+    ex:Gpt4oMiniAgent a prov:Agent,
+            prov:SoftwareAgent ;
+        rdfs:label "gpt-4o-mini" .
+
+    ex:pub_peeters_1973 prov:generatedAtTime "2025-10-23T10:33:19+00:00"^^xsd:dateTime ;
+        prov:wasAttributedTo ex:aschimmenti ;
+        prov:wasDerivedFrom ex:peeters_1973 .
+
+    ex:aschimmenti a prov:Person ;
+        rdfs:label "aschimmenti" .
+
+    ex:peeters_1973 a prov:Entity .
+}
+
+ex:head_peeters_1973 {
+    ex:pub_peeters_1973 a np:Nanopublication ;
+        np:hasAssertion ex:assertion_peeters_1973 ;
+        np:hasProvenance ex:provenance_peeters_1973 ;
+        np:hasPublicationInfo ex:pubInfo_peeters_1973 .
+}

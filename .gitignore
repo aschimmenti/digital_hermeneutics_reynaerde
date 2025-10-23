@@ -1,0 +1,29 @@
+# Virtual environments
+.venv/
+venv/
+venv_fox/
+env/
+
+# Python caches and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.Python
+.build/
+.dist/
+
+# Tools/cache
+.pytest_cache/
+.ipynb_checkpoints/
+.cache/
+.mypy_cache/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Project folders to ignore
+cidoc_stuff/
+

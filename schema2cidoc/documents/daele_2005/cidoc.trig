@@ -1,0 +1,90 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex: <http://example.org/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+
+ex:facts_daele_2005 {
+ex:daele_2005 a fabio:JournalArticle ;
+    dc:title "De robotfoto van de Reynaertdichter Bricoleren met de overgeleverde wrakstukken: 'cisterciënzers', 'grafelijke hof' en 'Reynaertmaterie'" ;
+    dc:date "2005" ;
+    frbr:partOf ex:tiecelijn_vol_18 .
+
+ex:tiecelijn_vol_18 a fabio:JournalVolume ;
+    dc:title "Tiecelijn" ;
+    prism:volume "18" ;
+    frbr:partOf ex:tiecelijn_journal .
+
+ex:tiecelijn_journal a fabio:Journal ;
+    dc:title "Tiecelijn" .
+ex:Van_den_vos_Reynaerde a crm:E89_Propositional_Object ;
+    crm:P1_is_identified_by ex:Van_den_vos_Reynaerde_appellation .
+
+ex:Van_den_vos_Reynaerde_appellation a crm:E41_Appellation ;
+    rdfs:label "Van den vos Reynaerde" .
+
+ex:Willem_van_Boudelo a crm:E21_Person ;
+    crm:P1_is_identified_by ex:Willem_van_Boudelo_appellation .
+
+ex:Willem_van_Boudelo_appellation a crm:E41_Appellation ;
+    rdfs:label "Willem van Boudelo" .
+
+ex:grafelijke_hof a crm:E74_Group ;
+    crm:P1_is_identified_by ex:grafelijke_hof_appellation .
+
+ex:grafelijke_hof_appellation a crm:E41_Appellation ;
+    rdfs:label "grafelijke hof" .
+
+ex:cistercian_culture a crm:E74_Group ;
+    crm:P1_is_identified_by ex:cistercian_culture_appellation .
+
+ex:cistercian_culture_appellation a crm:E41_Appellation ;
+    rdfs:label "cistercian culture" .
+
+ex:Flanders a crm:E53_Place ;
+    crm:P1_is_identified_by ex:Flanders_appellation .
+
+ex:Flanders_appellation a crm:E41_Appellation ;
+    rdfs:label "Flanders" .
+
+ex:courtly_life a crm:E55_Type ;
+    rdfs:label "courtly life" .
+
+ex:Flemish_toponyms a crm:E55_Type ;
+    rdfs:label "Flemish toponyms" .
+
+ex:human_hypocrisy a crm:E55_Type ;
+    rdfs:label "human hypocrisy" .
+
+ex:Gentse_stadscultuur a crm:E4_Period ;
+    rdfs:label "Gentse stadscultuur" .
+
+ex:1250 a crm:E52_Time-Span ;
+    rdfs:label "1250" .
+}
+
+ex:assertion_daele_2005 {
+ex:Van_den_vos_Reynaerde_Creation a crm:E65_Creation ;
+    crm:P14_carried_out_by ex:Willem_van_Boudelo ;
+    crm:P94_has_created ex:Van_den_vos_Reynaerde ;
+    crm:P4_has_time-span ex:1250 ;
+    crm:P7_took_place_at ex:Flanders .
+
+ex:grafelijke_hof crm:P107_has_current_or_former_member ex:Willem_van_Boudelo .
+ex:cistercian_culture crm:P107_has_current_or_former_member ex:Willem_van_Boudelo .
+ex:Van_den_vos_Reynaerde crm:P67_refers_to ex:human_hypocrisy .
+ex:Van_den_vos_Reynaerde crm:P67_refers_to ex:Flemish_toponyms .
+ex:Van_den_vos_Reynaerde crm:P67_refers_to ex:courtly_life .
+ex:Van_den_vos_Reynaerde crm:P67_refers_to ex:city_patriciate .
+}
+
+ex:head_daele_2005 {
+    ex:pub_daele_2005 a np:Nanopublication ;
+        np:hasAssertion ex:assertion_daele_2005 ;
+        np:hasProvenance ex:provenance_daele_2005 ;
+        np:hasPublicationInfo ex:pubInfo_daele_2005 .
+}

@@ -1,0 +1,109 @@
+{
+  "files": [
+    {
+      "file_id": "of_reynaert_the_fox",
+      "document_metadata": {
+        "type": "book",
+        "authors": [
+          {
+            "family_name": "Bouwman",
+            "given_name": "A."
+          },
+          {
+            "family_name": "Besamusca",
+            "given_name": "B."
+          }
+        ],
+        "date": "2009",
+        "title": "Of Reynaert the Fox: Text and facing translation of Van den vos Reynaerde",
+        "publisher": "Amsterdam University Press",
+        "doi": "10.5117/9789089640246",
+        "url": "https://doi.org/10.5117/9789089640246",
+        "file_path": "data/of_reynaert_the_fox.md"
+      },
+      "automated_process_metadata": {
+        "person_name": "aschimmenti",
+        "llm_model_version": "gpt-4o-mini"
+      },
+      "questions": [
+        "In Of Reynaert the Fox: Text and facing translation of Van den vos Reynaerde, which document is the subject of inquiry? What are the entities that take part in the discourse?",
+        "What do Bouwman and Besamusca think about the real identity of the author of the Van den vos Reynaerde, sometimes known as 'Reynaertdichter' (nickname for the Reynaert poet in Dutch)?",
+        "How do Bouwman and Besamusca substantiate their claims? What proofs do they provide? Which techniques do they use? What is the degree of certainty?"
+      ]
+    },
+    {
+      "file_id": "peeters_1973",
+      "document_metadata": {
+        "type": "book_chapter",
+        "authors": [
+          {
+            "family_name": "Peeters",
+            "given_name": "Léopold"
+          }
+        ],
+        "date": "1999",
+        "title": "Historiciteit en chronologie in 'Van den vos Reynaerde'",
+        "start_page": "135",
+        "end_page": "165",
+        "container": {
+          "type": "book",
+          "title": "'Pade crom ende menichfoude'. Het Reynaert-onderzoek in de tweede helft van de twintigste eeuw",
+          "editors": [
+            {
+              "family_name": "van Dijk",
+              "given_name": "Hans"
+            },
+            {
+              "family_name": "Wackers",
+              "given_name": "Paul"
+            }
+          ],
+          "publisher": "Hilversum",
+          "series": {
+            "title": "Middeleeuwse studies en bronnen",
+            "volume": "67"
+          }
+        },
+        "file_path": "data/peeters_1973.md"
+      },
+      "automated_process_metadata": {
+        "person_name": "aschimmenti",
+        "llm_model_version": "gpt-4o-mini"
+      },
+      "questions": [
+        "In Historiciteit en chronologie in 'Van den vos Reynaerde', which document is the subject of inquiry? What are the entities that take part in the discourse?",
+        "What does Leopold Peeters say about William van Baudelo, and how does he justify his claims about him being the real identity of the author of the Van den vos Reynaerde, sometimes known as 'Reynaertdichter' (nickname for the Reynaert poet in Dutch)?",
+        "How does Leopold Peeters substantiate his claims? What proofs does he provide? Which techniques does he use? What degree of certainty does he have?"
+      ]    
+    },
+    {
+      "file_id": "daele_2005",
+      "document_metadata": {
+        "type": "journal_article",
+        "authors": [
+          {
+            "family_name": "Van Daele",
+            "given_name": "Rik"
+          }
+        ],
+        "date": "2005",
+        "title": "De robotfoto van de Reynaertdichter Bricoleren met de overgeleverde wrakstukken: 'cisterciënzers', 'grafelijke hof' en 'Reynaertmaterie'",
+        "container": {
+          "type": "journal",
+          "title": "Tiecelijn",
+          "volume": "18"
+        },
+        "file_path": "data/van_daele_2005.md"
+      },
+      "automated_process_metadata": {
+        "person_name": "aschimmenti",
+        "llm_model_version": "gpt-4o-mini"
+      },
+      "questions": [
+        "In De robotfoto van de Reynaertdichter Bricoleren met de overgeleverde wrakstukken: 'cisterciënzers', 'grafelijke hof' en 'Reynaertmaterie', which document is the subject of inquiry? What are the entities that take part in the discourse?",
+        "What does Rik Van Daele say about William van Baudelo, and how does he justify his claims about him being the real identity of the author of the Van den vos Reynaerde, sometimes known as 'Reynaertdichter' (nickname for the Reynaert poet in Dutch)?",
+        "How does Rik Van Daele substantiate his claims? What proofs does he provide? Which techniques does he use? What degree of certainty does he have?"
+      ]
+    }
+  ]
+}

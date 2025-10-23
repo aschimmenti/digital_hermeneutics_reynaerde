@@ -1,0 +1,16 @@
+@prefix ex: <http://example.org/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:bundle_peeters_1973 {
+    ex:bundle_peeters_1973 a np:Nanopublication ;
+        prov:hasMember ex:provenance_peeters_1973 ;
+        prov:hasMember ex:nanopub_info_peeters_1973 ;
+        prov:hasMember ex:facts_peeters_1973 ;
+        prov:hasMember ex:assertion_peeters_1973 ;
+        prov:hasMember ex:head_peeters_1973 ;
+        dcterms:hasPart "nanopub.trig"^^xsd:string ;
+        dcterms:hasPart "cidoc.trig"^^xsd:string .
+}

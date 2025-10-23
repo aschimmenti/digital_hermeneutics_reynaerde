@@ -1,0 +1,86 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex: <http://example.org/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+
+ex:facts_peeters_1973 {
+ex:peeters_1973 a fabio:BookChapter ;
+    dc:title "Historiciteit en chronologie in 'Van den vos Reynaerde'" ;
+    dc:date "1999" ;
+    frbr:partOf ex:pade_crom_ende_menichfoude_het_reynaert_onderzoek_in_de_tweede_helft_van_de_twintigste_eeuw .
+
+ex:pade_crom_ende_menichfoude_het_reynaert_onderzoek_in_de_tweede_helft_van_de_twintigste_eeuw a fabio:Book ;
+    dc:title "'Pade crom ende menichfoude'. Het Reynaert-onderzoek in de tweede helft van de twintigste eeuw" .
+ex:Van_den_vos_Reynaerde a crm:E89_Propositional_Object ;
+    crm:P1_is_identified_by ex:Van_den_vos_Reynaerde_appellation .
+
+ex:Van_den_vos_Reynaerde_appellation a crm:E41_Appellation ;
+    rdfs:label "Van den vos Reynaerde" .
+
+ex:Willem_van_Baudelo a crm:E21_Person ;
+    crm:P1_is_identified_by ex:Willem_van_Baudelo_appellation .
+
+ex:Willem_van_Baudelo_appellation a crm:E41_Appellation ;
+    rdfs:label "Willem van Baudelo" .
+
+ex:Reinaert a crm:E21_Person ;
+    crm:P1_is_identified_by ex:Reinaert_appellation .
+
+ex:Reinaert_appellation a crm:E41_Appellation ;
+    rdfs:label "Reinaert" .
+
+ex:court_of_Margareta_of_Flanders a crm:E74_Group ;
+    crm:P1_is_identified_by ex:court_of_Margareta_of_Flanders_appellation .
+
+ex:court_of_Margareta_of_Flanders_appellation a crm:E41_Appellation ;
+    rdfs:label "court of Margareta of Flanders" .
+
+ex:Flanders a crm:E53_Place ;
+    crm:P1_is_identified_by ex:Flanders_appellation .
+
+ex:Flanders_appellation a crm:E41_Appellation ;
+    rdfs:label "Flanders" .
+
+ex:Land_of_Waas a crm:E53_Place ;
+    crm:P1_is_identified_by ex:Land_of_Waas_appellation .
+
+ex:Land_of_Waas_appellation a crm:E41_Appellation ;
+    rdfs:label "Land of Waas" .
+
+ex:political_and_social_fabric a crm:E55_Type ;
+    rdfs:label "political and social fabric" .
+
+ex:socio_political_landscape a crm:E55_Type ;
+    rdfs:label "socio-political landscape" .
+
+ex:contemporary_events a crm:E55_Type ;
+    rdfs:label "contemporary events" .
+
+ex:1258 a crm:E52_Time-Span ;
+    rdfs:label "1258" .
+}
+
+ex:assertion_peeters_1973 {
+ex:Van_den_vos_Reynaerde_Creation a crm:E65_Creation ;
+    crm:P14_carried_out_by ex:Willem_van_Baudelo ;
+    crm:P94_has_created ex:Van_den_vos_Reynaerde ;
+    crm:P15_was_influenced_by ex:court_of_Margareta_of_Flanders .
+
+ex:Van_den_vos_Reynaerde crm:P67_refers_to ex:socio_political_landscape .
+ex:Van_den_vos_Reynaerde crm:P67_refers_to ex:political_and_social_fabric .
+ex:Van_den_vos_Reynaerde crm:P67_refers_to ex:contemporary_events .
+ex:Van_den_vos_Reynaerde crm:P67_refers_to ex:Reinaert .
+ex:Van_den_vos_Reynaerde crm:P67_refers_to ex:further_research .
+}
+
+ex:head_peeters_1973 {
+    ex:pub_peeters_1973 a np:Nanopublication ;
+        np:hasAssertion ex:assertion_peeters_1973 ;
+        np:hasProvenance ex:provenance_peeters_1973 ;
+        np:hasPublicationInfo ex:pubInfo_peeters_1973 .
+}

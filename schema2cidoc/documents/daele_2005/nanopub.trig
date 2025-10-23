@@ -1,0 +1,127 @@
+@prefix ex: <http://example.org/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hico: <http://purl.org/emmedi/hico/> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:facts_daele_2005 {
+    ex:Gentse_stadscultuur a crm:E4_Period ;
+        rdfs:label "Gentse stadscultuur" .
+
+    ex:daele_2005 a fabio:JournalArticle ;
+        dc:date "2005" ;
+        dc:title "De robotfoto van de Reynaertdichter Bricoleren met de overgeleverde wrakstukken: 'cisterciënzers', 'grafelijke hof' en 'Reynaertmaterie'" ;
+        frbr:partOf ex:tiecelijn_vol_18 .
+
+    ex:1250 a crm:E52_Time-Span ;
+        rdfs:label "1250" .
+
+    ex:Flanders a crm:E53_Place ;
+        crm:P1_is_identified_by ex:Flanders_appellation .
+
+    ex:Flanders_appellation a crm:E41_Appellation ;
+        rdfs:label "Flanders" .
+
+    ex:Flemish_toponyms a crm:E55_Type ;
+        rdfs:label "Flemish toponyms" .
+
+    ex:Van_den_vos_Reynaerde_appellation a crm:E41_Appellation ;
+        rdfs:label "Van den vos Reynaerde" .
+
+    ex:Willem_van_Boudelo_appellation a crm:E41_Appellation ;
+        rdfs:label "Willem van Boudelo" .
+
+    ex:cistercian_culture a crm:E74_Group ;
+        crm:P1_is_identified_by ex:cistercian_culture_appellation .
+
+    ex:cistercian_culture_appellation a crm:E41_Appellation ;
+        rdfs:label "cistercian culture" .
+
+    ex:courtly_life a crm:E55_Type ;
+        rdfs:label "courtly life" .
+
+    ex:grafelijke_hof a crm:E74_Group ;
+        crm:P1_is_identified_by ex:grafelijke_hof_appellation .
+
+    ex:grafelijke_hof_appellation a crm:E41_Appellation ;
+        rdfs:label "grafelijke hof" .
+
+    ex:human_hypocrisy a crm:E55_Type ;
+        rdfs:label "human hypocrisy" .
+
+    ex:tiecelijn_journal a fabio:Journal ;
+        dc:title "Tiecelijn" .
+
+    ex:tiecelijn_vol_18 a fabio:JournalVolume ;
+        prism:volume "18" ;
+        dc:title "Tiecelijn" ;
+        frbr:partOf ex:tiecelijn_journal .
+
+    ex:Van_den_vos_Reynaerde a crm:E89_Propositional_Object ;
+        crm:P1_is_identified_by ex:Van_den_vos_Reynaerde_appellation .
+
+    ex:Willem_van_Boudelo a crm:E21_Person ;
+        crm:P1_is_identified_by ex:Willem_van_Boudelo_appellation .
+}
+
+ex:assertion_daele_2005 {
+    ex:Van_den_vos_Reynaerde_Creation a crm:E65_Creation ;
+        crm:P14_carried_out_by ex:Willem_van_Boudelo ;
+        crm:P4_has_time-span ex:1250 ;
+        crm:P7_took_place_at ex:Flanders ;
+        crm:P94_has_created ex:Van_den_vos_Reynaerde .
+
+    ex:cistercian_culture crm:P107_has_current_or_former_member ex:Willem_van_Boudelo .
+
+    ex:grafelijke_hof crm:P107_has_current_or_former_member ex:Willem_van_Boudelo .
+
+    ex:Van_den_vos_Reynaerde crm:P67_refers_to ex:Flemish_toponyms,
+            ex:city_patriciate,
+            ex:courtly_life,
+            ex:human_hypocrisy .
+}
+
+ex:provenance_daele_2005 {
+    ex:assertion_daele_2005 a prov:Entity ;
+        prov:wasGeneratedBy ex:interpretation_act_daele_2005_daele_2005 .
+
+    ex:PhilologicalAnalysis a hico:InterpretationType .
+
+    ex:interpretation_act_daele_2005_daele_2005 a hico:InterpretationAct ;
+        hico:hasInterpretationType ex:PhilologicalAnalysis ;
+        hico:isExtractedFrom ex:daele_2005 ;
+        cwrc:hasCertainty cwrc:medium_certainty ;
+        prov:wasAssociatedWith ex:daele_2005 .
+
+    ex:daele_2005 a foaf:Person .
+}
+
+ex:pubInfo_daele_2005 {
+    ex:Gpt4oMiniAgent a prov:Agent,
+            prov:SoftwareAgent ;
+        rdfs:label "gpt-4o-mini" .
+
+    ex:pub_daele_2005 prov:generatedAtTime "2025-10-23T10:33:19+00:00"^^xsd:dateTime ;
+        prov:wasAttributedTo ex:aschimmenti ;
+        prov:wasDerivedFrom ex:daele_2005 .
+
+    ex:aschimmenti a prov:Person ;
+        rdfs:label "aschimmenti" .
+
+    ex:daele_2005 a prov:Entity .
+}
+
+ex:head_daele_2005 {
+    ex:pub_daele_2005 a np:Nanopublication ;
+        np:hasAssertion ex:assertion_daele_2005 ;
+        np:hasProvenance ex:provenance_daele_2005 ;
+        np:hasPublicationInfo ex:pubInfo_daele_2005 .
+}

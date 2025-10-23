@@ -1,0 +1,56 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex: <http://example.org/> .
+
+ex:Van_den_vos_Reynaerde a crm:E89_Propositional_Object ;
+    crm:P1_is_identified_by ex:Van_den_vos_Reynaerde_appellation .
+
+ex:Van_den_vos_Reynaerde_appellation a crm:E41_Appellation ;
+    rdfs:label "Van den vos Reynaerde" .
+
+ex:Willem a crm:E21_Person ;
+    crm:P1_is_identified_by ex:Willem_appellation .
+
+ex:Willem_appellation a crm:E41_Appellation ;
+    rdfs:label "Willem" .
+
+ex:East_Flanders a crm:E53_Place ;
+    crm:P1_is_identified_by ex:East_Flanders_appellation .
+
+ex:East_Flanders_appellation a crm:E41_Appellation ;
+    rdfs:label "East Flanders" .
+
+ex:feudal_system a crm:E55_Type ;
+    rdfs:label "feudal system" .
+
+ex:Old_French_narratives a crm:E55_Type ;
+    rdfs:label "Old French narratives" .
+
+ex:legal_procedures a crm:E55_Type ;
+    rdfs:label "legal procedures" .
+
+ex:Old_French a crm:E56_Language ;
+    rdfs:label "Old French" .
+
+ex:thirteenth_century a crm:E52_Time-Span ;
+    rdfs:label "thirteenth century" .
+
+
+ex:Van_den_vos_Reynaerde_Creation a crm:E65_Creation ;
+    crm:P14_carried_out_by ex:Willem ;
+    crm:P94_has_created ex:Van_den_vos_Reynaerde ;
+    crm:P4_has_time-span ex:thirteenth_century ;
+    crm:P7_took_place_at ex:East_Flanders .
+
+ex:Van_den_vos_Reynaerde crm:P67_refers_to ex:feudal_system .
+ex:Willem crm:P72_has_language ex:Old_French .
+ex:legal_procedures_Expert a crm:E55_Type ;
+    crm:P1_is_identified_by ex:legal_procedures_Expert_appellation .
+ex:legal_procedures_Expert_appellation a crm:E41_Appellation ;
+    rdfs:label "legal_procedures Expert" .
+ex:Willem crm:P2_has_type ex:legal_procedures_Expert .
+ex:Old_French_narratives_Expert a crm:E55_Type ;
+    crm:P1_is_identified_by ex:Old_French_narratives_Expert_appellation .
+ex:Old_French_narratives_Expert_appellation a crm:E41_Appellation ;
+    rdfs:label "Old_French_narratives Expert" .
+ex:Willem crm:P2_has_type ex:Old_French_narratives_Expert .

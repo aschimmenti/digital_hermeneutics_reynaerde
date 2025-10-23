@@ -1,0 +1,29 @@
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix : <http://example.org/> .
+
+:peeters_1973 a fabio:BookChapter ;
+    dc:title "Historiciteit en chronologie in 'Van den vos Reynaerde'" ;
+    dc:date "1999" ;
+    frbr:partOf :pade_crom_ende_menichfoude_het_reynaert_onderzoek_in_de_tweede_helft_van_de_twintigste_eeuw ;
+    prism:startingPage "135" ;
+    prism:endingPage "165" .
+
+:pade_crom_ende_menichfoude_het_reynaert_onderzoek_in_de_tweede_helft_van_de_twintigste_eeuw a fabio:Book ;
+    dc:title "'Pade crom ende menichfoude'. Het Reynaert-onderzoek in de tweede helft van de twintigste eeuw" ;
+    dc:editor :van_dijk, :wackers ;
+    dc:publisher "Hilversum" ;
+    fabio:hasSequenceIdentifier "67" .
+
+:pade_crom_ende_menichfoude_het_reynaert_onderzoek_in_de_tweede_helft_van_de_twintigste_eeuw frbr:part :peeters_1973 .
+
+:van_dijk a foaf:Person ;
+    foaf:familyName "van Dijk" ;
+    foaf:givenName "Hans" .
+
+:wackers a foaf:Person ;
+    foaf:familyName "Wackers" ;
+    foaf:givenName "Paul" .

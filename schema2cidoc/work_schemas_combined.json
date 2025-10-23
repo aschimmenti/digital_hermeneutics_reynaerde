@@ -1,0 +1,395 @@
+{
+  "metadata": {
+    "total_sections": 1,
+    "total_questions": 3,
+    "generation_method": "rag_only"
+  },
+  "sections": {
+    "Document-wide": {
+      "section_number": null,
+      "questions_and_answers": [
+        {
+          "question_id": 1,
+          "question": "In De robotfoto van de Reynaertdichter Bricoleren met de overgeleverde wrakstukken: 'cisterciënzers', 'grafelijke hof' en 'Reynaertmaterie', which document is the subject of inquiry? What are the entities that take part in the discourse?",
+          "answer": "The document under inquiry in Rik Van Daele's *De robotfoto van de Reynaertdichter Bricoleren met de overgeleverde wrakstukken: 'cisterciënzers', 'grafelijke hof' en 'Reynaertmaterie'* is the authorship and context of the *Van den vos Reynaerde* (Reynard the Fox), particularly focusing on the figure of Willem van Boudelo as a potential candidate for the Reynaertdichter [^2]. The discourse involves multiple entities, including the cistercian monks, the noble court (grafelijke hof), and the broader Flemish cultural and literary environment of the 13th century [^2][^3]. Van Daele emphasizes the interdisciplinary nature of the research, suggesting a collaboration between literary analysis and historical context, while also acknowledging the challenges of integrating different methodologies [^1]. However, the context does not provide detailed information about the specific methodologies employed or the exact nature of the \"wrakstukken\" (wreckage) analyzed, which could further clarify the discourse."
+        },
+        {
+          "question_id": 2,
+          "question": "What does Rik Van Daele say about William van Baudelo, and how does he justify his claims about him being the real identity of the author of the Van den vos Reynaerde, sometimes known as 'Reynaertdichter' (nickname for the Reynaert poet in Dutch)?",
+          "answer": "Rik Van Daele argues that Willem van Boudelo is the most suitable candidate for the authorship of *Van den vos Reynaerde*, also referred to as the Reynaertdichter, based on several compelling justifications. He highlights that Willem's use of Flemish toponyms within the text indicates a shared cultural and geographical reference frame with his audience, which is essential for the genre of the animal tale to resonate effectively [^1]. Van Daele notes that Willem's profile aligns perfectly with the timing of the *Reynaert* (circa 1250) and reflects the interconnectedness of urban culture, noble court life, and monastic education, suggesting that he was a literate and learned figure deeply embedded in the Cistercian culture [^2][^3]. Furthermore, he emphasizes that Willem's background as a convers in the Boudelo abbey and his connections to the local nobility enhance his credibility as the author [^3]. Van Daele also references earlier scholars such as Napoleon de Pauw and Maurice Nonneman, who have previously linked Willem to the *Reynaert*, thereby reinforcing his claims through historical context and biographical evidence [^3][^4]. However, the context does not provide explicit details on the methodologies used to analyze the \"wrakstukken\" or how they directly support the attribution to Willem van Boudelo, which could further substantiate his argument."
+        },
+        {
+          "question_id": 3,
+          "question": "How does Rik Van Daele substantiate his claims? What proofs does he provide? Which techniques does he use? What degree of certainty does he have?",
+          "answer": "Rik Van Daele substantiates his claims regarding Willem van Boudelo's authorship of *Van den vos Reynaerde* through a combination of literary analysis, historical context, and biographical evidence. He emphasizes that Willem's use of Flemish toponyms indicates a cultural connection with his audience, which is critical for the resonance of the animal tale genre [^3]. Van Daele also highlights Willem's profile as a convers in the Boudelo abbey and his ties to the local nobility, suggesting he was a literate figure embedded in Cistercian culture [^3]. Furthermore, he references earlier scholars like Napoleon de Pauw and Maurice Nonneman, who have previously linked Willem to the *Reynaert*, thereby reinforcing his argument through established historical context [^3][^4]. The techniques employed include interdisciplinary approaches that combine literary analysis with historical inquiry, although the context does not specify the exact methodologies used to analyze the \"wrakstukken\" or how they directly support the attribution to Willem van Boudelo, which could further substantiate his argument. Van Daele's degree of certainty appears to be high, as he asserts that the connections between the Reynaert narratives, the Cistercian environment, and the Flemish nobility are too significant to dismiss as mere coincidence [^5]."
+        }
+      ]
+    }
+  },
+  "document_metadata": {
+    "authors": "Van Daele, Rik",
+    "date": "2005",
+    "title": "De robotfoto van de Reynaertdichter Bricoleren met de overgeleverde wrakstukken: 'cisterciënzers', 'grafelijke hof' en 'Reynaertmaterie'",
+    "journal": "Tiecelijn",
+    "volume": "18",
+    "type": "artikel",
+    "file_path": "data/van_daele_2005.md"
+  },
+  "extraction_metadata": {
+    "source_question_ids": [
+      1,
+      2,
+      3
+    ],
+    "total_entities": 21,
+    "entity_types": [
+      "date",
+      "person",
+      "place",
+      "historical_context",
+      "methodology",
+      "concept",
+      "genre",
+      "reference",
+      "language",
+      "work",
+      "organization"
+    ],
+    "entities": [
+      {
+        "name": "Willem van Boudelo",
+        "type": "person",
+        "context": "...particularly focusing on the figure of Willem van Boudelo as a potential candidate for the Reynaertdichter...",
+        "confidence": 0.9
+      },
+      {
+        "name": "cistercian monks",
+        "type": "organization",
+        "context": "...the discourse involves multiple entities, including the cistercian monks...",
+        "confidence": 0.8
+      },
+      {
+        "name": "grafelijke hof",
+        "type": "organization",
+        "context": "...the noble court (grafelijke hof)...",
+        "confidence": 0.8
+      },
+      {
+        "name": "Flemish cultural and literary environment",
+        "type": "historical_context",
+        "context": "...and the broader Flemish cultural and literary environment of the 13th century...",
+        "confidence": 0.8
+      },
+      {
+        "name": "13th century",
+        "type": "date",
+        "context": "...the broader Flemish cultural and literary environment of the 13th century...",
+        "confidence": 0.9
+      },
+      {
+        "name": "literary analysis",
+        "type": "methodology",
+        "context": "...suggesting a collaboration between literary analysis and historical context...",
+        "confidence": 0.9
+      },
+      {
+        "name": "historical context",
+        "type": "methodology",
+        "context": "...suggesting a collaboration between literary analysis and historical context...",
+        "confidence": 0.9
+      },
+      {
+        "name": "wrakstukken",
+        "type": "concept",
+        "context": "...the exact nature of the 'wrakstukken' (wreckage) analyzed...",
+        "confidence": 0.7
+      },
+      {
+        "name": "Van den vos Reynaerde",
+        "type": "work",
+        "context": "Rik Van Daele argues that Willem van Boudelo is the most suitable candidate for the authorship of *Van den vos Reynaerde*",
+        "confidence": 0.9
+      },
+      {
+        "name": "Cistercian culture",
+        "type": "organization",
+        "context": "...suggesting that he was a literate and learned figure deeply embedded in the Cistercian culture",
+        "confidence": 0.8
+      },
+      {
+        "name": "Boudelo abbey",
+        "type": "place",
+        "context": "Willem's background as a convers in the Boudelo abbey and his connections to the local nobility enhance his credibility as the author",
+        "confidence": 0.8
+      },
+      {
+        "name": "circa 1250",
+        "type": "date",
+        "context": "...aligns perfectly with the timing of the *Reynaert* (circa 1250) and reflects the interconnectedness of urban culture...",
+        "confidence": 0.9
+      },
+      {
+        "name": "Napoleon de Pauw",
+        "type": "reference",
+        "context": "...he references earlier scholars like Napoleon de Pauw and Maurice Nonneman, who have previously linked Willem to the *Reynaert*, thereby reinforcing his argument through established historical context.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Maurice Nonneman",
+        "type": "reference",
+        "context": "...he references earlier scholars like Napoleon de Pauw and Maurice Nonneman, who have previously linked Willem to the *Reynaert*, thereby reinforcing his argument through established historical context.",
+        "confidence": 0.9
+      },
+      {
+        "name": "historical context",
+        "type": "concept",
+        "context": "...thereby reinforcing his claims through historical context and biographical evidence",
+        "confidence": 0.7
+      },
+      {
+        "name": "Flemish",
+        "type": "language",
+        "context": "He emphasizes that Willem's use of Flemish toponyms indicates a cultural connection with his audience, which is critical for the resonance of the animal tale genre.",
+        "confidence": 0.8
+      },
+      {
+        "name": "Cistercian culture",
+        "type": "concept",
+        "context": "...suggesting he was a literate figure embedded in Cistercian culture.",
+        "confidence": 0.8
+      },
+      {
+        "name": "Cistercian",
+        "type": "organization",
+        "context": "...suggesting he was a literate figure embedded in Cistercian culture.",
+        "confidence": 0.8
+      },
+      {
+        "name": "animal tale genre",
+        "type": "genre",
+        "context": "...which is critical for the resonance of the animal tale genre.",
+        "confidence": 0.7
+      },
+      {
+        "name": "historical context",
+        "type": "historical_context",
+        "context": "...through established historical context.",
+        "confidence": 0.8
+      },
+      {
+        "name": "interdisciplinary approaches",
+        "type": "methodology",
+        "context": "The techniques employed include interdisciplinary approaches that combine literary analysis with historical inquiry.",
+        "confidence": 0.7
+      }
+    ],
+    "source_answers": {
+      "1": "The document under inquiry in Rik Van Daele's *De robotfoto van de Reynaertdichter Bricoleren met de overgeleverde wrakstukken: 'cisterciënzers', 'grafelijke hof' en 'Reynaertmaterie'* is the authorship and context of the *Van den vos Reynaerde* (Reynard the Fox), particularly focusing on the figure of Willem van Boudelo as a potential candidate for the Reynaertdichter [^2]. The discourse involves multiple entities, including the cistercian monks, the noble court (grafelijke hof), and the broader Flemish cultural and literary environment of the 13th century [^2][^3]. Van Daele emphasizes the interdisciplinary nature of the research, suggesting a collaboration between literary analysis and historical context, while also acknowledging the challenges of integrating different methodologies [^1]. However, the context does not provide detailed information about the specific methodologies employed or the exact nature of the \"wrakstukken\" (wreckage) analyzed, which could further clarify the discourse.",
+      "2": "Rik Van Daele argues that Willem van Boudelo is the most suitable candidate for the authorship of *Van den vos Reynaerde*, also referred to as the Reynaertdichter, based on several compelling justifications. He highlights that Willem's use of Flemish toponyms within the text indicates a shared cultural and geographical reference frame with his audience, which is essential for the genre of the animal tale to resonate effectively [^1]. Van Daele notes that Willem's profile aligns perfectly with the timing of the *Reynaert* (circa 1250) and reflects the interconnectedness of urban culture, noble court life, and monastic education, suggesting that he was a literate and learned figure deeply embedded in the Cistercian culture [^2][^3]. Furthermore, he emphasizes that Willem's background as a convers in the Boudelo abbey and his connections to the local nobility enhance his credibility as the author [^3]. Van Daele also references earlier scholars such as Napoleon de Pauw and Maurice Nonneman, who have previously linked Willem to the *Reynaert*, thereby reinforcing his claims through historical context and biographical evidence [^3][^4]. However, the context does not provide explicit details on the methodologies used to analyze the \"wrakstukken\" or how they directly support the attribution to Willem van Boudelo, which could further substantiate his argument.",
+      "3": "Rik Van Daele substantiates his claims regarding Willem van Boudelo's authorship of *Van den vos Reynaerde* through a combination of literary analysis, historical context, and biographical evidence. He emphasizes that Willem's use of Flemish toponyms indicates a cultural connection with his audience, which is critical for the resonance of the animal tale genre [^3]. Van Daele also highlights Willem's profile as a convers in the Boudelo abbey and his ties to the local nobility, suggesting he was a literate figure embedded in Cistercian culture [^3]. Furthermore, he references earlier scholars like Napoleon de Pauw and Maurice Nonneman, who have previously linked Willem to the *Reynaert*, thereby reinforcing his argument through established historical context [^3][^4]. The techniques employed include interdisciplinary approaches that combine literary analysis with historical inquiry, although the context does not specify the exact methodologies used to analyze the \"wrakstukken\" or how they directly support the attribution to Willem van Boudelo, which could further substantiate his argument. Van Daele's degree of certainty appears to be high, as he asserts that the connections between the Reynaert narratives, the Cistercian environment, and the Flemish nobility are too significant to dismiss as mere coincidence [^5]."
+    },
+    "extraction_method": "llm_structured_extraction",
+    "extractor_version": "1.0"
+  },
+  "work_schema_metadata": {
+    "interpretation_layer": {
+      "graph_type": "interpretation_layer",
+      "description": "What the authors assert/claim about the entities",
+      "nodes": [
+        {
+          "id": "willem_van_boudelo",
+          "type": "person",
+          "name": "Willem van Boudelo",
+          "confidence": 0.95
+        },
+        {
+          "id": "cistercian_monks",
+          "type": "organization",
+          "name": "cistercian monks",
+          "confidence": 0.9
+        },
+        {
+          "id": "grafelijke_hof",
+          "type": "organization",
+          "name": "grafelijke hof",
+          "confidence": 0.85
+        },
+        {
+          "id": "flemish_cultural_environment",
+          "type": "historical_context",
+          "name": "Flemish cultural and literary environment",
+          "confidence": 0.9
+        },
+        {
+          "id": "13th_century",
+          "type": "date",
+          "name": "13th century",
+          "confidence": 0.95
+        },
+        {
+          "id": "literary_analysis",
+          "type": "methodology",
+          "name": "literary analysis",
+          "confidence": 0.8
+        },
+        {
+          "id": "historical_context_methodology",
+          "type": "methodology",
+          "name": "historical context",
+          "confidence": 0.8
+        },
+        {
+          "id": "wrakstukken",
+          "type": "concept",
+          "name": "wrakstukken",
+          "confidence": 0.75
+        },
+        {
+          "id": "van_den_vos_reynaerde",
+          "type": "work",
+          "name": "Van den vos Reynaerde",
+          "confidence": 0.95
+        },
+        {
+          "id": "cistercian_culture",
+          "type": "organization",
+          "name": "Cistercian culture",
+          "confidence": 0.85
+        },
+        {
+          "id": "boudelo_abbey",
+          "type": "place",
+          "name": "Boudelo abbey",
+          "confidence": 0.8
+        },
+        {
+          "id": "circa_1250",
+          "type": "date",
+          "name": "circa 1250",
+          "confidence": 0.9
+        },
+        {
+          "id": "napoleon_de_pauw",
+          "type": "person",
+          "name": "Napoleon de Pauw",
+          "confidence": 0.7
+        },
+        {
+          "id": "maurice_nonneman",
+          "type": "person",
+          "name": "Maurice Nonneman",
+          "confidence": 0.7
+        },
+        {
+          "id": "flemish_language",
+          "type": "language",
+          "name": "Flemish",
+          "confidence": 0.9
+        },
+        {
+          "id": "animal_tale_genre",
+          "type": "genre",
+          "name": "animal tale genre",
+          "confidence": 0.85
+        },
+        {
+          "id": "interdisciplinary_approaches",
+          "type": "methodology",
+          "name": "interdisciplinary approaches",
+          "confidence": 0.75
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "willem_van_boudelo",
+          "relation_type": "created_by",
+          "properties": {},
+          "confidence": 0.8,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "13th_century",
+          "relation_type": "created_during",
+          "properties": {},
+          "confidence": 0.85,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "boudelo_abbey",
+          "relation_type": "created_in",
+          "properties": {},
+          "confidence": 0.75,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "flemish_cultural_environment",
+          "relation_type": "influenced_by",
+          "properties": {},
+          "confidence": 0.9,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "cistercian_culture",
+          "relation_type": "influenced_by",
+          "properties": {},
+          "confidence": 0.85,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "animal_tale_genre",
+          "relation_type": "has_genre",
+          "properties": {},
+          "confidence": 0.9,
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "literary_analysis",
+          "relation_type": "associated_with",
+          "properties": {},
+          "confidence": 0.8,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "historical_context_methodology",
+          "relation_type": "associated_with",
+          "properties": {},
+          "confidence": 0.8,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "interdisciplinary_approaches",
+          "relation_type": "associated_with",
+          "properties": {},
+          "confidence": 0.75,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "cistercian_monks",
+          "target_id": "boudelo_abbey",
+          "relation_type": "located_in_space",
+          "properties": {},
+          "confidence": 0.8,
+          "claim_type": "established_fact"
+        }
+      ],
+      "metadata": {
+        "generation_method": "entity_based_interpretation",
+        "source_entities_count": 21
+      }
+    },
+    "generation_summary": {
+      "total_source_entities": 21,
+      "interpretation_layer_nodes": 17,
+      "interpretation_layer_relations": 10
+    }
+  }
+}
