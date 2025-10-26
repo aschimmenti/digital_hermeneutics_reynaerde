@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "total_sections": 1,
+    "total_questions": 3,
+    "generation_method": "rag_only"
+  },
+  "sections": {
+    "Document-wide": {
+      "section_number": null,
+      "questions_and_answers": [
+        {
+          "question_id": 1,
+          "question": "In Historiciteit en chronologie in 'Van den vos Reynaerde', the subject of inquiry is the Van den vos Reynaerde. What is the main point of the authors? What are the entities that take part in the discourse?",
+          "answer": "In \"Historiciteit en chronologie in 'Van den vos Reynaerde',\" Léopold Peeters argues that the narrative of *Van den vos Reynaerde* is deeply intertwined with the historical context of 13th-century Flanders, particularly the events leading up to and including the year 1258. He emphasizes that the text references real places and historical figures, suggesting that the author skillfully adapted historical data to fit the narrative of the animal epic, thus creating a rich tapestry of allegory and satire reflective of contemporary political tensions, such as the conflicts between the Avesnes and Dampierres[^1]. Peeters identifies key entities in this discourse, including historical figures like Margareta of Flanders and the Cistercian Willem van Baudelo, whom he proposes as a likely author of the work[^4]. He also discusses the significance of place names and events, asserting that they serve as indicators for understanding the historical and chronological framework of the epic[^2]. Furthermore, he notes the importance of sociological perspectives in analyzing the text, suggesting that the *Reinaert* reflects the social dynamics of its time[^3]. However, while Peeters provides a detailed analysis of the historical connections and the potential authorship, the context does not fully address the specific literary techniques employed by the author or the broader implications of these historical references in the narrative structure."
+        },
+        {
+          "question_id": 2,
+          "question": "What does Leopold Peeters say about William van Baudelo, and how does he justify his claims about him being the real identity of the author of the Van den vos Reynaerde, sometimes known as 'Reynaertdichter' (nickname for the Reynaert poet in Dutch)? What do they say about their biography, and the context of the creation of the poem?",
+          "answer": "Léopold Peeters presents a compelling case for Willem van Baudelo as the likely author of *Van den vos Reynaerde*, citing his extensive knowledge of the local geography and judicial practices relevant to the narrative. Peeters highlights that Baudelo was active in the Land of Waas and had significant experience as a legal clerk in the service of Margareta of Flanders, which aligns with the poem's themes and settings [^1]. He notes that Baudelo's familiarity with the socio-political landscape of 13th-century Flanders, particularly the conflicts between the Avesnes and Dampierres, provides a contextual backdrop for the poem's allegorical content [^2]. Peeters references historical documentation indicating that Baudelo was involved in land transactions and had interactions with various social strata, which would have informed his literary work [^1]. Furthermore, he argues that the timing of the poem's creation, post-1250, coincides with Baudelo's known activities, reinforcing the argument for his authorship [^3]. However, Peeters acknowledges that while there is a strong circumstantial case for Baudelo, definitive evidence linking him as the author remains elusive, as no explicit statements confirming his authorship have been found [^4]."
+        },
+        {
+          "question_id": 3,
+          "question": "How does Leopold Peeters substantiate his claims? What proofs does he provide? Which techniques does he use? What degree of certainty does he have?",
+          "answer": "Léopold Peeters substantiates his claims regarding Willem van Baudelo as the likely author of *Van den vos Reynaerde* through a combination of historical documentation and contextual analysis. He references Baudelo's extensive knowledge of local geography and judicial practices, noting his active role in the Land of Waas and his service to Margareta of Flanders, which aligns with the poem's themes and settings [^2]. Peeters also cites historical records that indicate Baudelo's involvement in land transactions and interactions with various social strata, reinforcing the argument that his experiences informed the literary work [^1]. Additionally, he discusses the timing of the poem's creation, suggesting it occurred post-1250, coinciding with Baudelo's known activities [^3]. Peeters employs a critical examination of place names and historical figures within the text to contextualize the narrative within the socio-political landscape of 13th-century Flanders, thus providing a framework for understanding the poem's allegorical content [^4]. While Peeters presents a compelling circumstantial case, he acknowledges that definitive evidence linking Baudelo as the author remains elusive, as no explicit statements confirming his authorship have been found [^4]. This indicates a moderate degree of certainty in his claims, primarily based on circumstantial evidence rather than direct attribution."
+        }
+      ]
+    }
+  },
+  "document_metadata": {
+    "type": "book_chapter",
+    "authors": [
+      {
+        "family_name": "Peeters",
+        "given_name": "Léopold"
+      }
+    ],
+    "date": "1999",
+    "title": "Historiciteit en chronologie in 'Van den vos Reynaerde'",
+    "start_page": "135",
+    "end_page": "165",
+    "container": {
+      "type": "book",
+      "title": "'Pade crom ende menichfoude'. Het Reynaert-onderzoek in de tweede helft van de twintigste eeuw",
+      "editors": [
+        {
+          "family_name": "van Dijk",
+          "given_name": "Hans"
+        },
+        {
+          "family_name": "Wackers",
+          "given_name": "Paul"
+        }
+      ],
+      "publisher": "Hilversum",
+      "series": {
+        "title": "Middeleeuwse studies en bronnen",
+        "volume": "67"
+      }
+    },
+    "file_path": "data/peeters_1973.md"
+  },
+  "extraction_metadata": {
+    "source_question_ids": [
+      1,
+      2,
+      3
+    ],
+    "total_entities": 17,
+    "entity_types": [
+      "work",
+      "group",
+      "historical_context",
+      "activity",
+      "date",
+      "methodology",
+      "place",
+      "person",
+      "concept"
+    ],
+    "entities": [
+      {
+        "name": "13th-century Flanders",
+        "type": "historical_context",
+        "context": "the narrative of *Van den vos Reynaerde* is deeply intertwined with the historical context of 13th-century Flanders, particularly the events leading up to and including the year 1258",
+        "confidence": 0.9
+      },
+      {
+        "name": "1258",
+        "type": "date",
+        "context": "the events leading up to and including the year 1258",
+        "confidence": 0.9
+      },
+      {
+        "name": "Margareta of Flanders",
+        "type": "person",
+        "context": "historical figures like Margareta of Flanders and the Cistercian Willem van Baudelo",
+        "confidence": 0.95
+      },
+      {
+        "name": "Willem van Baudelo",
+        "type": "person",
+        "context": "the Cistercian Willem van Baudelo, whom he proposes as a likely author of the work",
+        "confidence": 0.95
+      },
+      {
+        "name": "Avesnes",
+        "type": "group",
+        "context": "the conflicts between the Avesnes and Dampierres",
+        "confidence": 0.85
+      },
+      {
+        "name": "Dampierres",
+        "type": "group",
+        "context": "the conflicts between the Avesnes and Dampierres",
+        "confidence": 0.85
+      },
+      {
+        "name": "Reinaert",
+        "type": "work",
+        "context": "the *Reinaert* reflects the social dynamics of its time",
+        "confidence": 0.9
+      },
+      {
+        "name": "Land of Waas",
+        "type": "place",
+        "context": "Peeters highlights that Baudelo was active in the Land of Waas and had significant experience as a legal clerk in the service of Margareta of Flanders, which aligns with the poem's themes and settings.",
+        "confidence": 0.8
+      },
+      {
+        "name": "Avesnes and Dampierres",
+        "type": "group",
+        "context": "Peeters notes that Baudelo's familiarity with the socio-political landscape of 13th-century Flanders, particularly the conflicts between the Avesnes and Dampierres, provides a contextual backdrop for the poem's allegorical content.",
+        "confidence": 0.7
+      },
+      {
+        "name": "post-1250",
+        "type": "date",
+        "context": "Additionally, he discusses the timing of the poem's creation, suggesting it occurred post-1250, coinciding with Baudelo's known activities.",
+        "confidence": 0.9
+      },
+      {
+        "name": "land transactions",
+        "type": "activity",
+        "context": "Peeters references historical documentation indicating that Baudelo was involved in land transactions and had interactions with various social strata, which would have informed his literary work.",
+        "confidence": 0.7
+      },
+      {
+        "name": "social strata",
+        "type": "group",
+        "context": "Peeters references historical documentation indicating that Baudelo was involved in land transactions and had interactions with various social strata, which would have informed his literary work.",
+        "confidence": 0.6
+      },
+      {
+        "name": "*Van den vos Reynaerde*",
+        "type": "work",
+        "context": "Léopold Peeters presents a compelling case for Willem van Baudelo as the likely author of *Van den vos Reynaerde*, citing his extensive knowledge of the local geography and judicial practices relevant to the narrative.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Van den vos Reynaerde",
+        "type": "work",
+        "context": "Léopold Peeters substantiates his claims regarding Willem van Baudelo as the likely author of *Van den vos Reynaerde* through a combination of historical documentation and contextual analysis.",
+        "confidence": 0.9
+      },
+      {
+        "name": "historical documentation",
+        "type": "concept",
+        "context": "Léopold Peeters substantiates his claims regarding Willem van Baudelo as the likely author of *Van den vos Reynaerde* through a combination of historical documentation and contextual analysis.",
+        "confidence": 0.7
+      },
+      {
+        "name": "contextual analysis",
+        "type": "methodology",
+        "context": "Léopold Peeters substantiates his claims regarding Willem van Baudelo as the likely author of *Van den vos Reynaerde* through a combination of historical documentation and contextual analysis.",
+        "confidence": 0.7
+      },
+      {
+        "name": "socio-political landscape",
+        "type": "concept",
+        "context": "Peeters employs a critical examination of place names and historical figures within the text to contextualize the narrative within the socio-political landscape of 13th-century Flanders, thus providing a framework for understanding the poem's allegorical content.",
+        "confidence": 0.8
+      }
+    ],
+    "source_answers": {
+      "1": "In \"Historiciteit en chronologie in 'Van den vos Reynaerde',\" Léopold Peeters argues that the narrative of *Van den vos Reynaerde* is deeply intertwined with the historical context of 13th-century Flanders, particularly the events leading up to and including the year 1258. He emphasizes that the text references real places and historical figures, suggesting that the author skillfully adapted historical data to fit the narrative of the animal epic, thus creating a rich tapestry of allegory and satire reflective of contemporary political tensions, such as the conflicts between the Avesnes and Dampierres[^1]. Peeters identifies key entities in this discourse, including historical figures like Margareta of Flanders and the Cistercian Willem van Baudelo, whom he proposes as a likely author of the work[^4]. He also discusses the significance of place names and events, asserting that they serve as indicators for understanding the historical and chronological framework of the epic[^2]. Furthermore, he notes the importance of sociological perspectives in analyzing the text, suggesting that the *Reinaert* reflects the social dynamics of its time[^3]. However, while Peeters provides a detailed analysis of the historical connections and the potential authorship, the context does not fully address the specific literary techniques employed by the author or the broader implications of these historical references in the narrative structure.",
+      "2": "Léopold Peeters presents a compelling case for Willem van Baudelo as the likely author of *Van den vos Reynaerde*, citing his extensive knowledge of the local geography and judicial practices relevant to the narrative. Peeters highlights that Baudelo was active in the Land of Waas and had significant experience as a legal clerk in the service of Margareta of Flanders, which aligns with the poem's themes and settings [^1]. He notes that Baudelo's familiarity with the socio-political landscape of 13th-century Flanders, particularly the conflicts between the Avesnes and Dampierres, provides a contextual backdrop for the poem's allegorical content [^2]. Peeters references historical documentation indicating that Baudelo was involved in land transactions and had interactions with various social strata, which would have informed his literary work [^1]. Furthermore, he argues that the timing of the poem's creation, post-1250, coincides with Baudelo's known activities, reinforcing the argument for his authorship [^3]. However, Peeters acknowledges that while there is a strong circumstantial case for Baudelo, definitive evidence linking him as the author remains elusive, as no explicit statements confirming his authorship have been found [^4].",
+      "3": "Léopold Peeters substantiates his claims regarding Willem van Baudelo as the likely author of *Van den vos Reynaerde* through a combination of historical documentation and contextual analysis. He references Baudelo's extensive knowledge of local geography and judicial practices, noting his active role in the Land of Waas and his service to Margareta of Flanders, which aligns with the poem's themes and settings [^2]. Peeters also cites historical records that indicate Baudelo's involvement in land transactions and interactions with various social strata, reinforcing the argument that his experiences informed the literary work [^1]. Additionally, he discusses the timing of the poem's creation, suggesting it occurred post-1250, coinciding with Baudelo's known activities [^3]. Peeters employs a critical examination of place names and historical figures within the text to contextualize the narrative within the socio-political landscape of 13th-century Flanders, thus providing a framework for understanding the poem's allegorical content [^4]. While Peeters presents a compelling circumstantial case, he acknowledges that definitive evidence linking Baudelo as the author remains elusive, as no explicit statements confirming his authorship have been found [^4]. This indicates a moderate degree of certainty in his claims, primarily based on circumstantial evidence rather than direct attribution."
+    },
+    "extraction_method": "llm_structured_extraction",
+    "extractor_version": "1.0"
+  }
+}

@@ -1,0 +1,447 @@
+{
+  "_instructions": "Few-shot examples to guide the relationship_extractor for medieval literary scholarship. Examples use different works to demonstrate pattern recognition without direct overlap with target corpus. Relations are limited to scope defined in extractor.",
+  "examples": [
+    {
+      "id": "example_1_arthurian_romance",
+      "document_metadata": {
+        "title": "Chrétien de Troyes and the Invention of Arthurian Romance",
+        "authors": "Smith, John",
+        "date": "2018"
+      },
+      "entities": [
+        { "id": "lancelot", "type": "work", "name": "Le Chevalier de la Charrette" },
+        { "id": "chretien", "type": "person", "name": "Chrétien de Troyes" },
+        { "id": "marie_de_champagne", "type": "person", "name": "Marie de Champagne" },
+        { "id": "champagne", "type": "place", "name": "Champagne" },
+        { "id": "year_1177", "type": "date", "name": "circa 1177-1181" },
+        { "id": "courtly_love", "type": "concept", "name": "courtly love" },
+        { "id": "chivalric_honor", "type": "concept", "name": "chivalric honor" },
+        { "id": "court_poet", "type": "role", "name": "court poet" }
+      ],
+      "context": "Smith (2018) analyzes Chrétien de Troyes' Lancelot romance, arguing for composition around 1177-1181 in Champagne under Marie de Champagne's patronage. The study employs comparative literary analysis and historical contextualization to demonstrate how the work engages with courtly love conventions and explores themes of chivalric honor. Chrétien served as court poet.",
+      "expected_relations": [
+        {
+          "source_id": "lancelot",
+          "target_id": "chretien",
+          "relation_type": "created_by",
+          "properties": { 
+            "asserted_by": "Smith", 
+            "evidence_type": "ComparativeAnalysis, HistoricalContextualization", 
+            "certainty": "high"
+          },
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "chretien",
+          "target_id": "court_poet",
+          "relation_type": "has_occupation",
+          "properties": { 
+            "asserted_by": "unknown_source",
+            "certainty": "high"
+          },
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "lancelot",
+          "target_id": "champagne",
+          "relation_type": "created_at",
+          "properties": { 
+            "asserted_by": "Smith",
+            "certainty": "likely"
+          },
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "lancelot",
+          "target_id": "year_1177",
+          "relation_type": "created_during",
+          "properties": { 
+            "asserted_by": "Smith",
+            "certainty": "medium"
+          },
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "lancelot",
+          "target_id": "courtly_love",
+          "relation_type": "has_theme",
+          "properties": { 
+            "asserted_by": "Smith",
+            "certainty": "high",
+            "note": "thematic_concept_NOT_refers_to"
+          },
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "lancelot",
+          "target_id": "chivalric_honor",
+          "relation_type": "has_theme",
+          "properties": { 
+            "asserted_by": "Smith",
+            "certainty": "high",
+            "note": "thematic_concept_NOT_refers_to"
+          },
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "lancelot",
+          "target_id": "marie_de_champagne",
+          "relation_type": "influenced_by",
+          "properties": { 
+            "asserted_by": "Smith",
+            "certainty": "medium",
+            "note": "patronage_relationship"
+          },
+          "claim_type": "authorial_argument"
+        }
+      ]
+    },
+    {
+      "id": "example_2_dante_textual",
+      "document_metadata": {
+        "title": "Textual Problems in the Commedia: Manuscript Evidence and Editorial Practice",
+        "authors": "Rossi, Maria",
+        "date": "2015"
+      },
+      "entities": [
+        { "id": "commedia", "type": "work", "name": "Divina Commedia" },
+        { "id": "dante", "type": "person", "name": "Dante Alighieri" },
+        { "id": "boccaccio", "type": "person", "name": "Giovanni Boccaccio" },
+        { "id": "odyssey", "type": "work", "name": "Odyssey" },
+        { "id": "florence", "type": "place", "name": "Florence" },
+        { "id": "early_14th_century", "type": "date", "name": "1308-1321" },
+        { "id": "christian_theology", "type": "concept", "name": "Christian theology" },
+        { "id": "divine_justice", "type": "concept", "name": "divine justice" },
+        { "id": "poet", "type": "role", "name": "poet" }
+      ],
+      "context": "Rossi (2015) examines editorial challenges in establishing the text of Dante's Commedia, analyzing manuscript variations. The study demonstrates how 14th-century scribal practices and Boccaccio's early editorial interventions shaped textual transmission. The analysis employs stemmatic methods to distinguish authorial from scribal readings. The work draws extensively on Homer's Odyssey, particularly in the Ulysses episode, and explores themes of Christian theology and divine justice. Dante was a poet and political figure.",
+      "expected_relations": [
+        {
+          "source_id": "commedia",
+          "target_id": "dante",
+          "relation_type": "created_by",
+          "properties": { 
+            "asserted_by": "unknown_source",
+            "note": "uncontested_attribution"
+          },
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "dante",
+          "target_id": "poet",
+          "relation_type": "has_occupation",
+          "properties": { 
+            "asserted_by": "unknown_source",
+            "certainty": "high"
+          },
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "commedia",
+          "target_id": "florence",
+          "relation_type": "created_at",
+          "properties": { 
+            "asserted_by": "unknown_source",
+            "note": "partial_composition_in_exile"
+          },
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "commedia",
+          "target_id": "early_14th_century",
+          "relation_type": "created_during",
+          "properties": { 
+            "asserted_by": "unknown_source"
+          },
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "commedia",
+          "target_id": "boccaccio",
+          "relation_type": "influenced_by",
+          "properties": { 
+            "asserted_by": "Rossi",
+            "certainty": "medium",
+            "note": "influence_on_textual_transmission_not_composition"
+          },
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "commedia",
+          "target_id": "odyssey",
+          "relation_type": "refers_to",
+          "properties": { 
+            "asserted_by": "unknown_source",
+            "certainty": "high",
+            "note": "work_to_work_reference_in_Ulysses_episode"
+          },
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "commedia",
+          "target_id": "christian_theology",
+          "relation_type": "has_theme",
+          "properties": { 
+            "asserted_by": "unknown_source",
+            "note": "thematic_concept_NOT_refers_to"
+          },
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "commedia",
+          "target_id": "divine_justice",
+          "relation_type": "has_theme",
+          "properties": { 
+            "asserted_by": "Rossi",
+            "certainty": "high",
+            "note": "thematic_concept_NOT_refers_to"
+          },
+          "claim_type": "authorial_argument"
+        }
+      ]
+    },
+    {
+      "id": "example_3_longinus_prosopography",
+      "document_metadata": {
+        "title": "The Authorship Problem of On the Sublime: Prosopographical Evidence and Dating",
+        "authors": "Johnson, Robert",
+        "date": "2012"
+      },
+      "entities": [
+        { "id": "on_the_sublime", "type": "work", "name": "On the Sublime" },
+        { "id": "longinus", "type": "person", "name": "Longinus (attributed)" },
+        { "id": "cassius_longinus", "type": "person", "name": "Cassius Longinus" },
+        { "id": "rome", "type": "place", "name": "Rome" },
+        { "id": "syria", "type": "place", "name": "Syria" },
+        { "id": "first_century_ce", "type": "date", "name": "1st century CE" },
+        { "id": "death_273_ce", "type": "date", "name": "death circa 273 CE" },
+        { "id": "rhetorical_theory", "type": "concept", "name": "rhetorical theory" },
+        { "id": "literary_aesthetics", "type": "concept", "name": "literary aesthetics" },
+        { "id": "rhetorician", "type": "role", "name": "rhetorician" },
+        { "id": "philosopher", "type": "role", "name": "philosopher" }
+      ],
+      "context": "Johnson (2012) examines the long-standing authorship problem of On the Sublime, traditionally attributed to 'Longinus'. The study employs prosopographical methods to evaluate two main candidates: an unknown 1st-century rhetorician and Cassius Longinus (died 273 CE), a 3rd-century philosopher and rhetorician. The work discusses rhetorical theory and literary aesthetics. Johnson argues for 1st-century composition based on stylistic analysis and historical references within the text, rejecting the later attribution to Cassius Longinus despite the traditional manuscript attribution.",
+      "expected_relations": [
+        {
+          "source_id": "on_the_sublime",
+          "target_id": "longinus",
+          "relation_type": "created_by",
+          "properties": { 
+            "asserted_by": "manuscript_tradition",
+            "certainty": "low",
+            "note": "traditional_attribution_disputed"
+          },
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "on_the_sublime",
+          "target_id": "cassius_longinus",
+          "relation_type": "created_by",
+          "properties": { 
+            "asserted_by": "traditional_scholarship",
+            "certainty": "low",
+            "note": "Johnson_rejects_this_attribution"
+          },
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "cassius_longinus",
+          "target_id": "rhetorician",
+          "relation_type": "has_occupation",
+          "properties": { 
+            "asserted_by": "unknown_source",
+            "certainty": "high"
+          },
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "cassius_longinus",
+          "target_id": "philosopher",
+          "relation_type": "has_occupation",
+          "properties": { 
+            "asserted_by": "unknown_source",
+            "certainty": "high"
+          },
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "cassius_longinus",
+          "target_id": "death_273_ce",
+          "relation_type": "date_of_death",
+          "properties": { 
+            "asserted_by": "unknown_source",
+            "certainty": "high"
+          },
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "cassius_longinus",
+          "target_id": "syria",
+          "relation_type": "lived_in",
+          "properties": { 
+            "asserted_by": "unknown_source"
+          },
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "on_the_sublime",
+          "target_id": "first_century_ce",
+          "relation_type": "created_during",
+          "properties": { 
+            "asserted_by": "Johnson",
+            "certainty": "medium",
+            "evidence_type": "StylisticAnalysis, HistoricalReferences"
+          },
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "on_the_sublime",
+          "target_id": "rome",
+          "relation_type": "created_at",
+          "properties": { 
+            "asserted_by": "Johnson",
+            "certainty": "likely"
+          },
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "on_the_sublime",
+          "target_id": "rhetorical_theory",
+          "relation_type": "has_theme",
+          "properties": { 
+            "asserted_by": "unknown_source",
+            "note": "thematic_concept_NOT_refers_to"
+          },
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "on_the_sublime",
+          "target_id": "literary_aesthetics",
+          "relation_type": "has_theme",
+          "properties": { 
+            "asserted_by": "Johnson",
+            "certainty": "high",
+            "note": "thematic_concept_NOT_refers_to"
+          },
+          "claim_type": "authorial_argument"
+        }
+      ]
+    },
+    {
+      "id": "example_4_donation_of_constantine",
+      "document_metadata": {
+        "title": "De falso Constantini donatione and the Forgery Thesis",
+        "authors": "Valla, Lorenzo (as discussed by secondary literature)",
+        "date": "15th century analysis; 4th/8th century claims"
+      },
+      "entities": [
+        { "id": "donation_of_constantine", "type": "work", "name": "Donation of Constantine" },
+        { "id": "constantine", "type": "person", "name": "Constantine" },
+        { "id": "lorenzo_valla", "type": "person", "name": "Lorenzo Valla" },
+        { "id": "unknown_clergyman", "type": "person", "name": "unknown clergyman" },
+        { "id": "fourth_century", "type": "date", "name": "4th century" },
+        { "id": "eighth_century", "type": "date", "name": "8th century" },
+        { "id": "imperial_authority", "type": "concept", "name": "imperial authority" },
+        { "id": "papal_power", "type": "concept", "name": "papal power" },
+        { "id": "emperor", "type": "role", "name": "emperor" },
+        { "id": "humanist_scholar", "type": "role", "name": "humanist scholar" },
+        { "id": "clergyman", "type": "role", "name": "clergyman" }
+      ],
+      "context": "Classic authorship debate: tradition presents the Donation as a 4th-century imperial grant by Constantine (emperor) addressing imperial authority and papal power; Valla (humanist scholar) argues through philological analysis it is an 8th-century forgery authored by an unknown Roman clergyman.",
+      "expected_relations": [
+        {
+          "source_id": "donation_of_constantine",
+          "target_id": "constantine",
+          "relation_type": "created_by",
+          "properties": { 
+            "asserted_by": "unknown_source",
+            "note": "traditional_attribution"
+          },
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "constantine",
+          "target_id": "emperor",
+          "relation_type": "has_occupation",
+          "properties": { 
+            "asserted_by": "unknown_source",
+            "certainty": "high"
+          },
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "lorenzo_valla",
+          "target_id": "humanist_scholar",
+          "relation_type": "has_occupation",
+          "properties": { 
+            "asserted_by": "unknown_source",
+            "certainty": "high"
+          },
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "unknown_clergyman",
+          "target_id": "clergyman",
+          "relation_type": "has_occupation",
+          "properties": { 
+            "asserted_by": "lorenzo_valla",
+            "certainty": "medium"
+          },
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "donation_of_constantine",
+          "target_id": "fourth_century",
+          "relation_type": "created_during",
+          "properties": { 
+            "asserted_by": "unknown_source",
+            "note": "traditional_dating"
+          },
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "donation_of_constantine",
+          "target_id": "unknown_clergyman",
+          "relation_type": "created_by",
+          "properties": { 
+            "asserted_by": "lorenzo_valla", 
+            "evidence_type": "PhilologicalAnalysis",
+            "certainty": "high"
+          },
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "donation_of_constantine",
+          "target_id": "eighth_century",
+          "relation_type": "created_during",
+          "properties": { 
+            "asserted_by": "lorenzo_valla", 
+            "evidence_type": "PhilologicalAnalysis",
+            "certainty": "high"
+          },
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "donation_of_constantine",
+          "target_id": "imperial_authority",
+          "relation_type": "has_theme",
+          "properties": { 
+            "asserted_by": "unknown_source",
+            "note": "thematic_concept_NOT_refers_to"
+          },
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "donation_of_constantine",
+          "target_id": "papal_power",
+          "relation_type": "has_theme",
+          "properties": { 
+            "asserted_by": "unknown_source",
+            "note": "thematic_concept_NOT_refers_to"
+          },
+          "claim_type": "established_fact"
+        }
+      ]
+    }
+  ]
+}

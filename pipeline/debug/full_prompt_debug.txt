@@ -1,0 +1,263 @@
+=== FULL PROMPT SENT TO MODEL ===
+
+
+The following document has to do with the authorship of the medieval text "Van den vos Reynaerde". The author discusses the authorship of this text and the cultural context surrounding its creation. In particular, there are two levels to distinguish for your task: 
+- What we are talking about (entities, people, locations, places, organizations, etc.). This should reflect the state of things 'before' the authors' claims. 
+- What the authors assert, claim, or argue about these entities (interpretation layer). Guidance examples are provided below in FEW-SHOT EXAMPLES. Use them as patterns for structuring nodes and relations with correct claim_type assignments.
+
+FEW-SHOT EXAMPLES (guidance):
+--- Few-shot example ---
+Title: Chrétien de Troyes and the Invention of Arthurian Romance
+Authors: Smith, John
+Date: 2018
+Entities:
+- Le Chevalier de la Charrette (work)
+- Chrétien de Troyes (person)
+- Marie de Champagne (person)
+- Champagne (place)
+- circa 1177-1181 (date)
+- courtly love (concept)
+- chivalric honor (concept)
+- court poet (role)
+Context:
+Smith (2018) analyzes Chrétien de Troyes' Lancelot romance, arguing for composition around 1177-1181 in Champagne under Marie de Champagne's patronage. The study employs comparative literary analysis and historical contextualization to demonstrate how the work engages with courtly love conventions and explores themes of chivalric honor. Chrétien served as court poet.
+Expected relations (JSON):
+[{"source_id": "lancelot", "target_id": "chretien", "relation_type": "created_by", "properties": {"asserted_by": "Smith", "evidence_type": "ComparativeAnalysis, HistoricalContextualization", "certainty": "high"}, "claim_type": "established_fact"}, {"source_id": "chretien", "target_id": "court_poet", "relation_type": "has_occupation", "properties": {"asserted_by": "unknown_source", "certainty": "high"}, "claim_type": "established_fact"}, {"source_id": "lancelot", "target_id": "champagne", "relation_type": "created_at", "properties": {"asserted_by": "Smith", "certainty": "likely"}, "claim_type": "authorial_argument"}, {"source_id": "lancelot", "target_id": "year_1177", "relation_type": "created_during", "properties": {"asserted_by": "Smith", "certainty": "medium"}, "claim_type": "authorial_argument"}, {"source_id": "lancelot", "target_id": "courtly_love", "relation_type": "has_theme", "properties": {"asserted_by": "Smith", "certainty": "high", "note": "thematic_concept_NOT_refers_to"}, "claim_type": "authorial_argument"}, {"source_id": "lancelot", "target_id": "chivalric_honor", "relation_type": "has_theme", "properties": {"asserted_by": "Smith", "certainty": "high", "note": "thematic_concept_NOT_refers_to"}, "claim_type": "authorial_argument"}, {"source_id": "lancelot", "target_id": "marie_de_champagne", "relation_type": "influenced_by", "properties": {"asserted_by": "Smith", "certainty": "medium", "note": "patronage_relationship"}, "claim_type": "authorial_argument"}]
+
+--- Few-shot example ---
+Title: Textual Problems in the Commedia: Manuscript Evidence and Editorial Practice
+Authors: Rossi, Maria
+Date: 2015
+Entities:
+- Divina Commedia (work)
+- Dante Alighieri (person)
+- Giovanni Boccaccio (person)
+- Odyssey (work)
+- Florence (place)
+- 1308-1321 (date)
+- Christian theology (concept)
+- divine justice (concept)
+- poet (role)
+Context:
+Rossi (2015) examines editorial challenges in establishing the text of Dante's Commedia, analyzing manuscript variations. The study demonstrates how 14th-century scribal practices and Boccaccio's early editorial interventions shaped textual transmission. The analysis employs stemmatic methods to distinguish authorial from scribal readings. The work draws extensively on Homer's Odyssey, particularly in the Ulysses episode, and explores themes of Christian theology and divine justice. Dante was a poet and political figure.
+Expected relations (JSON):
+[{"source_id": "commedia", "target_id": "dante", "relation_type": "created_by", "properties": {"asserted_by": "unknown_source", "note": "uncontested_attribution"}, "claim_type": "established_fact"}, {"source_id": "dante", "target_id": "poet", "relation_type": "has_occupation", "properties": {"asserted_by": "unknown_source", "certainty": "high"}, "claim_type": "established_fact"}, {"source_id": "commedia", "target_id": "florence", "relation_type": "created_at", "properties": {"asserted_by": "unknown_source", "note": "partial_composition_in_exile"}, "claim_type": "established_fact"}, {"source_id": "commedia", "target_id": "early_14th_century", "relation_type": "created_during", "properties": {"asserted_by": "unknown_source"}, "claim_type": "established_fact"}, {"source_id": "commedia", "target_id": "boccaccio", "relation_type": "influenced_by", "properties": {"asserted_by": "Rossi", "certainty": "medium", "note": "influence_on_textual_transmission_not_composition"}, "claim_type": "authorial_argument"}, {"source_id": "commedia", "target_id": "odyssey", "relation_type": "refers_to", "properties": {"asserted_by": "unknown_source", "certainty": "high", "note": "work_to_work_reference_in_Ulysses_episode"}, "claim_type": "established_fact"}, {"source_id": "commedia", "target_id": "christian_theology", "relation_type": "has_theme", "properties": {"asserted_by": "unknown_source", "note": "thematic_concept_NOT_refers_to"}, "claim_type": "established_fact"}, {"source_id": "commedia", "target_id": "divine_justice", "relation_type": "has_theme", "properties": {"asserted_by": "Rossi", "certainty": "high", "note": "thematic_concept_NOT_refers_to"}, "claim_type": "authorial_argument"}]
+
+--- Few-shot example ---
+Title: The Authorship Problem of On the Sublime: Prosopographical Evidence and Dating
+Authors: Johnson, Robert
+Date: 2012
+Entities:
+- On the Sublime (work)
+- Longinus (attributed) (person)
+- Cassius Longinus (person)
+- Rome (place)
+- Syria (place)
+- 1st century CE (date)
+- death circa 273 CE (date)
+- rhetorical theory (concept)
+- literary aesthetics (concept)
+- rhetorician (role)
+- philosopher (role)
+Context:
+Johnson (2012) examines the long-standing authorship problem of On the Sublime, traditionally attributed to 'Longinus'. The study employs prosopographical methods to evaluate two main candidates: an unknown 1st-century rhetorician and Cassius Longinus (died 273 CE), a 3rd-century philosopher and rhetorician. The work discusses rhetorical theory and literary aesthetics. Johnson argues for 1st-century composition based on stylistic analysis and historical references within the text, rejecting the later attribution to Cassius Longinus despite the traditional manuscript attribution.
+Expected relations (JSON):
+[{"source_id": "on_the_sublime", "target_id": "longinus", "relation_type": "created_by", "properties": {"asserted_by": "manuscript_tradition", "certainty": "low", "note": "traditional_attribution_disputed"}, "claim_type": "established_fact"}, {"source_id": "on_the_sublime", "target_id": "cassius_longinus", "relation_type": "created_by", "properties": {"asserted_by": "traditional_scholarship", "certainty": "low", "note": "Johnson_rejects_this_attribution"}, "claim_type": "authorial_argument"}, {"source_id": "cassius_longinus", "target_id": "rhetorician", "relation_type": "has_occupation", "properties": {"asserted_by": "unknown_source", "certainty": "high"}, "claim_type": "established_fact"}, {"source_id": "cassius_longinus", "target_id": "philosopher", "relation_type": "has_occupation", "properties": {"asserted_by": "unknown_source", "certainty": "high"}, "claim_type": "established_fact"}, {"source_id": "cassius_longinus", "target_id": "death_273_ce", "relation_type": "date_of_death", "properties": {"asserted_by": "unknown_source", "certainty": "high"}, "claim_type": "established_fact"}, {"source_id": "cassius_longinus", "target_id": "syria", "relation_type": "lived_in", "properties": {"asserted_by": "unknown_source"}, "claim_type": "established_fact"}, {"source_id": "on_the_sublime", "target_id": "first_century_ce", "relation_type": "created_during", "properties": {"asserted_by": "Johnson", "certainty": "medium", "evidence_type": "StylisticAnalysis, HistoricalReferences"}, "claim_type": "authorial_argument"}, {"source_id": "on_the_sublime", "target_id": "rome", "relation_type": "created_at", "properties": {"asserted_by": "Johnson", "certainty": "likely"}, "claim_type": "authorial_argument"}, {"source_id": "on_the_sublime", "target_id": "rhetorical_theory", "relation_type": "has_theme", "properties": {"asserted_by": "unknown_source", "note": "thematic_concept_NOT_refers_to"}, "claim_type": "established_fact"}, {"source_id": "on_the_sublime", "target_id": "literary_aesthetics", "relation_type": "has_theme", "properties": {"asserted_by": "Johnson", "certainty": "high", "note": "thematic_concept_NOT_refers_to"}, "claim_type": "authorial_argument"}]
+
+--- Few-shot example ---
+Title: De falso Constantini donatione and the Forgery Thesis
+Authors: Valla, Lorenzo (as discussed by secondary literature)
+Date: 15th century analysis; 4th/8th century claims
+Entities:
+- Donation of Constantine (work)
+- Constantine (person)
+- Lorenzo Valla (person)
+- unknown clergyman (person)
+- 4th century (date)
+- 8th century (date)
+- imperial authority (concept)
+- papal power (concept)
+- emperor (role)
+- humanist scholar (role)
+- clergyman (role)
+Context:
+Classic authorship debate: tradition presents the Donation as a 4th-century imperial grant by Constantine (emperor) addressing imperial authority and papal power; Valla (humanist scholar) argues through philological analysis it is an 8th-century forgery authored by an unknown Roman clergyman.
+Expected relations (JSON):
+[{"source_id": "donation_of_constantine", "target_id": "constantine", "relation_type": "created_by", "properties": {"asserted_by": "unknown_source", "note": "traditional_attribution"}, "claim_type": "established_fact"}, {"source_id": "constantine", "target_id": "emperor", "relation_type": "has_occupation", "properties": {"asserted_by": "unknown_source", "certainty": "high"}, "claim_type": "established_fact"}, {"source_id": "lorenzo_valla", "target_id": "humanist_scholar", "relation_type": "has_occupation", "properties": {"asserted_by": "unknown_source", "certainty": "high"}, "claim_type": "established_fact"}, {"source_id": "unknown_clergyman", "target_id": "clergyman", "relation_type": "has_occupation", "properties": {"asserted_by": "lorenzo_valla", "certainty": "medium"}, "claim_type": "authorial_argument"}, {"source_id": "donation_of_constantine", "target_id": "fourth_century", "relation_type": "created_during", "properties": {"asserted_by": "unknown_source", "note": "traditional_dating"}, "claim_type": "established_fact"}, {"source_id": "donation_of_constantine", "target_id": "unknown_clergyman", "relation_type": "created_by", "properties": {"asserted_by": "lorenzo_valla", "evidence_type": "PhilologicalAnalysis", "certainty": "high"}, "claim_type": "authorial_argument"}, {"source_id": "donation_of_constantine", "target_id": "eighth_century", "relation_type": "created_during", "properties": {"asserted_by": "lorenzo_valla", "evidence_type": "PhilologicalAnalysis", "certainty": "high"}, "claim_type": "authorial_argument"}, {"source_id": "donation_of_constantine", "target_id": "imperial_authority", "relation_type": "has_theme", "properties": {"asserted_by": "unknown_source", "note": "thematic_concept_NOT_refers_to"}, "claim_type": "established_fact"}, {"source_id": "donation_of_constantine", "target_id": "papal_power", "relation_type": "has_theme", "properties": {"asserted_by": "unknown_source", "note": "thematic_concept_NOT_refers_to"}, "claim_type": "established_fact"}]
+
+DOCUMENT CONTEXT:
+- Title: Wat staat er eigenlijk? Over het editeren van Van den vos Reynaerde
+- Authors: Wackers, Paul
+- Date: 2016
+
+EXTRACTED ENTITIES (from previous analysis):
+- Willem (person)
+- Van den vos Reynaerde (work)
+- biwilleme (reference)
+- biwbdleme (reference)
+- Comburg handschrift (work)
+- Dyck handschrift (work)
+- biwilleme (work)
+- biwbdleme (work)
+- authorship attribution (methodology)
+- historical context (concept)
+- textual analysis (methodology)
+- diplomatic editing (methodology)
+- authorship attribution (concept)
+
+TASK: Create a Knowledge Graph about what [{'family_name': 'Wackers', 'given_name': 'Paul'}] argue(s) or express(es) in their work "Wat staat er eigenlijk? Over het editeren van Van den vos Reynaerde". Combine the given entities (nodes) with relations based on the source questions and answers below.
+
+SOURCE QUESTIONS AND ANSWERS:
+Q1: In Wat staat er eigenlijk? Over het editeren van Van den vos Reynaerde, the subject of inquiry is the Van den vos Reynaerde. Does the author talk about the authorship attribution? What is the main point of the authors? What are the entities that take part in his discourse?
+A1: In "Wat staat er eigenlijk? Over het editeren van Van den vos Reynaerde," Paul Wackers discusses the editing and textual transmission of "Van den vos Reynaerde," but he does not explicitly address authorship attribution concerning the author Willem. He highlights discrepancies in the acrostic that identifies the author, noting that while Wikipedia states it as "biwilleme," the manuscript reads "biwbdleme" [^2]. Wackers emphasizes that modern editions often manipulate the original text for clarity, which may mislead readers about the authenticity of the manuscript's representation [^2]. The main point of Wackers' discourse is to raise awareness about the editorial practices applied to the text and the implications of these interventions on the understanding of the manuscript's authenticity [^2]. The entities involved in his analysis include the original author Willem, the editors of various editions, and the manuscripts themselves, such as the Comburg and Dyck handschriften, which serve as critical sources for understanding the text's evolution [^4][^5]. However, the context does not provide detailed information about the specific authorship claims or the broader implications of these editorial decisions on the attribution of the work.
+
+Q2: What does Paul Wackers say about the 'acrostic problem', and how does he shape his interpretation of the authorship? What do they say about the context of the creation of the poem?
+A2: Paul Wackers addresses the 'acrostic problem' in "Wat staat er eigenlijk? Over het editeren van Van den vos Reynaerde" by highlighting discrepancies between the acrostic identifying the author as "biwilleme" in Wikipedia and the actual manuscript reading "biwbdleme" [^3]. He emphasizes that modern editions often manipulate the original text, which can mislead readers regarding the authenticity of the manuscript's representation [^3]. Wackers argues that while the editors' interventions may be justified for clarity, they do not reflect the original text accurately, thereby complicating the understanding of authorship attribution. He notes that the desire to present an 'original' version sometimes overrides respect for the transmitted manuscripts, suggesting that editorial practices can obscure the historical context of the poem's creation [^1]. However, Wackers does not provide detailed information about the broader implications of these editorial decisions on the authorship claims or the specific context of the poem's creation beyond the acrostic issue.
+
+Q3: How does Paul Wackers substantiate his claims? What proofs does he provide? Which techniques does he use? What degree of certainty does he have?
+A3: Paul Wackers substantiates his claims in "Wat staat er eigenlijk? Over het editeren van Van den vos Reynaerde" through a detailed examination of the editorial practices applied to the text, particularly focusing on the acrostic problem and the discrepancies in author identification. He highlights that while Wikipedia states the acrostic reads "biwilleme," the manuscript actually shows "biwbdleme," indicating a significant editorial alteration [^3]. Wackers employs techniques such as textual analysis and comparison of manuscript readings to demonstrate how modern editions manipulate the original text for clarity, which may mislead readers about authenticity [^3]. He discusses the complexities of diplomatic editing, emphasizing that the aim is to enhance readability while preserving the original text's integrity [^4]. Wackers expresses a degree of certainty regarding the implications of these editorial decisions, arguing that they obscure the historical context of the poem's creation and complicate authorship attribution, although he does not provide specific quantitative measures or external corroborating documents to support his assertions [^1]. Overall, while he presents a compelling critique of editorial practices, the context does not fully detail the broader implications of these practices on authorship claims or the specific historical context of the poem's creation.
+
+INSTRUCTIONS:
+1. Use ONLY the entities provided above - do not create new entities
+2. Nodes should only have: id, type, name, confidence (NO properties or claim_type fields)
+3. For each relation, specify claim_type as either:
+   - "established_fact": Information presented as established, uncontested facts (e.g., "The Donation of Constantine exists as a document", "Lorenzo Valla was a Renaissance scholar", "Van den vos Reynaerde is a medieval work")
+   - "authorial_argument": What the author actively argues, proposes, or claims (e.g., "Daele argues Willem van Boudelo created the work", "Peeters claims it was written in Land of Waas")
+
+CRITICAL DISTINCTION:
+- If the text presents something as established historical fact → established_fact
+- If the text presents the author's interpretation, hypothesis, or argument → authorial_argument
+- Biographical facts (birth, death dates) when uncontested → established_fact
+- Authorship attributions that are argued/proposed → authorial_argument
+
+4. For relation properties, include contextual information:
+   - "asserted_by": Who makes this claim (use author name from document metadata, or "unknown_source" for established facts without specific attribution)
+   - "evidence_type": Type of evidence (e.g., "ProsopographicAnalysis", "TextualAnalysis", "HistoricalRecords")
+   - "certainty": Degree of certainty (e.g., "high", "medium", "low", "likely", "possibly")
+   - "method": How the conclusion was reached (e.g., "ComparativeAnalysis", "SourceCriticism")
+
+5. Focus on scholarly assertions, hypotheses, and interpretative claims about entities, especially authorship and biographical information
+6. Extract authorship attributions, influence theories, methodological approaches
+7. Map entity names to the exact names from the extracted entities list
+
+ALLOWED RELATIONSHIP TYPES (use ONLY these):
+
+CREATION RELATIONS:
+- created_by: X was created by Y (authorship, production)
+  Domain: [work] → Range: [person, organization]
+  Example: Van den vos Reynaerde created_by Willem van Boudelo
+  Note: this is valid only for works created, not for concepts or other 'created' relations.
+  
+- created_during: X was created during Y (temporal creation)
+  Domain: [work] → Range: [date]
+  Example: Van den vos Reynaerde created_during 1250
+  
+- created_at: X was created at Y (spatial creation)
+  Domain: [work] → Range: [place]
+  Example: Van den vos Reynaerde created_at Land of Waas
+
+INFLUENCE RELATIONS:
+- influenced_by: X was influenced by Y (authorial/cultural influence on creation)
+  Domain: [work, person] → Range: [person, organization, historical_context, concept]
+  Example: Van den vos Reynaerde influenced_by Cistercian culture
+  Example: Willem van Boudelo influenced_by Jan van Dampierre
+  NOTE: Use this for influences ON the work or person, not FOR what the work discusses
+
+SPATIAL/TEMPORAL RELATIONS:
+- located_in_space: X is spatially located in Y (current or historical location)
+  Domain: [person, organization, work] → Range: [place]
+  Example: Willem van Boudelo located_in_space Flanders
+  
+- located_in_time: X is temporally located in Y (contemporary with)
+  Domain: [person, work, organization] → Range: [date]
+  Example: Willem van Boudelo located_in_time 13th century
+
+MEMBERSHIP RELATIONS:
+- associated_with: X is a member of/part of Y (institutional membership)
+  Domain: [person] → Range: [organization]
+  Example: Willem van Boudelo associated_with counts of Flanders
+
+REFERENCE RELATIONS (STRICT):
+- refers_to: X refers to Y (ONLY for work-to-work, work-to-person, work-to-place, work-to-historical_context references WITHIN the medieval text itself)
+  Domain: [work] → Range: [work, person, place, historical_context, organization]
+  Example: Van den vos Reynaerde refers_to Reynardus Vulpes (another work)
+  Example: Van den vos Reynaerde refers_to Bouchard van Avesnes (historical person mentioned IN the text)
+  Example: Van den vos Reynaerde refers_to political conflicts (historical events discussed IN the text)
+  
+  CRITICAL: Do NOT use refers_to for:
+  - Concepts as in themes
+  - Methodologies (these describe the scholarly article, not the medieval work)
+  - Literary analysis concepts (these describe the scholarly approach, not the medieval text's content)
+  - Authorial influences (use influenced_by instead)
+
+LINGUISTIC RELATIONS:
+- speaks_language: X speaks language Y (linguistic competence of person)
+  Domain: [person] → Range: [language]
+  Example: Willem van Boudelo speaks_language Old French
+  
+- written_in_language: X is written in language Y (language of work)
+  Domain: [work] → Range: [language]
+  Example: Van den vos Reynaerde written_in_language Middle Dutch
+
+CLASSIFICATION RELATIONS:
+- has_genre: X belongs to genre Y (literary classification)
+  Domain: [work] → Range: [genre]
+  Example: Van den vos Reynaerde has_genre beast epic
+  
+- has_theme: X has theme Y (thematic content of work)
+  Domain: [work] → Range: [concept]
+  Example: Van den vos Reynaerde has_theme courtly culture
+  Example: Van den vos Reynaerde has_theme feudalism
+  NOTE: Use this for concepts/themes the work engages with, NOT for references to other works
+  
+- has_characteristic: X has characteristic Y (stylistic/physical features)
+  Domain: [work] → Range: [concept]
+  Example: Van den vos Reynaerde has_characteristic acrostic structure
+  NOTE: Limited to literary features like writing style, rhyme scheme, physical manuscript features
+
+BIOGRAPHICAL RELATIONS:
+- has_occupation: X has occupation Y (professional role)
+  Domain: [person] → Range: [role]
+  Example: Willem van Boudelo has_occupation monk
+  
+- place_of_birth: X was born in Y
+  Domain: [person] → Range: [place]
+  
+- date_of_birth: X was born on Y
+  Domain: [person] → Range: [date]
+  
+- place_of_death: X died in Y
+  Domain: [person] → Range: [place]
+  
+- date_of_death: X died on Y
+  Domain: [person] → Range: [date]
+  
+- educated_at: X was educated at Y
+  Domain: [person] → Range: [organization, place]
+  
+- lived_in: X lived in Y (residence/hometown)
+  Domain: [person] → Range: [place]
+  
+- has_expertise_in: X has expertise in Y (scholarly specialization)
+  Domain: [person] → Range: [concept, language]
+  Example: Willem van Boudelo has_expertise_in Old French literature
+  
+- has_role: X has role Y in context Z
+  Domain: [person] → Range: [role]
+  Example: Willem van Boudelo has_role court poet
+  NOTE: Must be connected to an activity or event context
+
+RELATION SELECTION GUIDELINES:
+1. For work content/themes → use has_theme
+2. For work-to-work citations → use refers_to
+3. For historical persons/events mentioned IN the medieval text → use refers_to
+4. For influences ON creation → use influenced_by
+5. For stylistic features → use has_characteristic
+6. For authorship claims → use created_by
+7. NEVER use refers_to for concepts, methodologies, or analytical frameworks
+
+Generate nodes and relations representing the authors' interpretative claims about the provided entities.
+Use ONLY the relationship types listed above with ONLY the given entities.
+
+
+=== END OF PROMPT ===

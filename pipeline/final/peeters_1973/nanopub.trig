@@ -1,0 +1,94 @@
+@prefix ex: <http://example.org/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hico: <http://purl.org/emmedi/hico/> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:facts_peeters_1973 {
+    ex:1258 a crm:E52_Time-Span ;
+        rdfs:label "1258" .
+
+    ex:13th_century_Flanders a crm:E4_Period ;
+        rdfs:label "13th-century Flanders" .
+
+    ex:Margareta_of_Flanders a crm:E21_Person ;
+        crm:P1_is_identified_by ex:Margareta_of_Flanders_appellation .
+
+    ex:Van_den_vos_Reynaerde a crm:E89_Propositional_Object ;
+        crm:P1_is_identified_by ex:Van_den_vos_Reynaerde_appellation ;
+        crm:P67_refers_to ex:Avesnes,
+            ex:Dampierres .
+
+    ex:Willem_van_Baudelo a crm:E21_Person ;
+        crm:P1_is_identified_by ex:Willem_van_Baudelo_appellation .
+
+    ex:peeters_1973 a fabio:BookChapter ;
+        dcterms:date "1999" ;
+        dcterms:title "Historiciteit en chronologie in 'Van den vos Reynaerde'" ;
+        frbr:partOf ex:pade_crom_ende_menichfoude_het_reynaert_onderzoek_in_de_tweede_helft_van_de_twintigste_eeuw .
+
+    ex:post_1250 a crm:E52_Time-Span ;
+        rdfs:label "post-1250" .
+
+    ex:Margareta_of_Flanders_appellation a crm:E41_Appellation ;
+        rdfs:label "Margareta of Flanders" .
+
+    ex:Van_den_vos_Reynaerde_appellation a crm:E41_Appellation ;
+        rdfs:label "Van den vos Reynaerde" .
+
+    ex:Willem_van_Baudelo_appellation a crm:E41_Appellation ;
+        rdfs:label "Willem van Baudelo" .
+
+    ex:pade_crom_ende_menichfoude_het_reynaert_onderzoek_in_de_tweede_helft_van_de_twintigste_eeuw a fabio:Book ;
+        dcterms:title "'Pade crom ende menichfoude'. Het Reynaert-onderzoek in de tweede helft van de twintigste eeuw" .
+}
+
+ex:assertion_peeters_1973 {
+    ex:Van_den_vos_Reynaerde_Creation a crm:E65_Creation ;
+        crm:P14_carried_out_by ex:Willem_van_Baudelo ;
+        crm:P4_has_time-span ex:1258 ;
+        crm:P94_has_created ex:Van_den_vos_Reynaerde .
+}
+
+ex:provenance_peeters_1973 {
+    ex:assertion_peeters_1973 prov:wasGeneratedBy ex:interpretation_act_peeters_1973_peeters .
+
+    ex:interpretation_act_peeters_1973_peeters hico:hasInterpretationCriterion ex:Contextualanalysis,
+            ex:HypothesisBased,
+            ex:LiteratureBased ;
+        hico:hasInterpretationType ex:HistoricalInterpretation,
+            ex:PhilologicalInterpretation ;
+        hico:isExtractedFrom ex:peeters_1973 ;
+        cwrc:hasCertainty cwrc:medium_certainty ;
+        prov:wasAssociatedWith ex:peeters .
+}
+
+ex:pubInfo_peeters_1973 {
+    ex:pub_peeters_1973 prov:generatedAtTime "2025-10-26T15:18:37+00:00"^^xsd:dateTime ;
+        prov:wasAttributedTo ex:Gpt4oMiniAgent ;
+        prov:wasDerivedFrom ex:peeters_1973 .
+
+    ex:Gpt4oMiniAgent a prov:SoftwareAgent ;
+        rdfs:label "gpt-4o-mini" ;
+        prov:actedOnBehalfOf ex:aschimmenti .
+
+    ex:aschimmenti a prov:Person ;
+        rdfs:label "aschimmenti" .
+
+    ex:peeters_1973 a prov:Entity .
+}
+
+ex:head_peeters_1973 {
+    ex:pub_peeters_1973 a np:Nanopublication ;
+        np:hasAssertion ex:assertion_peeters_1973 ;
+        np:hasProvenance ex:provenance_peeters_1973 ;
+        np:hasPublicationInfo ex:pubInfo_peeters_1973 .
+}

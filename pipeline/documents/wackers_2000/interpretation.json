@@ -1,0 +1,15 @@
+{
+  "hico": {
+    "interpretation_type": [
+      "philological_interpretation",
+      "historical_interpretation"
+    ],
+    "interpretation_criteria": [
+      "hypothesis_based",
+      "literature_based"
+    ],
+    "certainty": "likely",
+    "evidence_summary": "The analysis draws on linguistic features and historical context to interpret the text, suggesting a nuanced understanding of its philological aspects. The interpretations are supported by existing literature in the field.",
+    "notes": null
+  }
+}
