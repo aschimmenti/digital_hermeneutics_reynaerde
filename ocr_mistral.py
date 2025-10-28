@@ -3,7 +3,7 @@ import os
 import json
 
 # Configure client
-api_key = os.environ.get("MISTRAL_API_KEY", "dTkfESk2dcXGcCPj2m7P57lpI1bqFT2G")
+api_key = os.environ.get("MISTRAL_API_KEY")
 client = Mistral(api_key=api_key)
 
 # Input PDF
