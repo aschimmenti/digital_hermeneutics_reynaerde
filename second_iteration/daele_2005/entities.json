@@ -1,0 +1,213 @@
+{
+  "metadata": {
+    "total_sections": 1,
+    "total_questions": 3,
+    "generation_method": "rag_only"
+  },
+  "sections": {
+    "Document-wide": {
+      "section_number": null,
+      "questions_and_answers": [
+        {
+          "question_id": 1,
+          "question": "What arguments does Van Daele advance regarding the authorship of Van den vos Reynaerde? Which interpretive framework does he employ, and what does his metaphor of creating a 'robotfoto' (composite sketch) suggest about his methodological approach? What are the central entities, historical figures, institutions (such as Cistercian connections and the comital court), literary works, and textual relationships that structure his analysis?",
+          "answer": "In his analysis, Van Daele argues for the authorship of Van den vos Reynaerde, suggesting that the figure of Willem van Boudelo aligns well with the timing and profile of the Reynaertdichter, particularly around 1250 when the text was likely composed in Flanders [^2]. He employs an interpretive framework that combines interdisciplinary approaches, drawing on historical context, biographical evidence, and thematic analysis to reconstruct the author's world. The metaphor of creating a 'robotfoto' (composite sketch) indicates his methodological approach of assembling disparate textual fragments—referred to as \"wrakstukken\"—to form a coherent narrative about the author and his milieu, emphasizing the importance of context in understanding the text [^1][^4]. Central entities in his analysis include the Cistercian connections, which highlight the author's educational background and cultural influences, and the comital court, which connects the noble and urban cultures of Gent [^2]. Additionally, he references the broader literary landscape of the time, including the popularity of the matière renardienne in higher circles of Flanders and France [^2]. However, the context does not provide specific details on the direct textual relationships or other literary works that may further structure his analysis, indicating a gap in the comprehensive understanding of his arguments."
+        },
+        {
+          "question_id": 2,
+          "question": "What position does Van Daele take concerning William as the author of Van den vos Reynaerde, referred to as the 'Reynaertdichter'? What biographical information does he provide regarding this William's birth date, death location, linguistic competencies, social status, and occupation? When and where does he propose the poem was composed? What historical, political, religious, or cultural context does he identify for the poem's creation, particularly regarding Cistercian connections and the comital court? Which literary sources, traditions (including the 'Reynaertmaterie'), or influences does he identify as relevant to the composition? How does he establish connections between this William and the authorship of the poem?",
+          "answer": "Van Daele argues for the authorship of *Van den vos Reynaerde* by identifying Willem van Boudelo as the 'Reynaertdichter,' suggesting that his profile aligns perfectly with the timing and context of the poem's composition around 1250 in Flanders [^2][^4]. He provides biographical information indicating that Willem was likely born around the early 13th century and was a member of the Cistercian order, which implies a certain level of education and linguistic competency, particularly in Latin [^2][^5]. Van Daele posits that Willem worked within the comital court, connecting him to the noble culture of Gent and the broader political landscape of the time, which included tensions between the Avesnes and Dampierre families [^4][^5]. He highlights the Cistercian connections as significant to understanding the cultural influences on Willem, noting that his education and literary output were shaped by the Cistercian tradition [^2][^4]. Additionally, Van Daele references the 'matière renardienne' as a literary tradition that influenced the composition of the poem, suggesting that the popularity of such narratives in higher circles of Flanders and France during this period played a crucial role in its creation [^4][^5]. However, the context does not provide specific details about Willem's exact birth date or death location, nor does it clarify the precise nature of his social status beyond his association with the Cistercian order and the comital court."
+        },
+        {
+          "question_id": 3,
+          "question": "What methodological approaches does Van Daele employ to substantiate his arguments, particularly in his bricolage method of assembling fragmentary evidence? What types of evidence (textual, linguistic, historical, biographical, institutional, codicological, or other) does he present? Which analytical techniques or scholarly practices does he utilize? What degree of certainty or epistemic qualification does he express regarding his claims about the author's identity?",
+          "answer": "Van Daele employs a bricolage method to substantiate his arguments about the authorship of *Van den vos Reynaerde*, which involves assembling fragmentary evidence to create a composite understanding of the Reynaertdichter. He presents various types of evidence, including textual fragments, historical context, and biographical information about Willem van Boudelo, highlighting his Cistercian connections and ties to the comital court [^1][^3]. Van Daele utilizes analytical techniques such as thematic analysis and interdisciplinary approaches to reconstruct the author's milieu, emphasizing the interplay between literary traditions and the socio-political landscape of 13th-century Flanders [^2][^4]. He expresses a degree of certainty regarding his claims about the author's identity, suggesting that the connections he identifies are too significant to dismiss as coincidental, although he acknowledges the inherent risks and uncertainties in such reconstructive work [^2][^3]. However, the context does not provide specific quantitative measures of certainty or detailed methodologies for assessing the reliability of the fragmentary evidence he discusses."
+        }
+      ]
+    }
+  },
+  "document_metadata": {
+    "type": "journal_article",
+    "authors": [
+      {
+        "family_name": "Van Daele",
+        "given_name": "Rik"
+      }
+    ],
+    "date": "2005",
+    "title": "De robotfoto van de Reynaertdichter Bricoleren met de overgeleverde wrakstukken: 'cisterciënzers', 'grafelijke hof' en 'Reynaertmaterie'",
+    "container": {
+      "type": "journal",
+      "title": "Tiecelijn",
+      "volume": "18"
+    },
+    "file_path": "data/van_daele_2005.md"
+  },
+  "extraction_metadata": {
+    "source_question_ids": [
+      1,
+      2,
+      3
+    ],
+    "total_entities": 23,
+    "entity_types": [
+      "organization",
+      "language",
+      "group",
+      "date",
+      "work",
+      "historical_context",
+      "person",
+      "methodology",
+      "place",
+      "concept"
+    ],
+    "entities": [
+      {
+        "name": "Willem van Boudelo",
+        "type": "person",
+        "context": "Van Daele argues for the authorship of Van den vos Reynaerde, suggesting that the figure of Willem van Boudelo aligns well with the timing and profile of the Reynaertdichter, particularly around 1250 when the text was likely composed in Flanders.",
+        "confidence": 0.9
+      },
+      {
+        "name": "1250",
+        "type": "date",
+        "context": "particularly around 1250 when the text was likely composed in Flanders.",
+        "confidence": 0.95
+      },
+      {
+        "name": "Flanders",
+        "type": "place",
+        "context": "particularly around 1250 when the text was likely composed in Flanders.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Cistercian connections",
+        "type": "organization",
+        "context": "Central entities in his analysis include the Cistercian connections, which highlight the author's educational background and cultural influences.",
+        "confidence": 0.85
+      },
+      {
+        "name": "comital court",
+        "type": "organization",
+        "context": "the comital court, which connects the noble and urban cultures of Gent.",
+        "confidence": 0.85
+      },
+      {
+        "name": "Gent",
+        "type": "place",
+        "context": "the comital court, which connects the noble and urban cultures of Gent.",
+        "confidence": 0.9
+      },
+      {
+        "name": "matière renardienne",
+        "type": "work",
+        "context": "the broader literary landscape of the time, including the popularity of the matière renardienne in higher circles of Flanders and France.",
+        "confidence": 0.8
+      },
+      {
+        "name": "France",
+        "type": "place",
+        "context": "the popularity of the matière renardienne in higher circles of Flanders and France.",
+        "confidence": 0.9
+      },
+      {
+        "name": "historical context",
+        "type": "concept",
+        "context": "an interpretive framework that combines interdisciplinary approaches, drawing on historical context, biographical evidence, and thematic analysis to reconstruct the author's world.",
+        "confidence": 0.8
+      },
+      {
+        "name": "thematic analysis",
+        "type": "methodology",
+        "context": "an interpretive framework that combines interdisciplinary approaches, drawing on historical context, biographical evidence, and thematic analysis to reconstruct the author's world.",
+        "confidence": 0.85
+      },
+      {
+        "name": "early 13th century",
+        "type": "date",
+        "context": "...indicating that Willem was likely born around the early 13th century and was a member of the Cistercian order...",
+        "confidence": 0.85
+      },
+      {
+        "name": "Cistercian order",
+        "type": "organization",
+        "context": "...was a member of the Cistercian order, which implies a certain level of education and linguistic competency, particularly in Latin",
+        "confidence": 0.9
+      },
+      {
+        "name": "Latin",
+        "type": "language",
+        "context": "...which implies a certain level of education and linguistic competency, particularly in Latin",
+        "confidence": 0.9
+      },
+      {
+        "name": "Avesnes",
+        "type": "group",
+        "context": "...the broader political landscape of the time, which included tensions between the Avesnes and Dampierre families",
+        "confidence": 0.8
+      },
+      {
+        "name": "Dampierre",
+        "type": "group",
+        "context": "...the broader political landscape of the time, which included tensions between the Avesnes and Dampierre families",
+        "confidence": 0.8
+      },
+      {
+        "name": "Cistercian tradition",
+        "type": "concept",
+        "context": "...noting that his education and literary output were shaped by the Cistercian tradition",
+        "confidence": 0.85
+      },
+      {
+        "name": "narratives",
+        "type": "concept",
+        "context": "...suggesting that the popularity of such narratives in higher circles of Flanders and France during this period played a crucial role in its creation",
+        "confidence": 0.75
+      },
+      {
+        "name": "Cistercian",
+        "type": "organization",
+        "context": "...highlighting his Cistercian connections and ties to the comital court...",
+        "confidence": 0.8
+      },
+      {
+        "name": "13th-century Flanders",
+        "type": "historical_context",
+        "context": "...the socio-political landscape of 13th-century Flanders...",
+        "confidence": 0.9
+      },
+      {
+        "name": "interdisciplinary approaches",
+        "type": "methodology",
+        "context": "...utilizes analytical techniques such as thematic analysis and interdisciplinary approaches...",
+        "confidence": 0.8
+      },
+      {
+        "name": "authorship of *Van den vos Reynaerde*",
+        "type": "concept",
+        "context": "...to substantiate his arguments about the authorship of *Van den vos Reynaerde*...",
+        "confidence": 0.7
+      },
+      {
+        "name": "literary traditions",
+        "type": "concept",
+        "context": "...emphasizing the interplay between literary traditions and the socio-political landscape...",
+        "confidence": 0.7
+      },
+      {
+        "name": "socio-political landscape",
+        "type": "concept",
+        "context": "...emphasizing the interplay between literary traditions and the socio-political landscape...",
+        "confidence": 0.7
+      }
+    ],
+    "source_answers": {
+      "1": "In his analysis, Van Daele argues for the authorship of Van den vos Reynaerde, suggesting that the figure of Willem van Boudelo aligns well with the timing and profile of the Reynaertdichter, particularly around 1250 when the text was likely composed in Flanders [^2]. He employs an interpretive framework that combines interdisciplinary approaches, drawing on historical context, biographical evidence, and thematic analysis to reconstruct the author's world. The metaphor of creating a 'robotfoto' (composite sketch) indicates his methodological approach of assembling disparate textual fragments—referred to as \"wrakstukken\"—to form a coherent narrative about the author and his milieu, emphasizing the importance of context in understanding the text [^1][^4]. Central entities in his analysis include the Cistercian connections, which highlight the author's educational background and cultural influences, and the comital court, which connects the noble and urban cultures of Gent [^2]. Additionally, he references the broader literary landscape of the time, including the popularity of the matière renardienne in higher circles of Flanders and France [^2]. However, the context does not provide specific details on the direct textual relationships or other literary works that may further structure his analysis, indicating a gap in the comprehensive understanding of his arguments.",
+      "2": "Van Daele argues for the authorship of *Van den vos Reynaerde* by identifying Willem van Boudelo as the 'Reynaertdichter,' suggesting that his profile aligns perfectly with the timing and context of the poem's composition around 1250 in Flanders [^2][^4]. He provides biographical information indicating that Willem was likely born around the early 13th century and was a member of the Cistercian order, which implies a certain level of education and linguistic competency, particularly in Latin [^2][^5]. Van Daele posits that Willem worked within the comital court, connecting him to the noble culture of Gent and the broader political landscape of the time, which included tensions between the Avesnes and Dampierre families [^4][^5]. He highlights the Cistercian connections as significant to understanding the cultural influences on Willem, noting that his education and literary output were shaped by the Cistercian tradition [^2][^4]. Additionally, Van Daele references the 'matière renardienne' as a literary tradition that influenced the composition of the poem, suggesting that the popularity of such narratives in higher circles of Flanders and France during this period played a crucial role in its creation [^4][^5]. However, the context does not provide specific details about Willem's exact birth date or death location, nor does it clarify the precise nature of his social status beyond his association with the Cistercian order and the comital court.",
+      "3": "Van Daele employs a bricolage method to substantiate his arguments about the authorship of *Van den vos Reynaerde*, which involves assembling fragmentary evidence to create a composite understanding of the Reynaertdichter. He presents various types of evidence, including textual fragments, historical context, and biographical information about Willem van Boudelo, highlighting his Cistercian connections and ties to the comital court [^1][^3]. Van Daele utilizes analytical techniques such as thematic analysis and interdisciplinary approaches to reconstruct the author's milieu, emphasizing the interplay between literary traditions and the socio-political landscape of 13th-century Flanders [^2][^4]. He expresses a degree of certainty regarding his claims about the author's identity, suggesting that the connections he identifies are too significant to dismiss as coincidental, although he acknowledges the inherent risks and uncertainties in such reconstructive work [^2][^3]. However, the context does not provide specific quantitative measures of certainty or detailed methodologies for assessing the reliability of the fragmentary evidence he discusses."
+    },
+    "extraction_method": "llm_structured_extraction",
+    "extractor_version": "1.0"
+  }
+}

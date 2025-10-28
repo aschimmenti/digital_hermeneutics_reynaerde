@@ -1,0 +1,126 @@
+@prefix ex: <http://example.org/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hico: <http://purl.org/emmedi/hico/> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:facts_daele_2005 {
+    ex:1250 a crm:E52_Time-Span ;
+        rdfs:label "1250" .
+
+    ex:Cistercian_tradition a crm:E55_Type ;
+        rdfs:label "Cistercian tradition" .
+
+    ex:Latin a crm:E56_Language ;
+        rdfs:label "Latin" .
+
+    ex:daele_2005 a fabio:JournalArticle ;
+        dcterms:date "2005" ;
+        dcterms:title "De robotfoto van de Reynaertdichter Bricoleren met de overgeleverde wrakstukken: 'cisterciënzers', 'grafelijke hof' en 'Reynaertmaterie'" ;
+        frbr:partOf ex:tiecelijn_vol_18 .
+
+    ex:mati_re_renardienne a crm:E89_Propositional_Object ;
+        crm:P1_is_identified_by ex:mati_re_renardienne_appellation .
+
+    ex:Cistercian_connections a crm:E74_Group ;
+        crm:P1_is_identified_by ex:Cistercian_connections_appellation .
+
+    ex:Cistercian_connections_appellation a crm:E41_Appellation ;
+        rdfs:label "Cistercian connections" .
+
+    ex:Cistercian_order a crm:E74_Group ;
+        crm:P1_is_identified_by ex:Cistercian_order_appellation .
+
+    ex:Cistercian_order_appellation a crm:E41_Appellation ;
+        rdfs:label "Cistercian order" .
+
+    ex:Gent a crm:E53_Place ;
+        crm:P1_is_identified_by ex:Gent_appellation .
+
+    ex:Gent_appellation a crm:E41_Appellation ;
+        rdfs:label "Gent" .
+
+    ex:Willem_van_Boudelo_appellation a crm:E41_Appellation ;
+        rdfs:label "Willem van Boudelo" .
+
+    ex:comital_court a crm:E74_Group ;
+        crm:P1_is_identified_by ex:comital_court_appellation .
+
+    ex:comital_court_appellation a crm:E41_Appellation ;
+        rdfs:label "comital court" .
+
+    ex:early_13th_century a crm:E52_Time-Span ;
+        rdfs:label "early 13th century" .
+
+    ex:mati_re_renardienne_appellation a crm:E41_Appellation ;
+        rdfs:label "matière renardienne" .
+
+    ex:tiecelijn_journal a fabio:Journal ;
+        dcterms:title "Tiecelijn" .
+
+    ex:tiecelijn_vol_18 a fabio:JournalVolume ;
+        prism:volume "18" ;
+        dcterms:title "Tiecelijn" ;
+        frbr:partOf ex:tiecelijn_journal .
+
+    ex:Willem_van_Boudelo a crm:E21_Person ;
+        crm:P1_is_identified_by ex:Willem_van_Boudelo_appellation .
+}
+
+ex:assertion_daele_2005 {
+    ex:Cistercian_order crm:P107_has_current_or_former_member ex:Willem_van_Boudelo .
+
+    ex:comital_court crm:P107_has_current_or_former_member ex:Willem_van_Boudelo .
+
+    ex:Latin_Expert a crm:E55_Type ;
+        crm:P1_is_identified_by ex:Latin_Expert_appellation .
+
+    ex:Latin_Expert_appellation a crm:E41_Appellation ;
+        rdfs:label "Latin Expert" .
+
+    ex:Willem_van_Boudelo crm:P15_was_influenced_by ex:Cistercian_connections ;
+        crm:P2_has_type ex:Latin_Expert ;
+        crm:P4_has_time-span ex:early_13th_century ;
+        crm:P53_has_former_or_current_location ex:Gent .
+}
+
+ex:provenance_daele_2005 {
+    ex:assertion_daele_2005 prov:wasGeneratedBy ex:interpretation_act_daele_2005_van_daele .
+
+    ex:interpretation_act_daele_2005_van_daele hico:hasInterpretationCriterion ex:HypothesisBased,
+            ex:Thematicanalysis ;
+        hico:hasInterpretationType ex:PhilologicalInterpretation ;
+        hico:isExtractedFrom ex:daele_2005 ;
+        cwrc:hasCertainty cwrc:medium_certainty ;
+        prov:wasAssociatedWith ex:van_daele .
+}
+
+ex:pubInfo_daele_2005 {
+    ex:pub_daele_2005 prov:generatedAtTime "2025-10-28T11:09:44+00:00"^^xsd:dateTime ;
+        prov:wasAttributedTo ex:Gpt4oMiniAgent ;
+        prov:wasDerivedFrom ex:daele_2005 .
+
+    ex:Gpt4oMiniAgent a prov:SoftwareAgent ;
+        rdfs:label "gpt-4o-mini" ;
+        prov:actedOnBehalfOf ex:aschimmenti .
+
+    ex:aschimmenti a prov:Person ;
+        rdfs:label "aschimmenti" .
+
+    ex:daele_2005 a prov:Entity .
+}
+
+ex:head_daele_2005 {
+    ex:pub_daele_2005 a np:Nanopublication ;
+        np:hasAssertion ex:assertion_daele_2005 ;
+        np:hasProvenance ex:provenance_daele_2005 ;
+        np:hasPublicationInfo ex:pubInfo_daele_2005 .
+}

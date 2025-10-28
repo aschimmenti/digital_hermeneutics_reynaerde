@@ -13,22 +13,29 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 ex:facts_wackers_2016 {
+    ex:19th_century a crm:E52_Time-Span ;
+        rdfs:label "19th century" .
+
+    ex:Van_den_vos_Reynaerde_Creation a crm:E65_Creation ;
+        crm:P14_carried_out_by ex:Willem ;
+        crm:P94_has_created ex:Van_den_vos_Reynaerde .
+
     ex:wackers_2016 a fabio:JournalArticle ;
         dcterms:date "2016" ;
         dcterms:title "Wat staat er eigenlijk? Over het editeren van Van den vos Reynaerde" ;
         frbr:partOf ex:tiecelijn_vol_29 .
 
-    ex:Comburg_handschrift a crm:E89_Propositional_Object ;
-        crm:P1_is_identified_by ex:Comburg_handschrift_appellation .
+    ex:Comburg a crm:E89_Propositional_Object ;
+        crm:P1_is_identified_by ex:Comburg_appellation .
 
-    ex:Comburg_handschrift_appellation a crm:E41_Appellation ;
-        rdfs:label "Comburg handschrift" .
+    ex:Comburg_appellation a crm:E41_Appellation ;
+        rdfs:label "Comburg" .
 
-    ex:Dyck_handschrift a crm:E89_Propositional_Object ;
-        crm:P1_is_identified_by ex:Dyck_handschrift_appellation .
+    ex:Dyck a crm:E89_Propositional_Object ;
+        crm:P1_is_identified_by ex:Dyck_appellation .
 
-    ex:Dyck_handschrift_appellation a crm:E41_Appellation ;
-        rdfs:label "Dyck handschrift" .
+    ex:Dyck_appellation a crm:E41_Appellation ;
+        rdfs:label "Dyck" .
 
     ex:Van_den_vos_Reynaerde_appellation a crm:E41_Appellation ;
         rdfs:label "Van den vos Reynaerde" .
@@ -38,18 +45,6 @@ ex:facts_wackers_2016 {
 
     ex:Willem_appellation a crm:E41_Appellation ;
         rdfs:label "Willem" .
-
-    ex:biwbdleme a crm:E89_Propositional_Object ;
-        crm:P1_is_identified_by ex:biwbdleme_appellation .
-
-    ex:biwbdleme_appellation a crm:E41_Appellation ;
-        rdfs:label "biwbdleme" .
-
-    ex:biwilleme a crm:E89_Propositional_Object ;
-        crm:P1_is_identified_by ex:biwilleme_appellation .
-
-    ex:biwilleme_appellation a crm:E41_Appellation ;
-        rdfs:label "biwilleme" .
 
     ex:tiecelijn_journal a fabio:Journal ;
         dcterms:title "Tiecelijn" .
@@ -64,21 +59,14 @@ ex:facts_wackers_2016 {
 }
 
 ex:assertion_wackers_2016 {
-    ex:Van_den_vos_Reynaerde_Creation a crm:E65_Creation ;
-        crm:P14_carried_out_by ex:Willem ;
-        crm:P94_has_created ex:Van_den_vos_Reynaerde .
-
-    ex:Van_den_vos_Reynaerde crm:P67_refers_to ex:Comburg_handschrift,
-            ex:Dyck_handschrift,
-            ex:biwbdleme,
-            ex:biwilleme .
+    ex:Van_den_vos_Reynaerde crm:P67_refers_to ex:Comburg,
+            ex:Dyck .
 }
 
 ex:provenance_wackers_2016 {
     ex:assertion_wackers_2016 prov:wasGeneratedBy ex:interpretation_act_wackers_2016_wackers .
 
-    ex:interpretation_act_wackers_2016_wackers hico:hasInterpretationCriterion ex:Comparativeanalysis,
-            ex:HypothesisBased ;
+    ex:interpretation_act_wackers_2016_wackers hico:hasInterpretationCriterion ex:HypothesisBased ;
         hico:hasInterpretationType ex:HistoricalInterpretation ;
         hico:isExtractedFrom ex:wackers_2016 ;
         cwrc:hasCertainty cwrc:medium_certainty ;
@@ -86,7 +74,7 @@ ex:provenance_wackers_2016 {
 }
 
 ex:pubInfo_wackers_2016 {
-    ex:pub_wackers_2016 prov:generatedAtTime "2025-10-26T15:18:37+00:00"^^xsd:dateTime ;
+    ex:pub_wackers_2016 prov:generatedAtTime "2025-10-28T11:43:41+00:00"^^xsd:dateTime ;
         prov:wasAttributedTo ex:Gpt4oMiniAgent ;
         prov:wasDerivedFrom ex:wackers_2016 .
 

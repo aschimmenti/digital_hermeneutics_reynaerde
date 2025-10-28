@@ -276,7 +276,7 @@ Answer:"""
 
     
     
-    def save_qa_results(self, results: List[Dict], filename: str = "rag_qa_results.json", generation_method: str = 'rag_only', document_metadata: Dict = None):
+    def save_qa_results(self, results: List[Dict], filename: str = "rag_document_qa.json", generation_method: str = 'rag_only', document_metadata: Dict = None):
         """Save question-answer results to a file."""
         # Ensure directory exists
         os.makedirs(os.path.dirname(filename), exist_ok=True)
@@ -343,7 +343,7 @@ Answer:"""
         self.chunks = data.get('chunks', [])
         self.document_sections = data.get('sections', [])
         print(f"Metadata loaded from {path}")
-
+    
 
 # Main execution
 if __name__ == "__main__":
@@ -352,7 +352,7 @@ if __name__ == "__main__":
     
     parser = argparse.ArgumentParser(description="Simple RAG Pipeline without Summarization")
     parser.add_argument("--file", type=str, help="Path to document file")
-    parser.add_argument("--questions-file", type=str, help="Path to questions JSON file")
+    parser.add_argument("--questions-file", "--input", dest="questions_file", type=str, help="Path to questions/input JSON file (alias: --input)")
     parser.add_argument("--few-shot", type=str, help="Path to few-shot examples JSON file")
     parser.add_argument("--k", type=int, default=5, help="Number of chunks to retrieve")
     
@@ -365,10 +365,10 @@ if __name__ == "__main__":
     rag = SimpleRAGPipeline(openai_client)
     
     # Determine input configuration
-    if os.path.exists("input.json"):
-        input_file = "input.json"
-    elif args.questions_file:
+    if args.questions_file and os.path.exists(args.questions_file):
         input_file = args.questions_file
+    elif os.path.exists("input.json"):
+        input_file = "input.json"
     else:
         raise ValueError("No input configuration found. Either create 'input.json' or use --questions-file parameter.")
     

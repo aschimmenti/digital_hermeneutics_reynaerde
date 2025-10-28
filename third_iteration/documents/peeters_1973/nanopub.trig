@@ -1,0 +1,149 @@
+@prefix ex: <http://example.org/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hico: <http://purl.org/emmedi/hico/> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:facts_peeters_1973 {
+    ex:1258 a crm:E52_Time-Span ;
+        rdfs:label "1258" .
+
+    ex:Cistercian_order a crm:E74_Group ;
+        crm:P107_has_current_or_former_member ex:William_van_Baudelo ;
+        crm:P1_is_identified_by ex:Cistercian_order_appellation .
+
+    ex:Dutch a crm:E56_Language ;
+        rdfs:label "Dutch" .
+
+    ex:Land_of_Waas a crm:E53_Place ;
+        crm:P1_is_identified_by ex:Land_of_Waas_appellation .
+
+    ex:Latin a crm:E56_Language ;
+        rdfs:label "Latin" .
+
+    ex:Margareta_of_Flanders a crm:E21_Person ;
+        crm:P1_is_identified_by ex:Margareta_of_Flanders_appellation .
+
+    ex:Van_den_vos_Reynaerde a crm:E89_Propositional_Object ;
+        crm:P1_is_identified_by ex:Van_den_vos_Reynaerde_appellation ;
+        crm:P67_refers_to ex:13th_century_Flanders,
+            ex:Reynardus_Vulpes,
+            ex:Roman_de_Renart .
+
+    ex:William_van_Baudelo_Cistercian_monk_Activity a crm:E7_Activity ;
+        crm:P14_carried_out_by ex:William_van_Baudelo ;
+        crm:P1_is_identified_by ex:William_van_Baudelo_Cistercian_monk_Activity_appellation .
+
+    ex:peeters_1973 a fabio:BookChapter ;
+        dcterms:date "1999" ;
+        dcterms:title "Historiciteit en chronologie in 'Van den vos Reynaerde'" ;
+        frbr:partOf ex:pade_crom_ende_menichfoude_het_reynaert_onderzoek_in_de_tweede_helft_van_de_twintigste_eeuw .
+
+    ex:13th_century_Flanders a crm:E4_Period ;
+        rdfs:label "13th-century Flanders" .
+
+    ex:Cistercian_order_appellation a crm:E41_Appellation ;
+        rdfs:label "Cistercian order" .
+
+    ex:Dutch_Speaker a crm:E55_Type ;
+        crm:P1_is_identified_by ex:Dutch_Speaker_appellation .
+
+    ex:Dutch_Speaker_appellation a crm:E41_Appellation ;
+        rdfs:label "Dutch Speaker" .
+
+    ex:Land_of_Waas_appellation a crm:E41_Appellation ;
+        rdfs:label "Land of Waas" .
+
+    ex:Latin_Speaker a crm:E55_Type ;
+        crm:P1_is_identified_by ex:Latin_Speaker_appellation .
+
+    ex:Latin_Speaker_appellation a crm:E41_Appellation ;
+        rdfs:label "Latin Speaker" .
+
+    ex:Margareta_of_Flanders_appellation a crm:E41_Appellation ;
+        rdfs:label "Margareta of Flanders" .
+
+    ex:Reynardus_Vulpes a crm:E89_Propositional_Object ;
+        crm:P1_is_identified_by ex:Reynardus_Vulpes_appellation .
+
+    ex:Reynardus_Vulpes_appellation a crm:E41_Appellation ;
+        rdfs:label "Reynardus Vulpes" .
+
+    ex:Roman_de_Renart a crm:E89_Propositional_Object ;
+        crm:P1_is_identified_by ex:Roman_de_Renart_appellation .
+
+    ex:Roman_de_Renart_appellation a crm:E41_Appellation ;
+        rdfs:label "Roman de Renart" .
+
+    ex:Van_den_vos_Reynaerde_appellation a crm:E41_Appellation ;
+        rdfs:label "Van den vos Reynaerde" .
+
+    ex:William_van_Baudelo_Cistercian_monk_Activity_appellation a crm:E41_Appellation ;
+        rdfs:label "Cistercian monk" .
+
+    ex:William_van_Baudelo_appellation a crm:E41_Appellation ;
+        rdfs:label "William van Baudelo" .
+
+    ex:pade_crom_ende_menichfoude_het_reynaert_onderzoek_in_de_tweede_helft_van_de_twintigste_eeuw a fabio:Book ;
+        dcterms:title "'Pade crom ende menichfoude'. Het Reynaert-onderzoek in de tweede helft van de twintigste eeuw" .
+
+    ex:William_van_Baudelo a crm:E21_Person ;
+        crm:P1_is_identified_by ex:William_van_Baudelo_appellation ;
+        crm:P2_has_type ex:Dutch_Speaker,
+            ex:Latin_Speaker .
+}
+
+ex:assertion_peeters_1973 {
+    ex:Van_den_vos_Reynaerde_Creation a crm:E65_Creation ;
+        crm:P14_carried_out_by ex:William_van_Baudelo ;
+        crm:P4_has_time-span ex:1258 ;
+        crm:P94_has_created ex:Van_den_vos_Reynaerde .
+
+    ex:William_van_Baudelo crm:P4_has_time-span ex:1258 ;
+        crm:P53_has_former_or_current_location ex:Land_of_Waas .
+}
+
+ex:provenance_peeters_1973 {
+    ex:assertion_peeters_1973 prov:wasGeneratedBy ex:interpretation_act_peeters_1973_peeters .
+
+    ex:interpretation_act_peeters_1973_peeters hico:hasInterpretationCriterion ex:Biographicalanalysis,
+            ex:Comparativeanalysis,
+            ex:Criticalanalysis,
+            ex:Historicalcontextualization,
+            ex:HypothesisBased,
+            ex:Thematicanalysis ;
+        hico:hasInterpretationType ex:HistoricalInterpretation ;
+        hico:isExtractedFrom ex:peeters_1973 ;
+        cwrc:hasCertainty cwrc:medium_certainty ;
+        prov:wasAssociatedWith ex:peeters .
+}
+
+ex:pubInfo_peeters_1973 {
+    ex:pub_peeters_1973 prov:generatedAtTime "2025-10-28T11:09:44+00:00"^^xsd:dateTime ;
+        prov:wasAttributedTo ex:Gpt4oMiniAgent ;
+        prov:wasDerivedFrom ex:peeters_1973 .
+
+    ex:Gpt4oMiniAgent a prov:SoftwareAgent ;
+        rdfs:label "gpt-4o-mini" ;
+        prov:actedOnBehalfOf ex:aschimmenti .
+
+    ex:aschimmenti a prov:Person ;
+        rdfs:label "aschimmenti" .
+
+    ex:peeters_1973 a prov:Entity .
+}
+
+ex:head_peeters_1973 {
+    ex:pub_peeters_1973 a np:Nanopublication ;
+        np:hasAssertion ex:assertion_peeters_1973 ;
+        np:hasProvenance ex:provenance_peeters_1973 ;
+        np:hasPublicationInfo ex:pubInfo_peeters_1973 .
+}

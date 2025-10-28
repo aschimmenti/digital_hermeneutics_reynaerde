@@ -10,18 +10,18 @@
       "questions_and_answers": [
         {
           "question_id": 1,
-          "question": "In Of Reynaert the Fox: Text and facing translation of Van den vos Reynaerde, the subject of inquiry is the Van den vos Reynaerde. What is the main point of the authors? What are the entities that take part in the discourse?",
-          "answer": "In \"Of Reynaert the Fox: Text and facing translation of Van den vos Reynaerde,\" the authors, Bouwman and Besamusca, aim to bridge the gap between the thirteenth-century text and non-Dutch readers by providing a facing English translation alongside the original Middle Dutch text, thereby making the work accessible and highlighting its literary qualities, such as composition technique, lively style, and cynical outlook on life [^1]. The discourse involves several entities, including the protagonist Reynaert the Fox, King Nobel, and the vassals Bruun the bear and Ysingrijn the wolf, who embody the feudal dynamics and tensions of the narrative [^2][^3]. The authors also discuss the implied audience, which is suggested to be familiar with animal stories and the socio-political context of the time, potentially reflecting the experiences of the Flemish aristocracy and bourgeoisie [^4][^3]. However, the context does not provide specific details on the authors' conclusions regarding the broader implications of the text's themes or its reception beyond the immediate literary analysis."
+          "question": "What arguments do Bouwman and Besamusca advance regarding Van den vos Reynaerde? Which interpretive framework do they employ? What are the central entities, historical figures, literary works, and textual relationships that structure their analysis?",
+          "answer": "Bouwman and Besamusca argue that \"Van den vos Reynaerde\" was likely composed for a court audience, reflecting the tensions within the Flemish aristocracy of the thirteenth century, particularly the conflict between King Nobel and the vassal Reynaert, which mirrors real historical dynamics of feudal society [^1]. They suggest that the narrative may serve as a form of aristocratic self-mockery or a commentary on the decline of feudalism rather than being rooted in bourgeois resentment [^1]. Their interpretive framework includes a socio-political analysis of the text within the context of contemporary literature, particularly the Old French \"Roman de Renart,\" and the examination of the audience's familiarity with animal stories and chivalric themes [^2][^3]. Central entities in their analysis include King Nobel, Reynaert the Fox, and the aristocratic Dampierre family, while the historical backdrop involves the political landscape of Flanders and the relationships between the nobility and the emerging bourgeoisie [^4]. They also reference the broader literary tradition of beast fables and chivalric epics, noting how these narratives inform the audience's understanding of character motivations and plot developments [^5]. However, the context does not provide specific details on the authors' methodologies or the exact nature of their textual analysis, which would further clarify their arguments."
         },
         {
           "question_id": 2,
-          "question": "What do Bouwman and Besamusca think about the real identity of the author of the Van den vos Reynaerde, sometimes known as 'Reynaertdichter' (nickname for the Reynaert poet in Dutch)? What do they say about their biography, and the context of the creation of the poem?",
-          "answer": "Bouwman and Besamusca discuss the identity of the author of Van den vos Reynaerde, referred to as 'Reynaertdichter,' and suggest that the poet is Willem, who also claimed authorship of an earlier work titled Madocke, though no copies of this work survive [^1]. They note that Willem was likely well-educated, familiar with Old French beast narratives, and possibly a monk with worldly experience, indicating a complex background that informed his writing [^1][^2]. The authors highlight that Willem's language suggests he hailed from East Flanders, and they emphasize the unity of the poem's composition, which has led to a consensus that it is the work of a single author rather than a collaboration with another figure named Arnout, who was initially thought to have contributed to the text [^2]. The context of the poem's creation is situated in the thirteenth century, likely for an audience familiar with the socio-political dynamics of the time, particularly the tensions between the aristocracy and the count of Flanders, as reflected in the narrative's themes [^3][^5]. However, the authors do not provide specific details about the exact historical circumstances surrounding the poem's composition or its reception among contemporary audiences."
+          "question": "What position do Bouwman and Besamusca take concerning the identity of the author of Van den vos Reynaerde, referred to as the 'Reynaertdichter'? What biographical information do they provide or suggest regarding the author's birth date, death location, linguistic competencies, social status, and occupation? When and where do they propose the poem was composed? What historical, political, or cultural context do they identify for the poem's creation? Which literary sources, traditions, or influences do they identify as relevant to the composition?",
+          "answer": "Bouwman and Besamusca identify the author of \"Van den vos Reynaerde,\" referred to as the 'Reynaertdichter,' as Willem, who is suggested to have hailed from East Flanders and likely lived during the thirteenth century, although specific birth and death dates are not provided [^1][^2]. They imply that Willem was well-educated, familiar with Old French beast narratives, and possibly a monk with experience in worldly affairs, indicating a social status that straddles both the aristocracy and the bourgeoisie [^1][^3]. The poem is proposed to have been composed in the third quarter of the thirteenth century, reflecting the political and cultural tensions within the Flemish aristocracy at the time, particularly the conflict between King Nobel and Reynaert, which mirrors the dynamics of feudal society [^2][^4]. Bouwman and Besamusca highlight the poem's connection to the broader literary tradition of beast fables and chivalric epics, particularly the Old French \"Roman de Renart,\" which served as both material and inspiration for Willem's work [^1][^4]. However, the context does not provide specific details about the author's death location or the exact nature of his linguistic competencies beyond his familiarity with Old French."
         },
         {
           "question_id": 3,
-          "question": "How do Bouwman and Besamusca substantiate their claims? What proofs do they provide? Which techniques do they use? What is the degree of certainty?",
-          "answer": "Bouwman and Besamusca substantiate their claims regarding the authorship and context of \"Van den vos Reynaerde\" through a combination of textual analysis, historical contextualization, and linguistic evidence. They argue for the identity of the author, 'Reynaertdichter,' as Willem, based on the poet's familiarity with Old French beast narratives and the linguistic characteristics of the text, which suggest an East Flemish origin [^2][^3]. They support their claims by referencing the geographical specificity of place-names within the poem that indicate familiarity with the East Flanders region, thereby reinforcing the argument for a local audience [^3]. Furthermore, they discuss the poem's popularity, evidenced by its survival in five manuscripts from different regions, which indicates its significance in medieval literature [^1][^4]. The authors also highlight the narrative's engagement with socio-political themes relevant to the Flemish aristocracy, suggesting a well-informed audience [^4][^5]. However, while they provide a strong basis for their assertions, the context does not specify the exact historical circumstances of the poem's composition or its reception, leaving some gaps in the overall narrative of its significance and impact."
+          "question": "What methodological approaches do Bouwman and Besamusca employ to substantiate their arguments? What types of evidence (textual, linguistic, historical, codicological, or other) do they present? Which analytical techniques or scholarly practices do they utilize? What degree of certainty or epistemic qualification do they express regarding their claims?",
+          "answer": "Bouwman and Besamusca employ a multifaceted methodological approach that combines textual, historical, and linguistic evidence to substantiate their arguments regarding \"Van den vos Reynaerde.\" They analyze the text's socio-political context, particularly the tensions within the Flemish aristocracy during the thirteenth century, and utilize references to specific place-names to confirm the Flemish origin of the work, suggesting that the primary audience was familiar with the geography of East Flanders [^3][^4]. Their analysis also incorporates codicological evidence, noting the existence of multiple manuscripts from different regions, which indicates the text's popularity and its transmission history [^2]. They reference the Old French \"Roman de Renart\" as a significant literary source that influenced Willem's composition, highlighting the bilingual nature of the audience that would have engaged with the text [^5]. Bouwman and Besamusca express a degree of certainty regarding their claims, particularly in establishing the socio-political backdrop and the linguistic competencies of the audience, although they do not provide specific birth and death dates for the author or detailed methodologies for their textual analysis [^1][^3]. Overall, while their arguments are well-supported by various types of evidence, some details regarding the author's biography and specific analytical techniques remain unspecified."
         }
       ]
     }
@@ -51,175 +51,171 @@
       2,
       3
     ],
-    "total_entities": 25,
+    "total_entities": 24,
     "entity_types": [
-      "language",
-      "work",
-      "group",
       "historical_context",
-      "theme",
-      "date",
-      "methodology",
+      "concept",
+      "characteristic",
+      "language",
       "place",
-      "person",
-      "concept"
+      "genre",
+      "methodology",
+      "date",
+      "group",
+      "work",
+      "reference",
+      "person"
     ],
     "entities": [
       {
-        "name": "Reynaert the Fox",
-        "type": "person",
-        "context": "The discourse involves several entities, including the protagonist Reynaert the Fox, King Nobel, and the vassals Bruun the bear and Ysingrijn the wolf, who embody the feudal dynamics and tensions of the narrative",
+        "name": "Flemish aristocracy",
+        "type": "group",
+        "context": "reflecting the tensions within the Flemish aristocracy of the thirteenth century",
+        "confidence": 0.9
+      },
+      {
+        "name": "thirteenth century",
+        "type": "date",
+        "context": "reflecting the tensions within the Flemish aristocracy of the thirteenth century",
         "confidence": 0.9
       },
       {
         "name": "King Nobel",
         "type": "person",
-        "context": "The discourse involves several entities, including the protagonist Reynaert the Fox, King Nobel, and the vassals Bruun the bear and Ysingrijn the wolf, who embody the feudal dynamics and tensions of the narrative",
-        "confidence": 0.9
+        "context": "particularly the conflict between King Nobel and the vassal Reynaert",
+        "confidence": 0.95
       },
       {
-        "name": "Bruun the bear",
+        "name": "Reynaert the Fox",
         "type": "person",
-        "context": "The discourse involves several entities, including the protagonist Reynaert the Fox, King Nobel, and the vassals Bruun the bear and Ysingrijn the wolf, who embody the feudal dynamics and tensions of the narrative",
-        "confidence": 0.9
+        "context": "the conflict between King Nobel and the vassal Reynaert",
+        "confidence": 0.95
       },
       {
-        "name": "Ysingrijn the wolf",
-        "type": "person",
-        "context": "The discourse involves several entities, including the protagonist Reynaert the Fox, King Nobel, and the vassals Bruun the bear and Ysingrijn the wolf, who embody the feudal dynamics and tensions of the narrative",
-        "confidence": 0.9
+        "name": "Dampierre family",
+        "type": "reference",
+        "context": "Central entities in their analysis include King Nobel, Reynaert the Fox, and the aristocratic Dampierre family",
+        "confidence": 0.85
       },
       {
-        "name": "Flemish aristocracy",
-        "type": "group",
-        "context": "the experiences of the Flemish aristocracy and bourgeoisie",
-        "confidence": 0.8
+        "name": "Flanders",
+        "type": "place",
+        "context": "the historical backdrop involves the political landscape of Flanders",
+        "confidence": 0.9
       },
       {
         "name": "bourgeoisie",
         "type": "group",
-        "context": "the experiences of the Flemish aristocracy and bourgeoisie",
-        "confidence": 0.8
+        "context": "the relationships between the nobility and the emerging bourgeoisie",
+        "confidence": 0.85
       },
       {
-        "name": "thirteenth century",
-        "type": "date",
-        "context": "the authors, Bouwman and Besamusca, aim to bridge the gap between the thirteenth-century text and non-Dutch readers",
+        "name": "Roman de Renart",
+        "type": "work",
+        "context": "particularly the Old French 'Roman de Renart,' and the examination of the audience's familiarity with animal stories and chivalric themes",
         "confidence": 0.9
       },
       {
-        "name": "Middle Dutch",
-        "type": "language",
-        "context": "by providing a facing English translation alongside the original Middle Dutch text",
+        "name": "beast fables",
+        "type": "genre",
+        "context": "Bouwman and Besamusca highlight the poem's connection to the broader literary tradition of beast fables and chivalric epics, particularly the Old French \"Roman de Renart,\" which served as both material and inspiration for Willem's work.",
+        "confidence": 0.9
+      },
+      {
+        "name": "chivalric epics",
+        "type": "genre",
+        "context": "Bouwman and Besamusca highlight the poem's connection to the broader literary tradition of beast fables and chivalric epics, particularly the Old French \"Roman de Renart,\" which served as both material and inspiration for Willem's work.",
+        "confidence": 0.9
+      },
+      {
+        "name": "feudalism",
+        "type": "concept",
+        "context": "a commentary on the decline of feudalism rather than being rooted in bourgeois resentment",
         "confidence": 0.9
       },
       {
         "name": "animal stories",
         "type": "concept",
-        "context": "the implied audience, which is suggested to be familiar with animal stories and the socio-political context of the time",
+        "context": "the examination of the audience's familiarity with animal stories and chivalric themes",
+        "confidence": 0.85
+      },
+      {
+        "name": "socio-political analysis",
+        "type": "methodology",
+        "context": "Their interpretive framework includes a socio-political analysis of the text within the context of contemporary literature",
         "confidence": 0.8
       },
       {
-        "name": "socio-political context",
+        "name": "aristocratic self-mockery",
         "type": "concept",
-        "context": "the implied audience, which is suggested to be familiar with animal stories and the socio-political context of the time",
-        "confidence": 0.8
+        "context": "may serve as a form of aristocratic self-mockery or a commentary on the decline of feudalism",
+        "confidence": 0.85
+      },
+      {
+        "name": "character motivations",
+        "type": "concept",
+        "context": "how these narratives inform the audience's understanding of character motivations and plot developments",
+        "confidence": 0.85
+      },
+      {
+        "name": "plot developments",
+        "type": "concept",
+        "context": "how these narratives inform the audience's understanding of character motivations and plot developments",
+        "confidence": 0.85
       },
       {
         "name": "Willem",
         "type": "person",
-        "context": "Bouwman and Besamusca discuss the identity of the author of Van den vos Reynaerde, referred to as 'Reynaertdichter,' and suggest that the poet is Willem, who also claimed authorship of an earlier work titled Madocke, though no copies of this work survive.",
+        "context": "Bouwman and Besamusca identify the author of \"Van den vos Reynaerde,\" referred to as the 'Reynaertdichter,' as Willem, who is suggested to have hailed from East Flanders and likely lived during the thirteenth century, although specific birth and death dates are not provided.",
         "confidence": 0.9
-      },
-      {
-        "name": "Van den vos Reynaerde",
-        "type": "work",
-        "context": "Bouwman and Besamusca discuss the identity of the author of Van den vos Reynaerde, referred to as 'Reynaertdichter,' and suggest that the poet is Willem, who also claimed authorship of an earlier work titled Madocke, though no copies of this work survive.",
-        "confidence": 0.9
-      },
-      {
-        "name": "Madocke",
-        "type": "work",
-        "context": "Willem, who also claimed authorship of an earlier work titled Madocke, though no copies of this work survive.",
-        "confidence": 0.8
       },
       {
         "name": "East Flanders",
         "type": "place",
-        "context": "They support their claims by referencing the geographical specificity of place-names within the poem that indicate familiarity with the East Flanders region, thereby reinforcing the argument for a local audience",
+        "context": "Willem, who is suggested to have hailed from East Flanders and likely lived during the thirteenth century, although specific birth and death dates are not provided.",
         "confidence": 0.9
       },
       {
-        "name": "socio-political dynamics",
-        "type": "concept",
-        "context": "...likely for an audience familiar with the socio-political dynamics of the time, particularly the tensions between the aristocracy and the count of Flanders, as reflected in the narrative's themes.",
+        "name": "Flemish aristocracy",
+        "type": "historical_context",
+        "context": "the political and cultural tensions within the Flemish aristocracy at the time, particularly the conflict between King Nobel and Reynaert, which mirrors the dynamics of feudal society",
+        "confidence": 0.8
+      },
+      {
+        "name": "Reynaert",
+        "type": "person",
+        "context": "the conflict between King Nobel and Reynaert, which mirrors the dynamics of feudal society",
         "confidence": 0.8
       },
       {
         "name": "aristocracy",
         "type": "group",
-        "context": "...particularly the tensions between the aristocracy and the count of Flanders, as reflected in the narrative's themes.",
-        "confidence": 0.85
-      },
-      {
-        "name": "count of Flanders",
-        "type": "person",
-        "context": "...particularly the tensions between the aristocracy and the count of Flanders, as reflected in the narrative's themes.",
+        "context": "indicating a social status that straddles both the aristocracy and the bourgeoisie",
         "confidence": 0.8
       },
       {
-        "name": "Arnout",
-        "type": "person",
-        "context": "...rather than a collaboration with another figure named Arnout, who was initially thought to have contributed to the text.",
-        "confidence": 0.75
+        "name": "Old French",
+        "type": "language",
+        "context": "...they reference the Old French 'Roman de Renart' as a significant literary source that influenced Willem's composition",
+        "confidence": 0.9
       },
       {
-        "name": "medieval literature",
-        "type": "historical_context",
-        "context": "which indicates its significance in medieval literature",
+        "name": "codicological evidence",
+        "type": "concept",
+        "context": "Their analysis also incorporates codicological evidence, noting the existence of multiple manuscripts from different regions",
         "confidence": 0.8
       },
       {
-        "name": "Old French beast narratives",
-        "type": "work",
-        "context": "based on the poet's familiarity with Old French beast narratives and the linguistic characteristics of the text",
-        "confidence": 0.7
-      },
-      {
-        "name": "five manuscripts",
-        "type": "work",
-        "context": "the poem's popularity, evidenced by its survival in five manuscripts from different regions",
-        "confidence": 0.7
-      },
-      {
-        "name": "textual analysis",
-        "type": "methodology",
-        "context": "Bouwman and Besamusca substantiate their claims regarding the authorship and context of 'Van den vos Reynaerde' through a combination of textual analysis, historical contextualization, and linguistic evidence",
-        "confidence": 0.8
-      },
-      {
-        "name": "historical contextualization",
-        "type": "methodology",
-        "context": "Bouwman and Besamusca substantiate their claims regarding the authorship and context of 'Van den vos Reynaerde' through a combination of textual analysis, historical contextualization, and linguistic evidence",
-        "confidence": 0.8
-      },
-      {
-        "name": "linguistic evidence",
-        "type": "methodology",
-        "context": "Bouwman and Besamusca substantiate their claims regarding the authorship and context of 'Van den vos Reynaerde' through a combination of textual analysis, historical contextualization, and linguistic evidence",
-        "confidence": 0.8
-      },
-      {
-        "name": "socio-political themes",
-        "type": "theme",
-        "context": "the narrative's engagement with socio-political themes relevant to the Flemish aristocracy, suggesting a well-informed audience",
+        "name": "bilingual nature",
+        "type": "characteristic",
+        "context": "...highlighting the bilingual nature of the audience that would have engaged with the text",
         "confidence": 0.8
       }
     ],
     "source_answers": {
-      "1": "In \"Of Reynaert the Fox: Text and facing translation of Van den vos Reynaerde,\" the authors, Bouwman and Besamusca, aim to bridge the gap between the thirteenth-century text and non-Dutch readers by providing a facing English translation alongside the original Middle Dutch text, thereby making the work accessible and highlighting its literary qualities, such as composition technique, lively style, and cynical outlook on life [^1]. The discourse involves several entities, including the protagonist Reynaert the Fox, King Nobel, and the vassals Bruun the bear and Ysingrijn the wolf, who embody the feudal dynamics and tensions of the narrative [^2][^3]. The authors also discuss the implied audience, which is suggested to be familiar with animal stories and the socio-political context of the time, potentially reflecting the experiences of the Flemish aristocracy and bourgeoisie [^4][^3]. However, the context does not provide specific details on the authors' conclusions regarding the broader implications of the text's themes or its reception beyond the immediate literary analysis.",
-      "2": "Bouwman and Besamusca discuss the identity of the author of Van den vos Reynaerde, referred to as 'Reynaertdichter,' and suggest that the poet is Willem, who also claimed authorship of an earlier work titled Madocke, though no copies of this work survive [^1]. They note that Willem was likely well-educated, familiar with Old French beast narratives, and possibly a monk with worldly experience, indicating a complex background that informed his writing [^1][^2]. The authors highlight that Willem's language suggests he hailed from East Flanders, and they emphasize the unity of the poem's composition, which has led to a consensus that it is the work of a single author rather than a collaboration with another figure named Arnout, who was initially thought to have contributed to the text [^2]. The context of the poem's creation is situated in the thirteenth century, likely for an audience familiar with the socio-political dynamics of the time, particularly the tensions between the aristocracy and the count of Flanders, as reflected in the narrative's themes [^3][^5]. However, the authors do not provide specific details about the exact historical circumstances surrounding the poem's composition or its reception among contemporary audiences.",
-      "3": "Bouwman and Besamusca substantiate their claims regarding the authorship and context of \"Van den vos Reynaerde\" through a combination of textual analysis, historical contextualization, and linguistic evidence. They argue for the identity of the author, 'Reynaertdichter,' as Willem, based on the poet's familiarity with Old French beast narratives and the linguistic characteristics of the text, which suggest an East Flemish origin [^2][^3]. They support their claims by referencing the geographical specificity of place-names within the poem that indicate familiarity with the East Flanders region, thereby reinforcing the argument for a local audience [^3]. Furthermore, they discuss the poem's popularity, evidenced by its survival in five manuscripts from different regions, which indicates its significance in medieval literature [^1][^4]. The authors also highlight the narrative's engagement with socio-political themes relevant to the Flemish aristocracy, suggesting a well-informed audience [^4][^5]. However, while they provide a strong basis for their assertions, the context does not specify the exact historical circumstances of the poem's composition or its reception, leaving some gaps in the overall narrative of its significance and impact."
+      "1": "Bouwman and Besamusca argue that \"Van den vos Reynaerde\" was likely composed for a court audience, reflecting the tensions within the Flemish aristocracy of the thirteenth century, particularly the conflict between King Nobel and the vassal Reynaert, which mirrors real historical dynamics of feudal society [^1]. They suggest that the narrative may serve as a form of aristocratic self-mockery or a commentary on the decline of feudalism rather than being rooted in bourgeois resentment [^1]. Their interpretive framework includes a socio-political analysis of the text within the context of contemporary literature, particularly the Old French \"Roman de Renart,\" and the examination of the audience's familiarity with animal stories and chivalric themes [^2][^3]. Central entities in their analysis include King Nobel, Reynaert the Fox, and the aristocratic Dampierre family, while the historical backdrop involves the political landscape of Flanders and the relationships between the nobility and the emerging bourgeoisie [^4]. They also reference the broader literary tradition of beast fables and chivalric epics, noting how these narratives inform the audience's understanding of character motivations and plot developments [^5]. However, the context does not provide specific details on the authors' methodologies or the exact nature of their textual analysis, which would further clarify their arguments.",
+      "2": "Bouwman and Besamusca identify the author of \"Van den vos Reynaerde,\" referred to as the 'Reynaertdichter,' as Willem, who is suggested to have hailed from East Flanders and likely lived during the thirteenth century, although specific birth and death dates are not provided [^1][^2]. They imply that Willem was well-educated, familiar with Old French beast narratives, and possibly a monk with experience in worldly affairs, indicating a social status that straddles both the aristocracy and the bourgeoisie [^1][^3]. The poem is proposed to have been composed in the third quarter of the thirteenth century, reflecting the political and cultural tensions within the Flemish aristocracy at the time, particularly the conflict between King Nobel and Reynaert, which mirrors the dynamics of feudal society [^2][^4]. Bouwman and Besamusca highlight the poem's connection to the broader literary tradition of beast fables and chivalric epics, particularly the Old French \"Roman de Renart,\" which served as both material and inspiration for Willem's work [^1][^4]. However, the context does not provide specific details about the author's death location or the exact nature of his linguistic competencies beyond his familiarity with Old French.",
+      "3": "Bouwman and Besamusca employ a multifaceted methodological approach that combines textual, historical, and linguistic evidence to substantiate their arguments regarding \"Van den vos Reynaerde.\" They analyze the text's socio-political context, particularly the tensions within the Flemish aristocracy during the thirteenth century, and utilize references to specific place-names to confirm the Flemish origin of the work, suggesting that the primary audience was familiar with the geography of East Flanders [^3][^4]. Their analysis also incorporates codicological evidence, noting the existence of multiple manuscripts from different regions, which indicates the text's popularity and its transmission history [^2]. They reference the Old French \"Roman de Renart\" as a significant literary source that influenced Willem's composition, highlighting the bilingual nature of the audience that would have engaged with the text [^5]. Bouwman and Besamusca express a degree of certainty regarding their claims, particularly in establishing the socio-political backdrop and the linguistic competencies of the audience, although they do not provide specific birth and death dates for the author or detailed methodologies for their textual analysis [^1][^3]. Overall, while their arguments are well-supported by various types of evidence, some details regarding the author's biography and specific analytical techniques remain unspecified."
     },
     "extraction_method": "llm_structured_extraction",
     "extractor_version": "1.0"
@@ -230,10 +226,16 @@
       "description": "What the authors assert/claim about the entities",
       "nodes": [
         {
-          "id": "reynaert_the_fox",
-          "type": "person",
-          "name": "Reynaert the Fox",
+          "id": "van_den_vos_reynaerde",
+          "type": "work",
+          "name": "Van den vos Reynaerde",
           "confidence": 0.9
+        },
+        {
+          "id": "willem",
+          "type": "person",
+          "name": "Willem",
+          "confidence": 0.8
         },
         {
           "id": "king_nobel",
@@ -242,22 +244,22 @@
           "confidence": 0.9
         },
         {
-          "id": "bruun_the_bear",
+          "id": "reynaert_the_fox",
           "type": "person",
-          "name": "Bruun the bear",
+          "name": "Reynaert the Fox",
           "confidence": 0.9
         },
         {
-          "id": "ysingrijn_the_wolf",
-          "type": "person",
-          "name": "Ysingrijn the wolf",
-          "confidence": 0.9
+          "id": "dampierre_family",
+          "type": "historical_context",
+          "name": "Dampierre family",
+          "confidence": 0.7
         },
         {
           "id": "flemish_aristocracy",
-          "type": "group",
+          "type": "historical_context",
           "name": "Flemish aristocracy",
-          "confidence": 0.8
+          "confidence": 0.9
         },
         {
           "id": "bourgeoisie",
@@ -266,118 +268,76 @@
           "confidence": 0.8
         },
         {
+          "id": "flanders",
+          "type": "place",
+          "name": "Flanders",
+          "confidence": 0.9
+        },
+        {
           "id": "thirteenth_century",
           "type": "date",
           "name": "thirteenth century",
           "confidence": 0.9
         },
         {
-          "id": "middle_dutch",
+          "id": "roman_de_renart",
+          "type": "work",
+          "name": "Roman de Renart",
+          "confidence": 0.9
+        },
+        {
+          "id": "beast_fables",
+          "type": "genre",
+          "name": "beast fables",
+          "confidence": 0.8
+        },
+        {
+          "id": "chivalric_epics",
+          "type": "genre",
+          "name": "chivalric epics",
+          "confidence": 0.8
+        },
+        {
+          "id": "feudalism",
+          "type": "concept",
+          "name": "feudalism",
+          "confidence": 0.9
+        },
+        {
+          "id": "aristocratic_self_mockery",
+          "type": "concept",
+          "name": "aristocratic self-mockery",
+          "confidence": 0.7
+        },
+        {
+          "id": "character_motivations",
+          "type": "concept",
+          "name": "character motivations",
+          "confidence": 0.7
+        },
+        {
+          "id": "plot_developments",
+          "type": "concept",
+          "name": "plot developments",
+          "confidence": 0.7
+        },
+        {
+          "id": "old_french",
           "type": "language",
-          "name": "Middle Dutch",
+          "name": "Old French",
           "confidence": 0.9
         },
         {
-          "id": "animal_stories",
+          "id": "codicological_evidence",
           "type": "concept",
-          "name": "animal stories",
-          "confidence": 0.8
-        },
-        {
-          "id": "socio_political_context",
-          "type": "concept",
-          "name": "socio-political context",
-          "confidence": 0.8
-        },
-        {
-          "id": "willem",
-          "type": "person",
-          "name": "Willem",
-          "confidence": 0.9
-        },
-        {
-          "id": "van_den_vos_reynaerde",
-          "type": "work",
-          "name": "Van den vos Reynaerde",
-          "confidence": 0.9
-        },
-        {
-          "id": "madocke",
-          "type": "work",
-          "name": "Madocke",
+          "name": "codicological evidence",
           "confidence": 0.7
         },
         {
-          "id": "east_flanders",
-          "type": "place",
-          "name": "East Flanders",
-          "confidence": 0.8
-        },
-        {
-          "id": "socio_political_dynamics",
+          "id": "bilingual_nature",
           "type": "concept",
-          "name": "socio-political dynamics",
-          "confidence": 0.8
-        },
-        {
-          "id": "aristocracy",
-          "type": "group",
-          "name": "aristocracy",
-          "confidence": 0.8
-        },
-        {
-          "id": "count_of_flanders",
-          "type": "person",
-          "name": "count of Flanders",
-          "confidence": 0.8
-        },
-        {
-          "id": "arnout",
-          "type": "person",
-          "name": "Arnout",
+          "name": "bilingual nature",
           "confidence": 0.7
-        },
-        {
-          "id": "medieval_literature",
-          "type": "historical_context",
-          "name": "medieval literature",
-          "confidence": 0.9
-        },
-        {
-          "id": "old_french_beast_narratives",
-          "type": "work",
-          "name": "Old French beast narratives",
-          "confidence": 0.8
-        },
-        {
-          "id": "five_manuscripts",
-          "type": "work",
-          "name": "five manuscripts",
-          "confidence": 0.7
-        },
-        {
-          "id": "textual_analysis",
-          "type": "methodology",
-          "name": "textual analysis",
-          "confidence": 0.8
-        },
-        {
-          "id": "historical_contextualization",
-          "type": "methodology",
-          "name": "historical contextualization",
-          "confidence": 0.8
-        },
-        {
-          "id": "linguistic_evidence",
-          "type": "methodology",
-          "name": "linguistic evidence",
-          "confidence": 0.8
-        },
-        {
-          "id": "socio_political_themes",
-          "type": "concept",
-          "name": "socio-political themes",
-          "confidence": 0.8
         }
       ],
       "relations": [
@@ -387,9 +347,9 @@
           "relation_type": "created_by",
           "properties": {
             "asserted_by": "Bouwman, A.; Besamusca, B.",
-            "certainty": "high",
-            "evidence_type": "TextualAnalysis",
-            "method": "HistoricalContextualization"
+            "certainty": "medium",
+            "evidence_type": "HistoricalAnalysis",
+            "method": "Socio-political analysis"
           },
           "confidence": 0.5,
           "claim_type": "authorial_argument"
@@ -400,56 +360,12 @@
           "relation_type": "created_during",
           "properties": {
             "asserted_by": "Bouwman, A.; Besamusca, B.",
-            "certainty": "high"
-          },
-          "confidence": 0.5,
-          "claim_type": "established_fact"
-        },
-        {
-          "source_id": "van_den_vos_reynaerde",
-          "target_id": "east_flanders",
-          "relation_type": "created_at",
-          "properties": {
-            "asserted_by": "Bouwman, A.; Besamusca, B.",
-            "certainty": "likely",
-            "evidence_type": "LinguisticEvidence",
-            "method": "TextualAnalysis"
+            "certainty": "high",
+            "evidence_type": "HistoricalAnalysis",
+            "method": "Contextualization of socio-political tensions"
           },
           "confidence": 0.5,
           "claim_type": "authorial_argument"
-        },
-        {
-          "source_id": "van_den_vos_reynaerde",
-          "target_id": "middle_dutch",
-          "relation_type": "written_in_language",
-          "properties": {
-            "asserted_by": "Bouwman, A.; Besamusca, B.",
-            "certainty": "high"
-          },
-          "confidence": 0.5,
-          "claim_type": "established_fact"
-        },
-        {
-          "source_id": "van_den_vos_reynaerde",
-          "target_id": "animal_stories",
-          "relation_type": "has_theme",
-          "properties": {
-            "asserted_by": "Bouwman, A.; Besamusca, B.",
-            "certainty": "high"
-          },
-          "confidence": 0.5,
-          "claim_type": "established_fact"
-        },
-        {
-          "source_id": "van_den_vos_reynaerde",
-          "target_id": "socio_political_context",
-          "relation_type": "has_theme",
-          "properties": {
-            "asserted_by": "Bouwman, A.; Besamusca, B.",
-            "certainty": "high"
-          },
-          "confidence": 0.5,
-          "claim_type": "established_fact"
         },
         {
           "source_id": "van_den_vos_reynaerde",
@@ -457,20 +373,22 @@
           "relation_type": "influenced_by",
           "properties": {
             "asserted_by": "Bouwman, A.; Besamusca, B.",
-            "certainty": "medium",
-            "note": "reflects experiences of the Flemish aristocracy"
+            "certainty": "high",
+            "evidence_type": "HistoricalAnalysis",
+            "method": "Contextualization of feudal society"
           },
           "confidence": 0.5,
           "claim_type": "authorial_argument"
         },
         {
           "source_id": "van_den_vos_reynaerde",
-          "target_id": "bourgeoisie",
-          "relation_type": "influenced_by",
+          "target_id": "king_nobel",
+          "relation_type": "refers_to",
           "properties": {
             "asserted_by": "Bouwman, A.; Besamusca, B.",
-            "certainty": "medium",
-            "note": "reflects experiences of the bourgeoisie"
+            "certainty": "high",
+            "evidence_type": "TextualAnalysis",
+            "method": "Character analysis"
           },
           "confidence": 0.5,
           "claim_type": "authorial_argument"
@@ -481,111 +399,192 @@
           "relation_type": "refers_to",
           "properties": {
             "asserted_by": "Bouwman, A.; Besamusca, B.",
-            "certainty": "high"
+            "certainty": "high",
+            "evidence_type": "TextualAnalysis",
+            "method": "Character analysis"
           },
           "confidence": 0.5,
-          "claim_type": "established_fact"
+          "claim_type": "authorial_argument"
         },
         {
           "source_id": "van_den_vos_reynaerde",
-          "target_id": "king_nobel",
+          "target_id": "dampierre_family",
           "relation_type": "refers_to",
           "properties": {
             "asserted_by": "Bouwman, A.; Besamusca, B.",
-            "certainty": "high"
+            "certainty": "medium",
+            "evidence_type": "TextualAnalysis",
+            "method": "Character analysis"
           },
           "confidence": 0.5,
-          "claim_type": "established_fact"
+          "claim_type": "authorial_argument"
         },
         {
           "source_id": "van_den_vos_reynaerde",
-          "target_id": "bruun_the_bear",
-          "relation_type": "refers_to",
-          "properties": {
-            "asserted_by": "Bouwman, A.; Besamusca, B.",
-            "certainty": "high"
-          },
-          "confidence": 0.5,
-          "claim_type": "established_fact"
-        },
-        {
-          "source_id": "van_den_vos_reynaerde",
-          "target_id": "ysingrijn_the_wolf",
-          "relation_type": "refers_to",
-          "properties": {
-            "asserted_by": "Bouwman, A.; Besamusca, B.",
-            "certainty": "high"
-          },
-          "confidence": 0.5,
-          "claim_type": "established_fact"
-        },
-        {
-          "source_id": "willem",
-          "target_id": "old_french_beast_narratives",
+          "target_id": "roman_de_renart",
           "relation_type": "influenced_by",
           "properties": {
             "asserted_by": "Bouwman, A.; Besamusca, B.",
             "certainty": "high",
-            "note": "familiarity with Old French narratives"
+            "evidence_type": "LiteraryAnalysis",
+            "method": "Comparative literature"
           },
           "confidence": 0.5,
           "claim_type": "authorial_argument"
         },
         {
           "source_id": "willem",
-          "target_id": "count_of_flanders",
-          "relation_type": "associated_with",
-          "properties": {
-            "asserted_by": "Bouwman, A.; Besamusca, B.",
-            "certainty": "medium"
-          },
-          "confidence": 0.5,
-          "claim_type": "authorial_argument"
-        },
-        {
-          "source_id": "willem",
-          "target_id": "five_manuscripts",
-          "relation_type": "influenced_by",
+          "target_id": "old_french",
+          "relation_type": "speaks_language",
           "properties": {
             "asserted_by": "Bouwman, A.; Besamusca, B.",
             "certainty": "medium",
-            "note": "evidence of popularity and significance"
+            "evidence_type": "BiographicalAnalysis",
+            "method": "Linguistic competence assessment"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "willem",
+          "target_id": "flemish_aristocracy",
+          "relation_type": "has_occupation",
+          "properties": {
+            "asserted_by": "Bouwman, A.; Besamusca, B.",
+            "certainty": "medium",
+            "evidence_type": "BiographicalAnalysis",
+            "method": "Social status assessment"
           },
           "confidence": 0.5,
           "claim_type": "authorial_argument"
         },
         {
           "source_id": "van_den_vos_reynaerde",
-          "target_id": "socio_political_dynamics",
-          "relation_type": "has_theme",
+          "target_id": "beast_fables",
+          "relation_type": "has_genre",
           "properties": {
             "asserted_by": "Bouwman, A.; Besamusca, B.",
-            "certainty": "high"
+            "certainty": "high",
+            "evidence_type": "LiteraryAnalysis",
+            "method": "Genre classification"
           },
           "confidence": 0.5,
           "claim_type": "established_fact"
         },
         {
           "source_id": "van_den_vos_reynaerde",
-          "target_id": "medieval_literature",
-          "relation_type": "has_theme",
+          "target_id": "chivalric_epics",
+          "relation_type": "has_genre",
           "properties": {
             "asserted_by": "Bouwman, A.; Besamusca, B.",
-            "certainty": "high"
+            "certainty": "high",
+            "evidence_type": "LiteraryAnalysis",
+            "method": "Genre classification"
           },
           "confidence": 0.5,
           "claim_type": "established_fact"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "feudalism",
+          "relation_type": "has_theme",
+          "properties": {
+            "asserted_by": "Bouwman, A.; Besamusca, B.",
+            "certainty": "high",
+            "evidence_type": "ThematicAnalysis",
+            "method": "Thematic exploration"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "aristocratic_self_mockery",
+          "relation_type": "has_theme",
+          "properties": {
+            "asserted_by": "Bouwman, A.; Besamusca, B.",
+            "certainty": "medium",
+            "evidence_type": "ThematicAnalysis",
+            "method": "Thematic exploration"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "character_motivations",
+          "relation_type": "has_theme",
+          "properties": {
+            "asserted_by": "Bouwman, A.; Besamusca, B.",
+            "certainty": "medium",
+            "evidence_type": "ThematicAnalysis",
+            "method": "Thematic exploration"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "plot_developments",
+          "relation_type": "has_theme",
+          "properties": {
+            "asserted_by": "Bouwman, A.; Besamusca, B.",
+            "certainty": "medium",
+            "evidence_type": "ThematicAnalysis",
+            "method": "Thematic exploration"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "willem",
+          "target_id": "east_flanders",
+          "relation_type": "lived_in",
+          "properties": {
+            "asserted_by": "Bouwman, A.; Besamusca, B.",
+            "certainty": "medium",
+            "evidence_type": "BiographicalAnalysis",
+            "method": "Geographical assessment"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "codicological_evidence",
+          "relation_type": "has_characteristic",
+          "properties": {
+            "asserted_by": "Bouwman, A.; Besamusca, B.",
+            "certainty": "medium",
+            "evidence_type": "CodicologicalAnalysis",
+            "method": "Manuscript evidence"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "bilingual_nature",
+          "relation_type": "has_characteristic",
+          "properties": {
+            "asserted_by": "Bouwman, A.; Besamusca, B.",
+            "certainty": "medium",
+            "evidence_type": "LinguisticAnalysis",
+            "method": "Audience analysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
         }
       ],
       "metadata": {
         "generation_method": "entity_based_interpretation",
-        "source_entities_count": 25
+        "source_entities_count": 24
       }
     },
     "generation_summary": {
-      "total_source_entities": 25,
-      "interpretation_layer_nodes": 25,
-      "interpretation_layer_relations": 17
+      "total_source_entities": 24,
+      "interpretation_layer_nodes": 19,
+      "interpretation_layer_relations": 18
     }
   }
 }

@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "total_sections": 1,
+    "total_questions": 3,
+    "generation_method": "rag_only"
+  },
+  "sections": {
+    "Document-wide": {
+      "section_number": null,
+      "questions_and_answers": [
+        {
+          "question_id": 1,
+          "question": "In Medieval French and Dutch Renardian Epics: Between Literature and Society, the subject of inquiry is the Van den vos Reynaerde. What is the main point of the authors about the creation of the Van den Vos Reynaerde? What are the entities that take part in the discourse?",
+          "answer": "In \"Medieval French and Dutch Renardian Epics: Between Literature and Society,\" Wackers discusses the creation of the Van den Vos Reynaerde, emphasizing that while the text is agreed to have been composed in Flanders during the mid-thirteenth century, there is little certainty regarding its social context and origins [^1]. He notes that the work reflects the complexities of feudal relationships, particularly in its ambiguous portrayal of the reconciliation between the noble character Nobel and his vassals, which may mirror the deteriorating relations between the French king and his vassals during that period [^3]. The discourse involves various entities, including the Counts of Flanders, the nobility, and the broader societal structures of the time, as Wackers attempts to reconstruct the social context through literary analysis, comparing Van den Vos Reynaerde with its source, the Roman de Renart [^2]. However, the text lacks definitive evidence and relies on hypotheses, indicating that further research is needed to fully understand the relationship between French and Dutch literature in the thirteenth century [^3]."
+        },
+        {
+          "question_id": 2,
+          "question": "What does Paul Wackers say about the audience, production, influences and reception of the Van den vos Reynaerde, and how does he justify his claims about it? What do they say about the context of the creation of the poem?",
+          "answer": "According to Paul Wackers in \"Medieval French and Dutch Renardian Epics: Between Literature and Society,\" the audience for the Van den Vos Reynaerde is presumed to be composed of cultured patricians in Flemish towns, who, while politically powerful during the thirteenth century, engaged less with court life than the audience of the Roman de Renart [^1]. Wackers justifies this claim by noting that the text presupposes less literary knowledge than its French counterpart and exhibits more educational and moralizing tendencies, indicating a need for clearer explanations of courtly behavior [^1]. He highlights that the work reflects the complexities of feudal relationships, particularly in its portrayal of noble and vassal dynamics, which may parallel the socio-political tensions of the time [^2]. Furthermore, Wackers points out that while the exact social context of the Van den Vos Reynaerde remains uncertain, it was composed in Flanders during the mid-thirteenth century, a period marked by significant social changes as feudalism began to give way to emerging nation-states and a growing class of administrators [^3]. However, he acknowledges that definitive evidence regarding the text's origins and its reception is lacking, indicating that further research is necessary to fully understand its context [^2]."
+        },
+        {
+          "question_id": 3,
+          "question": "How does Paul Wackers substantiate his claims? What proofs does he provide? Which techniques does he use? What degree of certainty does he have?",
+          "answer": "Paul Wackers substantiates his claims in \"Medieval French and Dutch Renardian Epics: Between Literature and Society\" through a combination of textual analysis and contextual comparison. He notes that the Van den Vos Reynaerde presupposes less literary knowledge than its French counterpart, indicating that the audience was likely composed of cultured patricians who engaged less with court life, as evidenced by the text's educational and moralizing tendencies [^1]. Wackers supports this assertion by referencing the text's use of allusions, which are always explained, suggesting that the audience was expected to have a limited understanding of prior literary works [^3]. He also highlights the portrayal of feudal relationships and the socio-political tensions of the time, which he connects to the historical context of Flanders in the mid-thirteenth century [^2]. However, Wackers acknowledges the lack of definitive evidence regarding the text's origins and reception, indicating that further research is necessary to fully understand its context [^2]. This acknowledgment reflects a degree of uncertainty in his conclusions, as he emphasizes the need for additional scholarly investigation to corroborate his claims."
+        }
+      ]
+    }
+  },
+  "document_metadata": {
+    "type": "journal_article",
+    "authors": [
+      {
+        "family_name": "Wackers",
+        "given_name": "Paul"
+      }
+    ],
+    "date": "2000",
+    "title": "Medieval French and Dutch Renardian Epics: Between Literature and Society",
+    "container": {
+      "type": "journal",
+      "title": "Tiecelijn",
+      "volume": "29"
+    },
+    "file_path": "data/wackers_2000.md"
+  },
+  "extraction_metadata": {
+    "source_question_ids": [
+      1,
+      2,
+      3
+    ],
+    "total_entities": 22,
+    "entity_types": [
+      "characteristic",
+      "theme",
+      "group",
+      "date",
+      "work",
+      "historical_context",
+      "person",
+      "methodology",
+      "place",
+      "concept"
+    ],
+    "entities": [
+      {
+        "name": "Flanders",
+        "type": "place",
+        "context": "the text is agreed to have been composed in Flanders during the mid-thirteenth century",
+        "confidence": 0.9
+      },
+      {
+        "name": "mid-thirteenth century",
+        "type": "date",
+        "context": "the text is agreed to have been composed in Flanders during the mid-thirteenth century",
+        "confidence": 0.9
+      },
+      {
+        "name": "feudal relationships",
+        "type": "concept",
+        "context": "the work reflects the complexities of feudal relationships, particularly in its ambiguous portrayal of the reconciliation between the noble character Nobel and his vassals",
+        "confidence": 0.8
+      },
+      {
+        "name": "Nobel",
+        "type": "person",
+        "context": "its ambiguous portrayal of the reconciliation between the noble character Nobel and his vassals",
+        "confidence": 0.8
+      },
+      {
+        "name": "Counts of Flanders",
+        "type": "group",
+        "context": "The discourse involves various entities, including the Counts of Flanders, the nobility, and the broader societal structures of the time",
+        "confidence": 0.8
+      },
+      {
+        "name": "nobility",
+        "type": "group",
+        "context": "The discourse involves various entities, including the Counts of Flanders, the nobility, and the broader societal structures of the time",
+        "confidence": 0.8
+      },
+      {
+        "name": "Roman de Renart",
+        "type": "work",
+        "context": "comparing Van den Vos Reynaerde with its source, the Roman de Renart",
+        "confidence": 0.9
+      },
+      {
+        "name": "French king",
+        "type": "person",
+        "context": "may mirror the deteriorating relations between the French king and his vassals during that period",
+        "confidence": 0.7
+      },
+      {
+        "name": "thirteenth century",
+        "type": "historical_context",
+        "context": "indicating that further research is needed to fully understand the relationship between French and Dutch literature in the thirteenth century",
+        "confidence": 0.9
+      },
+      {
+        "name": "literary analysis",
+        "type": "methodology",
+        "context": "as Wackers attempts to reconstruct the social context through literary analysis",
+        "confidence": 0.9
+      },
+      {
+        "name": "Van den Vos Reynaerde",
+        "type": "work",
+        "context": "the audience for the Van den Vos Reynaerde is presumed to be composed of cultured patricians in Flemish towns, who, while politically powerful during the thirteenth century, engaged less with court life than the audience of the Roman de Renart",
+        "confidence": 0.9
+      },
+      {
+        "name": "feudalism",
+        "type": "concept",
+        "context": "a period marked by significant social changes as feudalism began to give way to emerging nation-states and a growing class of administrators",
+        "confidence": 0.8
+      },
+      {
+        "name": "noble and vassal dynamics",
+        "type": "characteristic",
+        "context": "the work reflects the complexities of feudal relationships, particularly in its portrayal of noble and vassal dynamics, which may parallel the socio-political tensions of the time",
+        "confidence": 0.8
+      },
+      {
+        "name": "socio-political tensions",
+        "type": "theme",
+        "context": "the complexities of feudal relationships, particularly in its portrayal of noble and vassal dynamics, which may parallel the socio-political tensions of the time",
+        "confidence": 0.8
+      },
+      {
+        "name": "cultured patricians",
+        "type": "group",
+        "context": "the audience for the Van den Vos Reynaerde is presumed to be composed of cultured patricians in Flemish towns",
+        "confidence": 0.8
+      },
+      {
+        "name": "thirteenth century",
+        "type": "date",
+        "context": "who, while politically powerful during the thirteenth century, engaged less with court life than the audience of the Roman de Renart",
+        "confidence": 0.9
+      },
+      {
+        "name": "historical context",
+        "type": "historical_context",
+        "context": "...which he connects to the historical context of Flanders in the mid-thirteenth century.",
+        "confidence": 0.8
+      },
+      {
+        "name": "textual analysis",
+        "type": "methodology",
+        "context": "Paul Wackers substantiates his claims in \"Medieval French and Dutch Renardian Epics: Between Literature and Society\" through a combination of textual analysis and contextual comparison.",
+        "confidence": 0.9
+      },
+      {
+        "name": "contextual comparison",
+        "type": "methodology",
+        "context": "Paul Wackers substantiates his claims in \"Medieval French and Dutch Renardian Epics: Between Literature and Society\" through a combination of textual analysis and contextual comparison.",
+        "confidence": 0.9
+      },
+      {
+        "name": "socio-political tensions",
+        "type": "concept",
+        "context": "He also highlights the portrayal of feudal relationships and the socio-political tensions of the time, which he connects to the historical context of Flanders in the mid-thirteenth century.",
+        "confidence": 0.8
+      },
+      {
+        "name": "educational and moralizing tendencies",
+        "type": "characteristic",
+        "context": "...as evidenced by the text's educational and moralizing tendencies.",
+        "confidence": 0.7
+      },
+      {
+        "name": "allusions",
+        "type": "concept",
+        "context": "Wackers supports this assertion by referencing the text's use of allusions, which are always explained, suggesting that the audience was expected to have a limited understanding of prior literary works.",
+        "confidence": 0.7
+      }
+    ],
+    "source_answers": {
+      "1": "In \"Medieval French and Dutch Renardian Epics: Between Literature and Society,\" Wackers discusses the creation of the Van den Vos Reynaerde, emphasizing that while the text is agreed to have been composed in Flanders during the mid-thirteenth century, there is little certainty regarding its social context and origins [^1]. He notes that the work reflects the complexities of feudal relationships, particularly in its ambiguous portrayal of the reconciliation between the noble character Nobel and his vassals, which may mirror the deteriorating relations between the French king and his vassals during that period [^3]. The discourse involves various entities, including the Counts of Flanders, the nobility, and the broader societal structures of the time, as Wackers attempts to reconstruct the social context through literary analysis, comparing Van den Vos Reynaerde with its source, the Roman de Renart [^2]. However, the text lacks definitive evidence and relies on hypotheses, indicating that further research is needed to fully understand the relationship between French and Dutch literature in the thirteenth century [^3].",
+      "2": "According to Paul Wackers in \"Medieval French and Dutch Renardian Epics: Between Literature and Society,\" the audience for the Van den Vos Reynaerde is presumed to be composed of cultured patricians in Flemish towns, who, while politically powerful during the thirteenth century, engaged less with court life than the audience of the Roman de Renart [^1]. Wackers justifies this claim by noting that the text presupposes less literary knowledge than its French counterpart and exhibits more educational and moralizing tendencies, indicating a need for clearer explanations of courtly behavior [^1]. He highlights that the work reflects the complexities of feudal relationships, particularly in its portrayal of noble and vassal dynamics, which may parallel the socio-political tensions of the time [^2]. Furthermore, Wackers points out that while the exact social context of the Van den Vos Reynaerde remains uncertain, it was composed in Flanders during the mid-thirteenth century, a period marked by significant social changes as feudalism began to give way to emerging nation-states and a growing class of administrators [^3]. However, he acknowledges that definitive evidence regarding the text's origins and its reception is lacking, indicating that further research is necessary to fully understand its context [^2].",
+      "3": "Paul Wackers substantiates his claims in \"Medieval French and Dutch Renardian Epics: Between Literature and Society\" through a combination of textual analysis and contextual comparison. He notes that the Van den Vos Reynaerde presupposes less literary knowledge than its French counterpart, indicating that the audience was likely composed of cultured patricians who engaged less with court life, as evidenced by the text's educational and moralizing tendencies [^1]. Wackers supports this assertion by referencing the text's use of allusions, which are always explained, suggesting that the audience was expected to have a limited understanding of prior literary works [^3]. He also highlights the portrayal of feudal relationships and the socio-political tensions of the time, which he connects to the historical context of Flanders in the mid-thirteenth century [^2]. However, Wackers acknowledges the lack of definitive evidence regarding the text's origins and reception, indicating that further research is necessary to fully understand its context [^2]. This acknowledgment reflects a degree of uncertainty in his conclusions, as he emphasizes the need for additional scholarly investigation to corroborate his claims."
+    },
+    "extraction_method": "llm_structured_extraction",
+    "extractor_version": "1.0"
+  }
+}

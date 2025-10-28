@@ -26,9 +26,9 @@
         "llm_model_version": "gpt-4o-mini"
       },
       "questions": [
-        "In Of Reynaert the Fox: Text and facing translation of Van den vos Reynaerde, the subject of inquiry is the Van den vos Reynaerde. What is the main point of the authors? What are the entities that take part in the discourse?",
-        "What do Bouwman and Besamusca think about the real identity of the author of the Van den vos Reynaerde, sometimes known as 'Reynaertdichter' (nickname for the Reynaert poet in Dutch)? What do they say about their biography, and the context of the creation of the poem?",
-        "How do Bouwman and Besamusca substantiate their claims? What proofs do they provide? Which techniques do they use? What is the degree of certainty?"
+        "What arguments do Bouwman and Besamusca advance regarding Van den vos Reynaerde? Which interpretive framework do they employ? What are the central entities, historical figures, literary works, and textual relationships that structure their analysis?",
+        "What position do Bouwman and Besamusca take concerning the identity of the author of Van den vos Reynaerde, referred to as the 'Reynaertdichter'? What biographical information do they provide or suggest regarding the author's birth date, death location, linguistic competencies, social status, and occupation? When and where do they propose the poem was composed? What historical, political, or cultural context do they identify for the poem's creation? Which literary sources, traditions, or influences do they identify as relevant to the composition?",
+        "What methodological approaches do Bouwman and Besamusca employ to substantiate their arguments? What types of evidence (textual, linguistic, historical, codicological, or other) do they present? Which analytical techniques or scholarly practices do they utilize? What degree of certainty or epistemic qualification do they express regarding their claims?"
       ]
     },
     {
@@ -71,9 +71,9 @@
         "llm_model_version": "gpt-4o-mini"
       },
       "questions": [
-        "In Historiciteit en chronologie in 'Van den vos Reynaerde', the subject of inquiry is the Van den vos Reynaerde. What is the main point of the authors? What are the entities that take part in the discourse?",
-        "What does Leopold Peeters say about William van Baudelo, and how does he justify his claims about him being the real identity of the author of the Van den vos Reynaerde, sometimes known as 'Reynaertdichter' (nickname for the Reynaert poet in Dutch)? What do they say about their biography, and the context of the creation of the poem?",
-        "How does Leopold Peeters substantiate his claims? What proofs does he provide? Which techniques does he use? What degree of certainty does he have?"
+        "What arguments does Peeters advance regarding the historicity and chronology of Van den vos Reynaerde? Which interpretive framework does he employ? What are the central entities, historical figures, events, literary works, and textual relationships that structure his analysis?",
+        "What position does Peeters take concerning William van Baudelo as the author of Van den vos Reynaerde, referred to as the 'Reynaertdichter'? What biographical information does he provide regarding William van Baudelo's birth date, death location, linguistic competencies, social status, and occupation? When and where does he propose the poem was composed? What historical, political, or cultural context does he identify for the poem's creation? Which literary sources, traditions, or influences does he identify as relevant to the composition? How does he establish connections between William van Baudelo and the authorship of the poem?",
+        "What methodological approaches does Peeters employ to substantiate his arguments regarding William van Baudelo's authorship? What types of evidence (textual, linguistic, historical, biographical, codicological, or other) does he present? Which analytical techniques or scholarly practices does he utilize? What degree of certainty or epistemic qualification does he express regarding his claims?"
       ]    
     },
     {
@@ -100,9 +100,9 @@
         "llm_model_version": "gpt-4o-mini"
       },
       "questions": [
-        "In De robotfoto van de Reynaertdichter Bricoleren met de overgeleverde wrakstukken: 'cisterciënzers', 'grafelijke hof' en 'Reynaertmaterie', the subject of inquiry is the Van den vos Reynaerde. What is the main point of the authors regarding the authorship of the Van den vos Reynaerde? What are the entities that take part in his discourse?",
-        "What does Rik Van Daele say about William, and how does he justify his claims about him being the real identity of the author of the Van den vos Reynaerde, sometimes known as 'Reynaertdichter' (nickname for the Reynaert poet in Dutch)? What do they say about their biography, and the context of the creation of the poem?",
-        "How does Rik Van Daele substantiate his claims? What proofs does he provide? Which techniques does he use? What degree of certainty does he have?"
+        "What arguments does Van Daele advance regarding the authorship of Van den vos Reynaerde? Which interpretive framework does he employ, and what does his metaphor of creating a 'robotfoto' (composite sketch) suggest about his methodological approach? What are the central entities, historical figures, institutions (such as Cistercian connections and the comital court), literary works, and textual relationships that structure his analysis?",
+        "What position does Van Daele take concerning William as the author of Van den vos Reynaerde, referred to as the 'Reynaertdichter'? What biographical information does he provide regarding this William's birth date, death location, linguistic competencies, social status, and occupation? When and where does he propose the poem was composed? What historical, political, religious, or cultural context does he identify for the poem's creation, particularly regarding Cistercian connections and the comital court? Which literary sources, traditions (including the 'Reynaertmaterie'), or influences does he identify as relevant to the composition? How does he establish connections between this William and the authorship of the poem?",
+        "What methodological approaches does Van Daele employ to substantiate his arguments, particularly in his bricolage method of assembling fragmentary evidence? What types of evidence (textual, linguistic, historical, biographical, institutional, codicological, or other) does he present? Which analytical techniques or scholarly practices does he utilize? What degree of certainty or epistemic qualification does he express regarding his claims about the author's identity?"
       ]
     },
     {

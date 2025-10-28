@@ -16,20 +16,14 @@ ex:facts_wackers_2000 {
     ex:Counts_of_Flanders a crm:E74_Group ;
         crm:P1_is_identified_by ex:Counts_of_Flanders_appellation .
 
-    ex:Flemish_towns a crm:E53_Place ;
-        crm:P1_is_identified_by ex:Flemish_towns_appellation .
-
-    ex:Roman_de_Renart a crm:E89_Propositional_Object ;
-        crm:P1_is_identified_by ex:Roman_de_Renart_appellation .
+    ex:Van_den_Vos_Reynaerde a crm:E89_Propositional_Object ;
+        crm:P1_is_identified_by ex:Van_den_Vos_Reynaerde_appellation .
 
     ex:mid_thirteenth_century a crm:E52_Time-Span ;
         rdfs:label "mid-thirteenth century" .
 
-    ex:middle_of_the_thirteenth_century a crm:E52_Time-Span ;
-        rdfs:label "middle of the thirteenth century" .
-
-    ex:patrician_audience a crm:E74_Group ;
-        crm:P1_is_identified_by ex:patrician_audience_appellation .
+    ex:patricians a crm:E74_Group ;
+        crm:P1_is_identified_by ex:patricians_appellation .
 
     ex:wackers_2000 a fabio:JournalArticle ;
         dcterms:date "2000" ;
@@ -39,29 +33,11 @@ ex:facts_wackers_2000 {
     ex:Counts_of_Flanders_appellation a crm:E41_Appellation ;
         rdfs:label "Counts of Flanders" .
 
-    ex:Flemish_towns_appellation a crm:E41_Appellation ;
-        rdfs:label "Flemish towns" .
-
-    ex:French_king a crm:E21_Person ;
-        crm:P1_is_identified_by ex:French_king_appellation .
-
-    ex:French_king_appellation a crm:E41_Appellation ;
-        rdfs:label "French king" .
-
-    ex:Roman_de_Renart_appellation a crm:E41_Appellation ;
-        rdfs:label "Roman de Renart" .
-
-    ex:Van_den_Vos_Reynaerde a crm:E89_Propositional_Object ;
-        crm:P1_is_identified_by ex:Van_den_Vos_Reynaerde_appellation .
-
     ex:Van_den_Vos_Reynaerde_appellation a crm:E41_Appellation ;
         rdfs:label "Van den Vos Reynaerde" .
 
-    ex:patrician_audience_appellation a crm:E41_Appellation ;
-        rdfs:label "patrician audience" .
-
-    ex:thirteenth_century_Flanders a crm:E4_Period ;
-        rdfs:label "thirteenth-century Flanders" .
+    ex:patricians_appellation a crm:E41_Appellation ;
+        rdfs:label "patricians" .
 
     ex:tiecelijn_journal a fabio:Journal ;
         dcterms:title "Tiecelijn" .
@@ -73,24 +49,20 @@ ex:facts_wackers_2000 {
 }
 
 ex:assertion_wackers_2000 {
-    ex:Van_den_Vos_Reynaerde crm:P67_refers_to ex:French_king,
-            ex:thirteenth_century_Flanders .
 }
 
 ex:provenance_wackers_2000 {
     ex:assertion_wackers_2000 prov:wasGeneratedBy ex:interpretation_act_wackers_2000_wackers .
 
-    ex:interpretation_act_wackers_2000_wackers hico:hasInterpretationCriterion ex:HypothesisBased,
-            ex:LiteratureBased ;
-        hico:hasInterpretationType ex:HistoricalInterpretation,
-            ex:PhilologicalInterpretation ;
+    ex:interpretation_act_wackers_2000_wackers hico:hasInterpretationCriterion ex:HypothesisBased ;
+        hico:hasInterpretationType ex:HistoricalInterpretation ;
         hico:isExtractedFrom ex:wackers_2000 ;
         cwrc:hasCertainty cwrc:medium_certainty ;
         prov:wasAssociatedWith ex:wackers .
 }
 
 ex:pubInfo_wackers_2000 {
-    ex:pub_wackers_2000 prov:generatedAtTime "2025-10-26T15:18:37+00:00"^^xsd:dateTime ;
+    ex:pub_wackers_2000 prov:generatedAtTime "2025-10-28T11:43:41+00:00"^^xsd:dateTime ;
         prov:wasAttributedTo ex:Gpt4oMiniAgent ;
         prov:wasDerivedFrom ex:wackers_2000 .
 

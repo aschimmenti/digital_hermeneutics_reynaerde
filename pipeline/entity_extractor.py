@@ -20,6 +20,7 @@ ENTITY_TYPES = [
     "role",
     "place",
     "work",
+    "occupation",
     "date",
     "historical_context",
     "organization",
@@ -120,7 +121,7 @@ IMPORTANT: Do not extract the document title "{title}" or authors "{authors}" as
 
 ENTITY TYPES:
 - person: Individual people (people names, historical figures, mentioned people)
-  Examples: Willem van Boudelo, Jacob van Maerlant
+  Examples: Willem van Boudelo, Jacob van Maerlant, Willem, Margareta of Flanders, Margareta (not fictional characters)
 - reference: an entity of type person or a work who is specifically cited as a reference in support of one's argument. For instance, "author also mentions [person] as a support to this opinion" or "author x cites [work]". The reference should be made by {authors} to be a valid reference. 
 - role: Professional roles, occupations, social positions, functions
   Examples: author, cleric, monk, scholar, nobleman, patrician, scribe, translator, abbot. The role SHOULD NOT be the {authors} role(s). 

@@ -1,0 +1,581 @@
+{
+  "metadata": {
+    "total_sections": 1,
+    "total_questions": 3,
+    "generation_method": "rag_only"
+  },
+  "sections": {
+    "Document-wide": {
+      "section_number": null,
+      "questions_and_answers": [
+        {
+          "question_id": 1,
+          "question": "What arguments does Peeters advance regarding the historicity and chronology of Van den vos Reynaerde? Which interpretive framework does he employ? What are the central entities, historical figures, events, literary works, and textual relationships that structure his analysis?",
+          "answer": "Peeters argues that *Van den vos Reynaerde* is deeply rooted in the historical context of Flanders around 1258, suggesting that the narrative reflects real places and events from that period, particularly the political struggles involving the Avesnes and Dampierres families[^1]. He employs a comparative interpretive framework, analyzing the text against historical records and other literary works, such as the *Reynardus Vulpes* and the *Roman de Renart*, to establish connections between the animal epic and the socio-political landscape of 13th-century Flanders[^1][^2]. Central entities in his analysis include historical figures like Margareta of Flanders, Bouchard of Avesnes, and Willem of Dampierre, alongside events such as the territorial conflicts in the Land of Waas and the marriages that influenced power dynamics[^1][^2]. Peeters highlights the significance of place and character names within the text as keys to understanding these historical references, asserting that the *Reinaert* narrative is not merely a literary fiction but a reflection of actual historical tensions and societal structures of the time[^1][^2]. However, the context does not provide specific details about the methodology used for the sociological perspectives he suggests could further enhance the understanding of the text's historical relevance[^2]."
+        },
+        {
+          "question_id": 2,
+          "question": "What position does Peeters take concerning William van Baudelo as the author of Van den vos Reynaerde, referred to as the 'Reynaertdichter'? What biographical information does he provide regarding William van Baudelo's birth date, death location, linguistic competencies, social status, and occupation? When and where does he propose the poem was composed? What historical, political, or cultural context does he identify for the poem's creation? Which literary sources, traditions, or influences does he identify as relevant to the composition? How does he establish connections between William van Baudelo and the authorship of the poem?",
+          "answer": "Peeters positions William van Baudelo as a strong candidate for the authorship of *Van den vos Reynaerde*, referred to as the 'Reynaertdichter', due to his extensive knowledge of the region and his legal background. He notes that Baudelo was active in the Land of Waas, where he served as a cleric in the service of Countess Margareta of Flanders, managing land transactions from 1248 to 1263[^1]. Peeters suggests that the poem was composed around 1258, a period marked by significant political turmoil involving the Avesnes and Dampierre families[^2]. He identifies Baudelo's linguistic competencies in both Dutch and Latin, which would have been essential for a literary figure of his time, and emphasizes his social status as a Cistercian monk, which afforded him connections to the court and knowledge of contemporary events[^1][^2]. Peeters also discusses the historical context of the poem's creation, highlighting the socio-political landscape of 13th-century Flanders, particularly the territorial conflicts and the influence of feudal relationships on the narrative[^1][^2]. He establishes connections between Baudelo and the authorship of the poem by aligning his biographical details—such as his legal expertise and regional familiarity—with the themes and settings depicted in *Van den vos Reynaerde*, suggesting that the poet's experiences and observations directly informed the work's content[^1][^2]. However, Peeters does not provide a definitive birth date for Baudelo or specific details about his death location, which leaves some biographical aspects unaddressed."
+        },
+        {
+          "question_id": 3,
+          "question": "What methodological approaches does Peeters employ to substantiate his arguments regarding William van Baudelo's authorship? What types of evidence (textual, linguistic, historical, biographical, codicological, or other) does he present? Which analytical techniques or scholarly practices does he utilize? What degree of certainty or epistemic qualification does he express regarding his claims?",
+          "answer": "Peeters employs a multifaceted methodological approach to substantiate his arguments regarding William van Baudelo's authorship of *Van den vos Reynaerde*. He utilizes historical evidence, particularly biographical details about Baudelo's life and legal career, to establish a connection between the author and the socio-political context of 13th-century Flanders, noting Baudelo's active role as a cleric in the service of Countess Margareta of Flanders from 1248 to 1263[^1][^2]. Additionally, Peeters analyzes textual and linguistic features of the *Reinaert*, comparing them with historical records and other literary works, which allows him to draw parallels between Baudelo's experiences and the narrative's content[^1][^2]. He references the geographical and historical specificity of the locations mentioned in the text, arguing that they reflect Baudelo's intimate knowledge of the region[^1]. Peeters also discusses the significance of the Cistercian order, suggesting that Baudelo's affiliation with this group aligns with the themes in the *Reinaert* and supports his candidacy for authorship[^2]. While Peeters presents a compelling case, he acknowledges that definitive proof of Baudelo's authorship remains elusive, stating that \"there is no explicit indication that this Willem, and no other, is the author of the *Reinaert*,\" which indicates a degree of epistemic caution in his claims[^2]. Overall, Peeters' analysis is grounded in a combination of historical, textual, and biographical evidence, though it lacks concrete documentation to fully confirm Baudelo's authorship."
+        }
+      ]
+    }
+  },
+  "document_metadata": {
+    "type": "book_chapter",
+    "authors": [
+      {
+        "family_name": "Peeters",
+        "given_name": "Léopold"
+      }
+    ],
+    "date": "1999",
+    "title": "Historiciteit en chronologie in 'Van den vos Reynaerde'",
+    "start_page": "135",
+    "end_page": "165",
+    "container": {
+      "type": "book",
+      "title": "'Pade crom ende menichfoude'. Het Reynaert-onderzoek in de tweede helft van de twintigste eeuw",
+      "editors": [
+        {
+          "family_name": "van Dijk",
+          "given_name": "Hans"
+        },
+        {
+          "family_name": "Wackers",
+          "given_name": "Paul"
+        }
+      ],
+      "publisher": "Hilversum",
+      "series": {
+        "title": "Middeleeuwse studies en bronnen",
+        "volume": "67"
+      }
+    },
+    "file_path": "data/peeters_1973.md"
+  },
+  "extraction_metadata": {
+    "source_question_ids": [
+      1,
+      2,
+      3
+    ],
+    "total_entities": 27,
+    "entity_types": [
+      "role",
+      "organization",
+      "language",
+      "group",
+      "work",
+      "date",
+      "historical_context",
+      "person",
+      "place",
+      "concept"
+    ],
+    "entities": [
+      {
+        "name": "Flanders",
+        "type": "place",
+        "context": "Peeters argues that *Van den vos Reynaerde* is deeply rooted in the historical context of Flanders around 1258, suggesting that the narrative reflects real places and events from that period, particularly the political struggles involving the Avesnes and Dampierres families",
+        "confidence": 0.9
+      },
+      {
+        "name": "1258",
+        "type": "date",
+        "context": "Peeters argues that *Van den vos Reynaerde* is deeply rooted in the historical context of Flanders around 1258, suggesting that the narrative reflects real places and events from that period, particularly the political struggles involving the Avesnes and Dampierres families",
+        "confidence": 0.95
+      },
+      {
+        "name": "Avesnes",
+        "type": "person",
+        "context": "...particularly the political struggles involving the Avesnes and Dampierres families",
+        "confidence": 0.8
+      },
+      {
+        "name": "Dampierres",
+        "type": "person",
+        "context": "...particularly the political struggles involving the Avesnes and Dampierres families",
+        "confidence": 0.8
+      },
+      {
+        "name": "Margareta of Flanders",
+        "type": "person",
+        "context": "Central entities in his analysis include historical figures like Margareta of Flanders, Bouchard of Avesnes, and Willem of Dampierre, alongside events such as the territorial conflicts in the Land of Waas and the marriages that influenced power dynamics",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bouchard of Avesnes",
+        "type": "person",
+        "context": "Central entities in his analysis include historical figures like Margareta of Flanders, Bouchard of Avesnes, and Willem of Dampierre, alongside events such as the territorial conflicts in the Land of Waas and the marriages that influenced power dynamics",
+        "confidence": 0.9
+      },
+      {
+        "name": "Willem of Dampierre",
+        "type": "person",
+        "context": "Central entities in his analysis include historical figures like Margareta of Flanders, Bouchard of Avesnes, and Willem of Dampierre, alongside events such as the territorial conflicts in the Land of Waas and the marriages that influenced power dynamics",
+        "confidence": 0.9
+      },
+      {
+        "name": "Land of Waas",
+        "type": "place",
+        "context": "... alongside events such as the territorial conflicts in the Land of Waas and the marriages that influenced power dynamics",
+        "confidence": 0.85
+      },
+      {
+        "name": "Reynardus Vulpes",
+        "type": "work",
+        "context": "...analyzing the text against historical records and other literary works, such as the *Reynardus Vulpes* and the *Roman de Renart*, to establish connections between the animal epic and the socio-political landscape of 13th-century Flanders",
+        "confidence": 0.9
+      },
+      {
+        "name": "Roman de Renart",
+        "type": "work",
+        "context": "...analyzing the text against historical records and other literary works, such as the *Reynardus Vulpes* and the *Roman de Renart*, to establish connections between the animal epic and the socio-political landscape of 13th-century Flanders",
+        "confidence": 0.9
+      },
+      {
+        "name": "13th-century Flanders",
+        "type": "historical_context",
+        "context": "...to establish connections between the animal epic and the socio-political landscape of 13th-century Flanders",
+        "confidence": 0.9
+      },
+      {
+        "name": "sociological perspectives",
+        "type": "concept",
+        "context": "However, the context does not provide specific details about the methodology used for the sociological perspectives he suggests could further enhance the understanding of the text's historical relevance",
+        "confidence": 0.8
+      },
+      {
+        "name": "William van Baudelo",
+        "type": "person",
+        "context": "Peeters positions William van Baudelo as a strong candidate for the authorship of *Van den vos Reynaerde*, referred to as the 'Reynaertdichter', due to his extensive knowledge of the region and his legal background.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Countess Margareta of Flanders",
+        "type": "person",
+        "context": "Baudelo was active in the Land of Waas, where he served as a cleric in the service of Countess Margareta of Flanders, managing land transactions from 1248 to 1263.",
+        "confidence": 0.9
+      },
+      {
+        "name": "1248-1263",
+        "type": "date",
+        "context": "managing land transactions from 1248 to 1263.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Avesnes",
+        "type": "group",
+        "context": "a period marked by significant political turmoil involving the Avesnes and Dampierre families.",
+        "confidence": 0.8
+      },
+      {
+        "name": "Dampierre",
+        "type": "group",
+        "context": "a period marked by significant political turmoil involving the Avesnes and Dampierre families.",
+        "confidence": 0.8
+      },
+      {
+        "name": "Dutch",
+        "type": "language",
+        "context": "He identifies Baudelo's linguistic competencies in both Dutch and Latin, which would have been essential for a literary figure of his time.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Latin",
+        "type": "language",
+        "context": "He identifies Baudelo's linguistic competencies in both Dutch and Latin, which would have been essential for a literary figure of his time.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Cistercian monk",
+        "type": "role",
+        "context": "emphasizes his social status as a Cistercian monk, which afforded him connections to the court and knowledge of contemporary events.",
+        "confidence": 0.8
+      },
+      {
+        "name": "feudal relationships",
+        "type": "concept",
+        "context": "the influence of feudal relationships on the narrative.",
+        "confidence": 0.8
+      },
+      {
+        "name": "socio-political landscape",
+        "type": "concept",
+        "context": "the historical context of the poem's creation, highlighting the socio-political landscape of 13th-century Flanders.",
+        "confidence": 0.8
+      },
+      {
+        "name": "*Van den vos Reynaerde*",
+        "type": "work",
+        "context": "aligning his biographical details—such as his legal expertise and regional familiarity—with the themes and settings depicted in *Van den vos Reynaerde*",
+        "confidence": 0.9
+      },
+      {
+        "name": "Cistercian order",
+        "type": "organization",
+        "context": "Peeters also discusses the significance of the Cistercian order, suggesting that Baudelo's affiliation with this group aligns with the themes in the *Reinaert* and supports his candidacy for authorship.",
+        "confidence": 0.8
+      },
+      {
+        "name": "13th-century",
+        "type": "date",
+        "context": "to establish a connection between the author and the socio-political context of 13th-century Flanders, noting Baudelo's active role as a cleric in the service of Countess Margareta of Flanders from 1248 to 1263.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Reinaert",
+        "type": "work",
+        "context": "Peeters analyzes textual and linguistic features of the *Reinaert*, comparing them with historical records and other literary works, which allows him to draw parallels between Baudelo's experiences and the narrative's content.",
+        "confidence": 0.8
+      },
+      {
+        "name": "epistemic caution",
+        "type": "concept",
+        "context": "which indicates a degree of epistemic caution in his claims.",
+        "confidence": 0.7
+      }
+    ],
+    "source_answers": {
+      "1": "Peeters argues that *Van den vos Reynaerde* is deeply rooted in the historical context of Flanders around 1258, suggesting that the narrative reflects real places and events from that period, particularly the political struggles involving the Avesnes and Dampierres families[^1]. He employs a comparative interpretive framework, analyzing the text against historical records and other literary works, such as the *Reynardus Vulpes* and the *Roman de Renart*, to establish connections between the animal epic and the socio-political landscape of 13th-century Flanders[^1][^2]. Central entities in his analysis include historical figures like Margareta of Flanders, Bouchard of Avesnes, and Willem of Dampierre, alongside events such as the territorial conflicts in the Land of Waas and the marriages that influenced power dynamics[^1][^2]. Peeters highlights the significance of place and character names within the text as keys to understanding these historical references, asserting that the *Reinaert* narrative is not merely a literary fiction but a reflection of actual historical tensions and societal structures of the time[^1][^2]. However, the context does not provide specific details about the methodology used for the sociological perspectives he suggests could further enhance the understanding of the text's historical relevance[^2].",
+      "2": "Peeters positions William van Baudelo as a strong candidate for the authorship of *Van den vos Reynaerde*, referred to as the 'Reynaertdichter', due to his extensive knowledge of the region and his legal background. He notes that Baudelo was active in the Land of Waas, where he served as a cleric in the service of Countess Margareta of Flanders, managing land transactions from 1248 to 1263[^1]. Peeters suggests that the poem was composed around 1258, a period marked by significant political turmoil involving the Avesnes and Dampierre families[^2]. He identifies Baudelo's linguistic competencies in both Dutch and Latin, which would have been essential for a literary figure of his time, and emphasizes his social status as a Cistercian monk, which afforded him connections to the court and knowledge of contemporary events[^1][^2]. Peeters also discusses the historical context of the poem's creation, highlighting the socio-political landscape of 13th-century Flanders, particularly the territorial conflicts and the influence of feudal relationships on the narrative[^1][^2]. He establishes connections between Baudelo and the authorship of the poem by aligning his biographical details—such as his legal expertise and regional familiarity—with the themes and settings depicted in *Van den vos Reynaerde*, suggesting that the poet's experiences and observations directly informed the work's content[^1][^2]. However, Peeters does not provide a definitive birth date for Baudelo or specific details about his death location, which leaves some biographical aspects unaddressed.",
+      "3": "Peeters employs a multifaceted methodological approach to substantiate his arguments regarding William van Baudelo's authorship of *Van den vos Reynaerde*. He utilizes historical evidence, particularly biographical details about Baudelo's life and legal career, to establish a connection between the author and the socio-political context of 13th-century Flanders, noting Baudelo's active role as a cleric in the service of Countess Margareta of Flanders from 1248 to 1263[^1][^2]. Additionally, Peeters analyzes textual and linguistic features of the *Reinaert*, comparing them with historical records and other literary works, which allows him to draw parallels between Baudelo's experiences and the narrative's content[^1][^2]. He references the geographical and historical specificity of the locations mentioned in the text, arguing that they reflect Baudelo's intimate knowledge of the region[^1]. Peeters also discusses the significance of the Cistercian order, suggesting that Baudelo's affiliation with this group aligns with the themes in the *Reinaert* and supports his candidacy for authorship[^2]. While Peeters presents a compelling case, he acknowledges that definitive proof of Baudelo's authorship remains elusive, stating that \"there is no explicit indication that this Willem, and no other, is the author of the *Reinaert*,\" which indicates a degree of epistemic caution in his claims[^2]. Overall, Peeters' analysis is grounded in a combination of historical, textual, and biographical evidence, though it lacks concrete documentation to fully confirm Baudelo's authorship."
+    },
+    "extraction_method": "llm_structured_extraction",
+    "extractor_version": "1.0"
+  },
+  "work_schema_metadata": {
+    "interpretation_layer": {
+      "graph_type": "interpretation_layer",
+      "description": "What the authors assert/claim about the entities",
+      "nodes": [
+        {
+          "id": "van_den_vos_reynaerde",
+          "type": "work",
+          "name": "Van den vos Reynaerde",
+          "confidence": 0.9
+        },
+        {
+          "id": "william_van_baudelo",
+          "type": "person",
+          "name": "William van Baudelo",
+          "confidence": 0.8
+        },
+        {
+          "id": "margareta_of_flanders",
+          "type": "person",
+          "name": "Margareta of Flanders",
+          "confidence": 0.9
+        },
+        {
+          "id": "bouchard_of_avesnes",
+          "type": "person",
+          "name": "Bouchard of Avesnes",
+          "confidence": 0.9
+        },
+        {
+          "id": "willem_of_dampierre",
+          "type": "person",
+          "name": "Willem of Dampierre",
+          "confidence": 0.9
+        },
+        {
+          "id": "flanders",
+          "type": "place",
+          "name": "Flanders",
+          "confidence": 0.9
+        },
+        {
+          "id": "land_of_waas",
+          "type": "place",
+          "name": "Land of Waas",
+          "confidence": 0.9
+        },
+        {
+          "id": "1258",
+          "type": "date",
+          "name": "1258",
+          "confidence": 0.9
+        },
+        {
+          "id": "cistercian_order",
+          "type": "organization",
+          "name": "Cistercian order",
+          "confidence": 0.8
+        },
+        {
+          "id": "13th_century_flanders",
+          "type": "historical_context",
+          "name": "13th-century Flanders",
+          "confidence": 0.9
+        },
+        {
+          "id": "dutch",
+          "type": "language",
+          "name": "Dutch",
+          "confidence": 0.9
+        },
+        {
+          "id": "latin",
+          "type": "language",
+          "name": "Latin",
+          "confidence": 0.9
+        },
+        {
+          "id": "cistercian_monk",
+          "type": "role",
+          "name": "Cistercian monk",
+          "confidence": 0.8
+        },
+        {
+          "id": "sociological_perspectives",
+          "type": "concept",
+          "name": "sociological perspectives",
+          "confidence": 0.7
+        },
+        {
+          "id": "feudal_relationships",
+          "type": "concept",
+          "name": "feudal relationships",
+          "confidence": 0.8
+        },
+        {
+          "id": "socio_political_landscape",
+          "type": "concept",
+          "name": "socio-political landscape",
+          "confidence": 0.8
+        },
+        {
+          "id": "reynardus_vulpes",
+          "type": "work",
+          "name": "Reynardus Vulpes",
+          "confidence": 0.8
+        },
+        {
+          "id": "roman_de_renart",
+          "type": "work",
+          "name": "Roman de Renart",
+          "confidence": 0.8
+        },
+        {
+          "id": "epistemic_caution",
+          "type": "concept",
+          "name": "epistemic caution",
+          "confidence": 0.7
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "william_van_baudelo",
+          "relation_type": "created_by",
+          "properties": {
+            "asserted_by": "Peeters",
+            "evidence_type": "BiographicalAnalysis",
+            "certainty": "medium",
+            "method": "ComparativeAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "1258",
+          "relation_type": "created_during",
+          "properties": {
+            "asserted_by": "Peeters",
+            "evidence_type": "HistoricalRecords",
+            "certainty": "high",
+            "method": "HistoricalContextualization"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "land_of_waas",
+          "relation_type": "created_at",
+          "properties": {
+            "asserted_by": "Peeters",
+            "evidence_type": "GeographicalAnalysis",
+            "certainty": "high",
+            "method": "ComparativeAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "william_van_baudelo",
+          "target_id": "margareta_of_flanders",
+          "relation_type": "associated_with",
+          "properties": {
+            "asserted_by": "Peeters",
+            "certainty": "high",
+            "method": "BiographicalAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "william_van_baudelo",
+          "target_id": "cistercian_order",
+          "relation_type": "associated_with",
+          "properties": {
+            "asserted_by": "Peeters",
+            "certainty": "high",
+            "method": "BiographicalAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "william_van_baudelo",
+          "target_id": "cistercian_monk",
+          "relation_type": "has_occupation",
+          "properties": {
+            "asserted_by": "Peeters",
+            "certainty": "high",
+            "method": "BiographicalAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "william_van_baudelo",
+          "target_id": "dutch",
+          "relation_type": "speaks_language",
+          "properties": {
+            "asserted_by": "Peeters",
+            "certainty": "high",
+            "method": "BiographicalAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "william_van_baudelo",
+          "target_id": "latin",
+          "relation_type": "speaks_language",
+          "properties": {
+            "asserted_by": "Peeters",
+            "certainty": "high",
+            "method": "BiographicalAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "reynardus_vulpes",
+          "relation_type": "refers_to",
+          "properties": {
+            "asserted_by": "Peeters",
+            "certainty": "high",
+            "method": "TextualAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "roman_de_renart",
+          "relation_type": "refers_to",
+          "properties": {
+            "asserted_by": "Peeters",
+            "certainty": "high",
+            "method": "TextualAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "socio_political_landscape",
+          "relation_type": "has_theme",
+          "properties": {
+            "asserted_by": "Peeters",
+            "certainty": "high",
+            "method": "ThematicAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "feudal_relationships",
+          "relation_type": "has_theme",
+          "properties": {
+            "asserted_by": "Peeters",
+            "certainty": "high",
+            "method": "ThematicAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "william_van_baudelo",
+          "target_id": "1258",
+          "relation_type": "located_in_time",
+          "properties": {
+            "asserted_by": "Peeters",
+            "certainty": "medium",
+            "method": "BiographicalAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "william_van_baudelo",
+          "target_id": "land_of_waas",
+          "relation_type": "located_in_space",
+          "properties": {
+            "asserted_by": "Peeters",
+            "certainty": "medium",
+            "method": "BiographicalAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "13th_century_flanders",
+          "relation_type": "refers_to",
+          "properties": {
+            "asserted_by": "Peeters",
+            "certainty": "high",
+            "method": "HistoricalContextualization"
+          },
+          "confidence": 0.5,
+          "claim_type": "established_fact"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "epistemic_caution",
+          "relation_type": "has_theme",
+          "properties": {
+            "asserted_by": "Peeters",
+            "certainty": "medium",
+            "method": "CriticalAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        }
+      ],
+      "metadata": {
+        "generation_method": "entity_based_interpretation",
+        "source_entities_count": 27
+      }
+    },
+    "generation_summary": {
+      "total_source_entities": 27,
+      "interpretation_layer_nodes": 19,
+      "interpretation_layer_relations": 16
+    }
+  }
+}

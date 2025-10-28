@@ -400,7 +400,7 @@ Use ONLY the relationship types listed above with ONLY the given entities.
                         }
                     }
                 },
-                temperature=0.0,
+                temperature=0.3,
                 max_tokens=16300,
                 top_p=1.0
             )
