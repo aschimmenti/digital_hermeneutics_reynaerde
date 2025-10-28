@@ -1,0 +1,606 @@
+{
+  "metadata": {
+    "total_sections": 1,
+    "total_questions": 3,
+    "generation_method": "rag_only"
+  },
+  "sections": {
+    "Document-wide": {
+      "section_number": null,
+      "questions_and_answers": [
+        {
+          "question_id": 1,
+          "question": "What arguments does Van Daele advance regarding the authorship of Van den vos Reynaerde? Which interpretive framework does he employ, and what does his metaphor of creating a 'robotfoto' (composite sketch) suggest about his methodological approach? What are the central entities, historical figures, institutions (such as Cistercian connections and the comital court), literary works, and textual relationships that structure his analysis?",
+          "answer": "Van Daele argues for the authorship of Van den vos Reynaerde by reconstructing a composite profile of the likely author, Willem van Boudelo, based on a thorough examination of historical context and textual evidence. He employs an interpretive framework that combines interdisciplinary methods, suggesting that knowledge of the author, their time, and the surrounding milieu is crucial for accurate interpretation [^1]. The metaphor of creating a 'robotfoto' implies a methodological approach that assembles disparate textual fragments—referred to as \"wrakstukken\"—to form a coherent understanding of the Reynaertdichter's identity and context [^1][^4]. Central entities in his analysis include the Cistercian connections, which highlight the author's educational background and cultural influences, and the comital court, which situates the author within the social hierarchy of the time [^2]. Van Daele also references the popularity of the Reynaert material in higher circles of Flanders and France around 1275, indicating the text's significance in elite literary culture [^2]. However, the context does not provide specific details about the textual relationships or other literary works that may further structure his analysis, leaving a gap in understanding the full scope of his argument."
+        },
+        {
+          "question_id": 2,
+          "question": "What position does Van Daele take concerning William as the author of Van den vos Reynaerde, referred to as the 'Reynaertdichter'? What biographical information does he provide regarding this William's birth date, death location, linguistic competencies, social status, and occupation? When and where does he propose the poem was composed? What historical, political, religious, or cultural context does he identify for the poem's creation, particularly regarding Cistercian connections and the comital court? Which literary sources, traditions (including the 'Reynaertmaterie'), or influences does he identify as relevant to the composition? How does he establish connections between this William and the authorship of the poem?",
+          "answer": "Van Daele posits that Willem van Boudelo is the author of *Van den vos Reynaerde*, referred to as the 'Reynaertdichter', based on a composite profile that aligns with the poem's historical and cultural context. He suggests that Willem was likely born around the early 13th century and died in or around Boudelo, with a strong educational background in Latin and legal knowledge, indicative of his status as a Cistercian convers [^2][^5]. Van Daele proposes that the poem was composed circa 1250 in Flanders, during a time when the 'Reynaertmaterie' was popular among the elite [^2][^4]. He identifies significant connections to the Cistercian order and the comital court, emphasizing that Willem's profile bridges the urban culture of Ghent with the aristocratic milieu of the court, suggesting he worked within the comital administration [^2][^5]. Additionally, he notes that the poem reflects a moral critique of contemporary societal issues, paralleling themes found in other works of the 'Reynaertmaterie', such as *Le couronnement de Renart*, which also critiques the hypocrisy of the clergy and the emerging bourgeoisie [^1][^4]. Van Daele establishes connections between Willem and the authorship of the poem by reconstructing his biography and situating him within the political and cultural dynamics of the time, particularly highlighting his potential role in the court of Countess Margareta and his familiarity with the literary traditions of the period [^2][^5]. However, specific details regarding Willem's exact birth date and the precise nature of his employment within the comital court remain unspecified in the context provided."
+        },
+        {
+          "question_id": 3,
+          "question": "What methodological approaches does Van Daele employ to substantiate his arguments, particularly in his bricolage method of assembling fragmentary evidence? What types of evidence (textual, linguistic, historical, biographical, institutional, codicological, or other) does he present? Which analytical techniques or scholarly practices does he utilize? What degree of certainty or epistemic qualification does he express regarding his claims about the author's identity?",
+          "answer": "Van Daele employs a bricolage method to substantiate his arguments regarding the authorship of *Van den vos Reynaerde*, which involves assembling fragmentary evidence to reconstruct a coherent profile of the likely author, Willem van Boudelo. He presents a variety of evidence types, including textual, historical, and biographical information, emphasizing the importance of understanding the author's context for accurate interpretation [^2][^3]. His analysis incorporates linguistic competencies, social status, and institutional affiliations, particularly with the Cistercian order and the comital court, to contextualize Willem's identity and literary output [^4][^5]. Van Daele utilizes analytical techniques such as comparative analysis of literary traditions, particularly the 'Reynaertmaterie', and he references specific historical figures and institutions to support his claims [^2][^4]. He expresses a degree of certainty in his claims, suggesting that while the evidence is fragmentary, it is nonetheless relevant and indicative of Willem's sophisticated literary abilities and social milieu [^5]. However, the context does not provide precise details on the exact nature of the evidence or the degree of certainty regarding specific claims about the author's identity, leaving some gaps in understanding the full scope of his argument."
+        }
+      ]
+    }
+  },
+  "document_metadata": {
+    "type": "journal_article",
+    "authors": [
+      {
+        "family_name": "Van Daele",
+        "given_name": "Rik"
+      }
+    ],
+    "date": "2005",
+    "title": "De robotfoto van de Reynaertdichter Bricoleren met de overgeleverde wrakstukken: 'cisterciënzers', 'grafelijke hof' en 'Reynaertmaterie'",
+    "container": {
+      "type": "journal",
+      "title": "Tiecelijn",
+      "volume": "18"
+    },
+    "file_path": "data/van_daele_2005.md"
+  },
+  "extraction_metadata": {
+    "source_question_ids": [
+      1,
+      2,
+      3
+    ],
+    "total_entities": 27,
+    "entity_types": [
+      "concept",
+      "characteristic",
+      "organization",
+      "place",
+      "date",
+      "role",
+      "group",
+      "work",
+      "person"
+    ],
+    "entities": [
+      {
+        "name": "Willem van Boudelo",
+        "type": "person",
+        "context": "Van Daele argues for the authorship of Van den vos Reynaerde by reconstructing a composite profile of the likely author, Willem van Boudelo, based on a thorough examination of historical context and textual evidence.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Van den vos Reynaerde",
+        "type": "work",
+        "context": "Van Daele argues for the authorship of Van den vos Reynaerde by reconstructing a composite profile of the likely author, Willem van Boudelo, based on a thorough examination of historical context and textual evidence.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Cistercian",
+        "type": "organization",
+        "context": "Central entities in his analysis include the Cistercian connections, which highlight the author's educational background and cultural influences, and the comital court, which situates the author within the social hierarchy of the time.",
+        "confidence": 0.8
+      },
+      {
+        "name": "comital court",
+        "type": "organization",
+        "context": "He identifies significant connections to the Cistercian order and the comital court, emphasizing that Willem's profile bridges the urban culture of Ghent with the aristocratic milieu of the court, suggesting he worked within the comital administration.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Flanders",
+        "type": "place",
+        "context": "Van Daele proposes that the poem was composed circa 1250 in Flanders, during a time when the 'Reynaertmaterie' was popular among the elite.",
+        "confidence": 0.9
+      },
+      {
+        "name": "France",
+        "type": "place",
+        "context": "Van Daele also references the popularity of the Reynaert material in higher circles of Flanders and France around 1275, indicating the text's significance in elite literary culture.",
+        "confidence": 0.8
+      },
+      {
+        "name": "1275",
+        "type": "date",
+        "context": "Van Daele also references the popularity of the Reynaert material in higher circles of Flanders and France around 1275, indicating the text's significance in elite literary culture.",
+        "confidence": 0.9
+      },
+      {
+        "name": "elite literary culture",
+        "type": "concept",
+        "context": "Van Daele also references the popularity of the Reynaert material in higher circles of Flanders and France around 1275, indicating the text's significance in elite literary culture.",
+        "confidence": 0.7
+      },
+      {
+        "name": "robotfoto",
+        "type": "concept",
+        "context": "The metaphor of creating a 'robotfoto' implies a methodological approach that assembles disparate textual fragments—referred to as \"wrakstukken\"—to form a coherent understanding of the Reynaertdichter's identity and context.",
+        "confidence": 0.7
+      },
+      {
+        "name": "wrakstukken",
+        "type": "concept",
+        "context": "The metaphor of creating a 'robotfoto' implies a methodological approach that assembles disparate textual fragments—referred to as \"wrakstukken\"—to form a coherent understanding of the Reynaertdichter's identity and context.",
+        "confidence": 0.7
+      },
+      {
+        "name": "early 13th century",
+        "type": "date",
+        "context": "He suggests that Willem was likely born around the early 13th century and died in or around Boudelo, with a strong educational background in Latin and legal knowledge, indicative of his status as a Cistercian convers.",
+        "confidence": 0.8
+      },
+      {
+        "name": "Boudelo",
+        "type": "place",
+        "context": "He suggests that Willem was likely born around the early 13th century and died in or around Boudelo, with a strong educational background in Latin and legal knowledge, indicative of his status as a Cistercian convers.",
+        "confidence": 0.8
+      },
+      {
+        "name": "Cistercian convers",
+        "type": "role",
+        "context": "He suggests that Willem was likely born around the early 13th century and died in or around Boudelo, with a strong educational background in Latin and legal knowledge, indicative of his status as a Cistercian convers.",
+        "confidence": 0.9
+      },
+      {
+        "name": "circa 1250",
+        "type": "date",
+        "context": "Van Daele proposes that the poem was composed circa 1250 in Flanders, during a time when the 'Reynaertmaterie' was popular among the elite.",
+        "confidence": 0.8
+      },
+      {
+        "name": "Cistercian order",
+        "type": "organization",
+        "context": "He identifies significant connections to the Cistercian order and the comital court, emphasizing that Willem's profile bridges the urban culture of Ghent with the aristocratic milieu of the court, suggesting he worked within the comital administration.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Ghent",
+        "type": "place",
+        "context": "He identifies significant connections to the Cistercian order and the comital court, emphasizing that Willem's profile bridges the urban culture of Ghent with the aristocratic milieu of the court, suggesting he worked within the comital administration.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Countess Margareta",
+        "type": "person",
+        "context": "particularly highlighting his potential role in the court of Countess Margareta and his familiarity with the literary traditions of the period.",
+        "confidence": 0.8
+      },
+      {
+        "name": "Reynaertmaterie",
+        "type": "concept",
+        "context": "Van Daele proposes that the poem was composed circa 1250 in Flanders, during a time when the 'Reynaertmaterie' was popular among the elite.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Le couronnement de Renart",
+        "type": "work",
+        "context": "paralleling themes found in other works of the 'Reynaertmaterie', such as *Le couronnement de Renart*, which also critiques the hypocrisy of the clergy and the emerging bourgeoisie.",
+        "confidence": 0.9
+      },
+      {
+        "name": "bourgeoisie",
+        "type": "group",
+        "context": "which also critiques the hypocrisy of the clergy and the emerging bourgeoisie.",
+        "confidence": 0.8
+      },
+      {
+        "name": "clergy",
+        "type": "group",
+        "context": "which also critiques the hypocrisy of the clergy and the emerging bourgeoisie.",
+        "confidence": 0.8
+      },
+      {
+        "name": "political and cultural dynamics",
+        "type": "concept",
+        "context": "Van Daele establishes connections between Willem and the authorship of the poem by reconstructing his biography and situating him within the political and cultural dynamics of the time.",
+        "confidence": 0.8
+      },
+      {
+        "name": "Reynaertmaterie",
+        "type": "work",
+        "context": "...comparative analysis of literary traditions, particularly the 'Reynaertmaterie', and he references specific historical figures...",
+        "confidence": 0.8
+      },
+      {
+        "name": "fragmentary evidence",
+        "type": "concept",
+        "context": "...substantiate his arguments regarding the authorship of *Van den vos Reynaerde*, which involves assembling fragmentary evidence...",
+        "confidence": 0.7
+      },
+      {
+        "name": "literary traditions",
+        "type": "concept",
+        "context": "...analytical techniques such as comparative analysis of literary traditions, particularly the 'Reynaertmaterie'...",
+        "confidence": 0.7
+      },
+      {
+        "name": "Willem's sophisticated literary abilities",
+        "type": "characteristic",
+        "context": "...evidence is fragmentary, it is nonetheless relevant and indicative of Willem's sophisticated literary abilities and social milieu...",
+        "confidence": 0.8
+      },
+      {
+        "name": "social milieu",
+        "type": "concept",
+        "context": "...evidence is fragmentary, it is nonetheless relevant and indicative of Willem's sophisticated literary abilities and social milieu...",
+        "confidence": 0.8
+      }
+    ],
+    "source_answers": {
+      "1": "Van Daele argues for the authorship of Van den vos Reynaerde by reconstructing a composite profile of the likely author, Willem van Boudelo, based on a thorough examination of historical context and textual evidence. He employs an interpretive framework that combines interdisciplinary methods, suggesting that knowledge of the author, their time, and the surrounding milieu is crucial for accurate interpretation [^1]. The metaphor of creating a 'robotfoto' implies a methodological approach that assembles disparate textual fragments—referred to as \"wrakstukken\"—to form a coherent understanding of the Reynaertdichter's identity and context [^1][^4]. Central entities in his analysis include the Cistercian connections, which highlight the author's educational background and cultural influences, and the comital court, which situates the author within the social hierarchy of the time [^2]. Van Daele also references the popularity of the Reynaert material in higher circles of Flanders and France around 1275, indicating the text's significance in elite literary culture [^2]. However, the context does not provide specific details about the textual relationships or other literary works that may further structure his analysis, leaving a gap in understanding the full scope of his argument.",
+      "2": "Van Daele posits that Willem van Boudelo is the author of *Van den vos Reynaerde*, referred to as the 'Reynaertdichter', based on a composite profile that aligns with the poem's historical and cultural context. He suggests that Willem was likely born around the early 13th century and died in or around Boudelo, with a strong educational background in Latin and legal knowledge, indicative of his status as a Cistercian convers [^2][^5]. Van Daele proposes that the poem was composed circa 1250 in Flanders, during a time when the 'Reynaertmaterie' was popular among the elite [^2][^4]. He identifies significant connections to the Cistercian order and the comital court, emphasizing that Willem's profile bridges the urban culture of Ghent with the aristocratic milieu of the court, suggesting he worked within the comital administration [^2][^5]. Additionally, he notes that the poem reflects a moral critique of contemporary societal issues, paralleling themes found in other works of the 'Reynaertmaterie', such as *Le couronnement de Renart*, which also critiques the hypocrisy of the clergy and the emerging bourgeoisie [^1][^4]. Van Daele establishes connections between Willem and the authorship of the poem by reconstructing his biography and situating him within the political and cultural dynamics of the time, particularly highlighting his potential role in the court of Countess Margareta and his familiarity with the literary traditions of the period [^2][^5]. However, specific details regarding Willem's exact birth date and the precise nature of his employment within the comital court remain unspecified in the context provided.",
+      "3": "Van Daele employs a bricolage method to substantiate his arguments regarding the authorship of *Van den vos Reynaerde*, which involves assembling fragmentary evidence to reconstruct a coherent profile of the likely author, Willem van Boudelo. He presents a variety of evidence types, including textual, historical, and biographical information, emphasizing the importance of understanding the author's context for accurate interpretation [^2][^3]. His analysis incorporates linguistic competencies, social status, and institutional affiliations, particularly with the Cistercian order and the comital court, to contextualize Willem's identity and literary output [^4][^5]. Van Daele utilizes analytical techniques such as comparative analysis of literary traditions, particularly the 'Reynaertmaterie', and he references specific historical figures and institutions to support his claims [^2][^4]. He expresses a degree of certainty in his claims, suggesting that while the evidence is fragmentary, it is nonetheless relevant and indicative of Willem's sophisticated literary abilities and social milieu [^5]. However, the context does not provide precise details on the exact nature of the evidence or the degree of certainty regarding specific claims about the author's identity, leaving some gaps in understanding the full scope of his argument."
+    },
+    "extraction_method": "llm_structured_extraction",
+    "extractor_version": "1.0"
+  },
+  "work_schema_metadata": {
+    "interpretation_layer": {
+      "graph_type": "interpretation_layer",
+      "description": "What the authors assert/claim about the entities",
+      "nodes": [
+        {
+          "id": "willem_van_boudelo",
+          "type": "person",
+          "name": "Willem van Boudelo",
+          "confidence": 0.9
+        },
+        {
+          "id": "van_den_vos_reynaerde",
+          "type": "work",
+          "name": "Van den vos Reynaerde",
+          "confidence": 0.9
+        },
+        {
+          "id": "cistercian",
+          "type": "organization",
+          "name": "Cistercian",
+          "confidence": 0.8
+        },
+        {
+          "id": "comital_court",
+          "type": "organization",
+          "name": "comital court",
+          "confidence": 0.8
+        },
+        {
+          "id": "flanders",
+          "type": "place",
+          "name": "Flanders",
+          "confidence": 0.9
+        },
+        {
+          "id": "france",
+          "type": "place",
+          "name": "France",
+          "confidence": 0.8
+        },
+        {
+          "id": "1275",
+          "type": "date",
+          "name": "1275",
+          "confidence": 0.9
+        },
+        {
+          "id": "elite_literary_culture",
+          "type": "concept",
+          "name": "elite literary culture",
+          "confidence": 0.7
+        },
+        {
+          "id": "robotfoto",
+          "type": "concept",
+          "name": "robotfoto",
+          "confidence": 0.6
+        },
+        {
+          "id": "wrakstukken",
+          "type": "concept",
+          "name": "wrakstukken",
+          "confidence": 0.6
+        },
+        {
+          "id": "early_13th_century",
+          "type": "date",
+          "name": "early 13th century",
+          "confidence": 0.8
+        },
+        {
+          "id": "boudelo",
+          "type": "place",
+          "name": "Boudelo",
+          "confidence": 0.8
+        },
+        {
+          "id": "cistercian_convers",
+          "type": "role",
+          "name": "Cistercian convers",
+          "confidence": 0.8
+        },
+        {
+          "id": "circa_1250",
+          "type": "date",
+          "name": "circa 1250",
+          "confidence": 0.8
+        },
+        {
+          "id": "cistercian_order",
+          "type": "organization",
+          "name": "Cistercian order",
+          "confidence": 0.8
+        },
+        {
+          "id": "ghent",
+          "type": "place",
+          "name": "Ghent",
+          "confidence": 0.8
+        },
+        {
+          "id": "countess_margareta",
+          "type": "person",
+          "name": "Countess Margareta",
+          "confidence": 0.7
+        },
+        {
+          "id": "reynaertmaterie",
+          "type": "concept",
+          "name": "Reynaertmaterie",
+          "confidence": 0.7
+        },
+        {
+          "id": "le_couronnement_de_renart",
+          "type": "work",
+          "name": "Le couronnement de Renart",
+          "confidence": 0.7
+        },
+        {
+          "id": "bourgeoisie",
+          "type": "group",
+          "name": "bourgeoisie",
+          "confidence": 0.6
+        },
+        {
+          "id": "clergy",
+          "type": "group",
+          "name": "clergy",
+          "confidence": 0.6
+        },
+        {
+          "id": "political_and_cultural_dynamics",
+          "type": "concept",
+          "name": "political and cultural dynamics",
+          "confidence": 0.7
+        },
+        {
+          "id": "fragmentary_evidence",
+          "type": "concept",
+          "name": "fragmentary evidence",
+          "confidence": 0.6
+        },
+        {
+          "id": "literary_traditions",
+          "type": "concept",
+          "name": "literary traditions",
+          "confidence": 0.6
+        },
+        {
+          "id": "willems_sophisticated_literary_abilities",
+          "type": "characteristic",
+          "name": "Willem's sophisticated literary abilities",
+          "confidence": 0.6
+        },
+        {
+          "id": "social_milieu",
+          "type": "concept",
+          "name": "social milieu",
+          "confidence": 0.7
+        }
+      ],
+      "relations": [
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "willem_van_boudelo",
+          "relation_type": "created_by",
+          "properties": {
+            "asserted_by": "Van Daele",
+            "certainty": "high",
+            "evidence_type": "HistoricalContextualization",
+            "method": "ComparativeAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "circa_1250",
+          "relation_type": "created_during",
+          "properties": {
+            "asserted_by": "Van Daele",
+            "certainty": "high",
+            "evidence_type": "HistoricalContextualization",
+            "method": "ComparativeAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "flanders",
+          "relation_type": "created_at",
+          "properties": {
+            "asserted_by": "Van Daele",
+            "certainty": "high",
+            "evidence_type": "HistoricalContextualization",
+            "method": "ComparativeAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "willem_van_boudelo",
+          "target_id": "cistercian_convers",
+          "relation_type": "has_occupation",
+          "properties": {
+            "asserted_by": "Van Daele",
+            "certainty": "high",
+            "evidence_type": "BiographicalAnalysis",
+            "method": "ComparativeAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "willem_van_boudelo",
+          "target_id": "boudelo",
+          "relation_type": "place_of_death",
+          "properties": {
+            "asserted_by": "Van Daele",
+            "certainty": "medium",
+            "evidence_type": "BiographicalAnalysis",
+            "method": "ComparativeAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "willem_van_boudelo",
+          "target_id": "early_13th_century",
+          "relation_type": "date_of_birth",
+          "properties": {
+            "asserted_by": "Van Daele",
+            "certainty": "medium",
+            "evidence_type": "BiographicalAnalysis",
+            "method": "ComparativeAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "willem_van_boudelo",
+          "target_id": "ghent",
+          "relation_type": "lived_in",
+          "properties": {
+            "asserted_by": "Van Daele",
+            "certainty": "medium",
+            "evidence_type": "BiographicalAnalysis",
+            "method": "ComparativeAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "willem_van_boudelo",
+          "target_id": "cistercian_order",
+          "relation_type": "associated_with",
+          "properties": {
+            "asserted_by": "Van Daele",
+            "certainty": "high",
+            "evidence_type": "InstitutionalAnalysis",
+            "method": "ComparativeAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "elite_literary_culture",
+          "relation_type": "has_theme",
+          "properties": {
+            "asserted_by": "Van Daele",
+            "certainty": "medium",
+            "evidence_type": "LiteraryAnalysis",
+            "method": "ComparativeAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "reynaertmaterie",
+          "relation_type": "has_theme",
+          "properties": {
+            "asserted_by": "Van Daele",
+            "certainty": "high",
+            "evidence_type": "LiteraryAnalysis",
+            "method": "ComparativeAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "le_couronnement_de_renart",
+          "relation_type": "influenced_by",
+          "properties": {
+            "asserted_by": "Van Daele",
+            "certainty": "medium",
+            "evidence_type": "LiteraryAnalysis",
+            "method": "ComparativeAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "political_and_cultural_dynamics",
+          "relation_type": "has_theme",
+          "properties": {
+            "asserted_by": "Van Daele",
+            "certainty": "medium",
+            "evidence_type": "LiteraryAnalysis",
+            "method": "ComparativeAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "van_den_vos_reynaerde",
+          "target_id": "fragmentary_evidence",
+          "relation_type": "has_theme",
+          "properties": {
+            "asserted_by": "Van Daele",
+            "certainty": "medium",
+            "evidence_type": "LiteraryAnalysis",
+            "method": "ComparativeAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "willem_van_boudelo",
+          "target_id": "social_milieu",
+          "relation_type": "has_role",
+          "properties": {
+            "asserted_by": "Van Daele",
+            "certainty": "medium",
+            "evidence_type": "BiographicalAnalysis",
+            "method": "ComparativeAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        },
+        {
+          "source_id": "willem_van_boudelo",
+          "target_id": "cistercian",
+          "relation_type": "influenced_by",
+          "properties": {
+            "asserted_by": "Van Daele",
+            "certainty": "high",
+            "evidence_type": "InstitutionalAnalysis",
+            "method": "ComparativeAnalysis"
+          },
+          "confidence": 0.5,
+          "claim_type": "authorial_argument"
+        }
+      ],
+      "metadata": {
+        "generation_method": "entity_based_interpretation",
+        "source_entities_count": 27
+      }
+    },
+    "generation_summary": {
+      "total_source_entities": 27,
+      "interpretation_layer_nodes": 26,
+      "interpretation_layer_relations": 15
+    }
+  }
+}

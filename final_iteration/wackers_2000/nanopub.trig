@@ -1,0 +1,84 @@
+@prefix ex: <http://example.org/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hico: <http://purl.org/emmedi/hico/> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:facts_wackers_2000 {
+    ex:Counts_of_Flanders a crm:E74_Group ;
+        crm:P1_is_identified_by ex:Counts_of_Flanders_appellation .
+
+    ex:Van_den_Vos_Reynaerde a crm:E89_Propositional_Object ;
+        crm:P1_is_identified_by ex:Van_den_Vos_Reynaerde_appellation .
+
+    ex:mid_thirteenth_century a crm:E52_Time-Span ;
+        rdfs:label "mid-thirteenth century" .
+
+    ex:patricians a crm:E74_Group ;
+        crm:P1_is_identified_by ex:patricians_appellation .
+
+    ex:wackers_2000 a fabio:JournalArticle ;
+        dcterms:date "2000" ;
+        dcterms:title "Medieval French and Dutch Renardian Epics: Between Literature and Society" ;
+        frbr:partOf ex:tiecelijn_vol_29 .
+
+    ex:Counts_of_Flanders_appellation a crm:E41_Appellation ;
+        rdfs:label "Counts of Flanders" .
+
+    ex:Van_den_Vos_Reynaerde_appellation a crm:E41_Appellation ;
+        rdfs:label "Van den Vos Reynaerde" .
+
+    ex:patricians_appellation a crm:E41_Appellation ;
+        rdfs:label "patricians" .
+
+    ex:tiecelijn_journal a fabio:Journal ;
+        dcterms:title "Tiecelijn" .
+
+    ex:tiecelijn_vol_29 a fabio:JournalVolume ;
+        prism:volume "29" ;
+        dcterms:title "Tiecelijn" ;
+        frbr:partOf ex:tiecelijn_journal .
+}
+
+ex:assertion_wackers_2000 {
+}
+
+ex:provenance_wackers_2000 {
+    ex:assertion_wackers_2000 prov:wasGeneratedBy ex:interpretation_act_wackers_2000_wackers .
+
+    ex:interpretation_act_wackers_2000_wackers hico:hasInterpretationCriterion ex:HypothesisBased ;
+        hico:hasInterpretationType ex:HistoricalInterpretation ;
+        hico:isExtractedFrom ex:wackers_2000 ;
+        cwrc:hasCertainty cwrc:medium_certainty ;
+        prov:wasAssociatedWith ex:wackers .
+}
+
+ex:pubInfo_wackers_2000 {
+    ex:pub_wackers_2000 prov:generatedAtTime "2025-10-28T11:43:41+00:00"^^xsd:dateTime ;
+        prov:wasAttributedTo ex:Gpt4oMiniAgent ;
+        prov:wasDerivedFrom ex:wackers_2000 .
+
+    ex:Gpt4oMiniAgent a prov:SoftwareAgent ;
+        rdfs:label "gpt-4o-mini" ;
+        prov:actedOnBehalfOf ex:aschimmenti .
+
+    ex:aschimmenti a prov:Person ;
+        rdfs:label "aschimmenti" .
+
+    ex:wackers_2000 a prov:Entity .
+}
+
+ex:head_wackers_2000 {
+    ex:pub_wackers_2000 a np:Nanopublication ;
+        np:hasAssertion ex:assertion_wackers_2000 ;
+        np:hasProvenance ex:provenance_wackers_2000 ;
+        np:hasPublicationInfo ex:pubInfo_wackers_2000 .
+}

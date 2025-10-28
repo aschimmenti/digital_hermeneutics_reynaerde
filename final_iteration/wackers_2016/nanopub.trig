@@ -1,0 +1,96 @@
+@prefix ex: <http://example.org/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hico: <http://purl.org/emmedi/hico/> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:facts_wackers_2016 {
+    ex:19th_century a crm:E52_Time-Span ;
+        rdfs:label "19th century" .
+
+    ex:Van_den_vos_Reynaerde_Creation a crm:E65_Creation ;
+        crm:P14_carried_out_by ex:Willem ;
+        crm:P94_has_created ex:Van_den_vos_Reynaerde .
+
+    ex:wackers_2016 a fabio:JournalArticle ;
+        dcterms:date "2016" ;
+        dcterms:title "Wat staat er eigenlijk? Over het editeren van Van den vos Reynaerde" ;
+        frbr:partOf ex:tiecelijn_vol_29 .
+
+    ex:Comburg a crm:E89_Propositional_Object ;
+        crm:P1_is_identified_by ex:Comburg_appellation .
+
+    ex:Comburg_appellation a crm:E41_Appellation ;
+        rdfs:label "Comburg" .
+
+    ex:Dyck a crm:E89_Propositional_Object ;
+        crm:P1_is_identified_by ex:Dyck_appellation .
+
+    ex:Dyck_appellation a crm:E41_Appellation ;
+        rdfs:label "Dyck" .
+
+    ex:Van_den_vos_Reynaerde_appellation a crm:E41_Appellation ;
+        rdfs:label "Van den vos Reynaerde" .
+
+    ex:Willem a crm:E21_Person ;
+        crm:P1_is_identified_by ex:Willem_appellation .
+
+    ex:Willem_appellation a crm:E41_Appellation ;
+        rdfs:label "Willem" .
+
+    ex:tiecelijn_journal a fabio:Journal ;
+        dcterms:title "Tiecelijn" .
+
+    ex:tiecelijn_vol_29 a fabio:JournalVolume ;
+        prism:volume "29" ;
+        dcterms:title "Tiecelijn" ;
+        frbr:partOf ex:tiecelijn_journal .
+
+    ex:Van_den_vos_Reynaerde a crm:E89_Propositional_Object ;
+        crm:P1_is_identified_by ex:Van_den_vos_Reynaerde_appellation .
+}
+
+ex:assertion_wackers_2016 {
+    ex:Van_den_vos_Reynaerde crm:P67_refers_to ex:Comburg,
+            ex:Dyck .
+}
+
+ex:provenance_wackers_2016 {
+    ex:assertion_wackers_2016 prov:wasGeneratedBy ex:interpretation_act_wackers_2016_wackers .
+
+    ex:interpretation_act_wackers_2016_wackers hico:hasInterpretationCriterion ex:HypothesisBased ;
+        hico:hasInterpretationType ex:HistoricalInterpretation ;
+        hico:isExtractedFrom ex:wackers_2016 ;
+        cwrc:hasCertainty cwrc:medium_certainty ;
+        prov:wasAssociatedWith ex:wackers .
+}
+
+ex:pubInfo_wackers_2016 {
+    ex:pub_wackers_2016 prov:generatedAtTime "2025-10-28T11:43:41+00:00"^^xsd:dateTime ;
+        prov:wasAttributedTo ex:Gpt4oMiniAgent ;
+        prov:wasDerivedFrom ex:wackers_2016 .
+
+    ex:Gpt4oMiniAgent a prov:SoftwareAgent ;
+        rdfs:label "gpt-4o-mini" ;
+        prov:actedOnBehalfOf ex:aschimmenti .
+
+    ex:aschimmenti a prov:Person ;
+        rdfs:label "aschimmenti" .
+
+    ex:wackers_2016 a prov:Entity .
+}
+
+ex:head_wackers_2016 {
+    ex:pub_wackers_2016 a np:Nanopublication ;
+        np:hasAssertion ex:assertion_wackers_2016 ;
+        np:hasProvenance ex:provenance_wackers_2016 ;
+        np:hasPublicationInfo ex:pubInfo_wackers_2016 .
+}

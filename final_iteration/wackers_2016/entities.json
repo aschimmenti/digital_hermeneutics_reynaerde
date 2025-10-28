@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "total_sections": 1,
+    "total_questions": 3,
+    "generation_method": "rag_only"
+  },
+  "sections": {
+    "Document-wide": {
+      "section_number": null,
+      "questions_and_answers": [
+        {
+          "question_id": 1,
+          "question": "In Wat staat er eigenlijk? Over het editeren van Van den vos Reynaerde, the subject of inquiry is the Van den vos Reynaerde. Does the author talk about the authorship attribution? What is the main point of the authors? What are the entities that take part in his discourse?",
+          "answer": "In \"Wat staat er eigenlijk? Over het editeren van Van den vos Reynaerde,\" Paul Wackers discusses the complexities surrounding the editing and representation of the text \"Van den vos Reynaerde,\" particularly focusing on the discrepancies in the acrostic attributed to the author, Willem, which is presented as \"biwilleme\" in Wikipedia but appears as \"biwbdleme\" in the manuscript [^2]. Wackers emphasizes that modern editions of the text often manipulate the original manuscript to create a more coherent representation, which may mislead readers into believing they are encountering the unaltered text [^2]. The main point of Wackers' discourse is to raise awareness among readers about the editorial choices made by scholars and the implications of these choices for the authenticity of the text [^2]. The entities involved in this discourse include the original author Willem, the editors of various editions, and the manuscripts themselves, such as the Comburg and Dyck handwritings, which are referenced as crucial sources in the editing process [^5]. However, the text does not delve deeply into authorship attribution beyond identifying Willem as the author; further exploration of the implications of authorship on editorial practices could enhance the discussion."
+        },
+        {
+          "question_id": 2,
+          "question": "What does Paul Wackers say about the 'acrostic problem', and how does he shape his interpretation of the authorship? What do they say about the context of the creation of the poem?",
+          "answer": "Paul Wackers addresses the 'acrostic problem' in \"Wat staat er eigenlijk? Over het editeren van Van den vos Reynaerde\" by highlighting discrepancies between the acrostic attributed to the author Willem, which is presented as \"biwilleme\" in Wikipedia, and its actual appearance as \"biwbdleme\" in the manuscript [^3]. He emphasizes that modern editions often manipulate the original text to create a more coherent representation, leading to potential misconceptions about the authenticity of the text [^3]. Wackers argues that while the editorial choices made by scholars are often justified, they can obscure the original manuscript's integrity, which he believes should be respected [^1]. He suggests that the desire for an 'unreachable original' sometimes outweighs adherence to the surviving manuscripts, indicating that editorial practices are inherently subjective and influenced by modern interpretations [^1]. Regarding the context of the poem's creation, Wackers notes that the editorial history since the 19th century reflects ongoing debates about how to faithfully represent the text while acknowledging the limitations of available manuscripts [^3]. However, he does not delve deeply into the implications of authorship beyond identifying Willem, leaving a gap in the exploration of how authorship affects editorial practices."
+        },
+        {
+          "question_id": 3,
+          "question": "How does Paul Wackers substantiate his claims? What proofs does he provide? Which techniques does he use? What degree of certainty does he have?",
+          "answer": "Paul Wackers substantiates his claims in \"Wat staat er eigenlijk? Over het editeren van Van den vos Reynaerde\" by providing detailed analyses of the editorial practices surrounding the text, particularly focusing on the discrepancies in the acrostic attributed to the author Willem. He highlights that the acrostic appears as \"biwbdleme\" in the manuscript, contrasting with the Wikipedia presentation of \"biwilleme,\" thereby illustrating the manipulation of the original text in modern editions [^1]. Wackers employs a critical examination of manuscript sources, such as the Comburg and Dyck handwritings, to demonstrate how editorial choices can obscure the integrity of the original work [^2]. He discusses three methods of editing—diplomatic, critical, and reconstructive—and emphasizes the complexities involved in representing medieval texts accurately, noting that modern editions often fail to convey the original manuscript's nuances [^3]. His degree of certainty appears high as he argues for the importance of respecting the original manuscripts while acknowledging the subjective nature of editorial practices [^1]. However, the context does not provide specific quantitative measures of certainty or statistical analyses to support his claims, which could further strengthen his argument."
+        }
+      ]
+    }
+  },
+  "document_metadata": {
+    "type": "journal_article",
+    "authors": [
+      {
+        "family_name": "Wackers",
+        "given_name": "Paul"
+      }
+    ],
+    "date": "2016",
+    "title": "Wat staat er eigenlijk? Over het editeren van Van den vos Reynaerde",
+    "container": {
+      "type": "journal",
+      "title": "Tiecelijn",
+      "volume": "29"
+    },
+    "file_path": "data/wackers_2016.md"
+  },
+  "extraction_metadata": {
+    "source_question_ids": [
+      1,
+      2,
+      3
+    ],
+    "total_entities": 18,
+    "entity_types": [
+      "concept",
+      "characteristic",
+      "methodology",
+      "place",
+      "date",
+      "work",
+      "reference",
+      "person"
+    ],
+    "entities": [
+      {
+        "name": "Willem",
+        "type": "person",
+        "context": "...the discrepancies in the acrostic attributed to the author, Willem, which is presented as 'biwilleme' in Wikipedia but appears as 'biwbdleme' in the manuscript...",
+        "confidence": 0.9
+      },
+      {
+        "name": "Van den vos Reynaerde",
+        "type": "work",
+        "context": "...the editing and representation of the text 'Van den vos Reynaerde,' particularly focusing on the discrepancies in the acrostic...",
+        "confidence": 0.9
+      },
+      {
+        "name": "Comburg",
+        "type": "work",
+        "context": "...the manuscripts themselves, such as the Comburg and Dyck handwritings, which are referenced as crucial sources in the editing process...",
+        "confidence": 0.8
+      },
+      {
+        "name": "Dyck",
+        "type": "work",
+        "context": "...the manuscripts themselves, such as the Comburg and Dyck handwritings, which are referenced as crucial sources in the editing process...",
+        "confidence": 0.8
+      },
+      {
+        "name": "Wikipedia",
+        "type": "reference",
+        "context": "...the acrostic attributed to the author, Willem, which is presented as 'biwilleme' in Wikipedia but appears as 'biwbdleme' in the manuscript...",
+        "confidence": 0.7
+      },
+      {
+        "name": "authorship attribution",
+        "type": "methodology",
+        "context": "...the text does not delve deeply into authorship attribution beyond identifying Willem as the author; further exploration of the implications of authorship on editorial practices could enhance the discussion...",
+        "confidence": 0.8
+      },
+      {
+        "name": "19th century",
+        "type": "date",
+        "context": "...the editorial history since the 19th century reflects ongoing debates about how to faithfully represent the text...",
+        "confidence": 0.8
+      },
+      {
+        "name": "modern editions",
+        "type": "concept",
+        "context": "...modern editions often manipulate the original text to create a more coherent representation...",
+        "confidence": 0.8
+      },
+      {
+        "name": "editorial practices",
+        "type": "concept",
+        "context": "...indicating that editorial practices are inherently subjective and influenced by modern interpretations...",
+        "confidence": 0.8
+      },
+      {
+        "name": "original manuscript",
+        "type": "characteristic",
+        "context": "...obscure the original manuscript's integrity, which he believes should be respected...",
+        "confidence": 0.8
+      },
+      {
+        "name": "acrostic problem",
+        "type": "concept",
+        "context": "...addresses the 'acrostic problem' in 'Wat staat er eigenlijk?...",
+        "confidence": 0.8
+      },
+      {
+        "name": "Comburg",
+        "type": "place",
+        "context": "...a critical examination of manuscript sources, such as the Comburg and Dyck handwritings...",
+        "confidence": 0.8
+      },
+      {
+        "name": "Dyck",
+        "type": "place",
+        "context": "...a critical examination of manuscript sources, such as the Comburg and Dyck handwritings...",
+        "confidence": 0.8
+      },
+      {
+        "name": "diplomatic",
+        "type": "methodology",
+        "context": "...He discusses three methods of editing—diplomatic, critical, and reconstructive...",
+        "confidence": 0.9
+      },
+      {
+        "name": "critical",
+        "type": "methodology",
+        "context": "...He discusses three methods of editing—diplomatic, critical, and reconstructive...",
+        "confidence": 0.9
+      },
+      {
+        "name": "reconstructive",
+        "type": "methodology",
+        "context": "...He discusses three methods of editing—diplomatic, critical, and reconstructive...",
+        "confidence": 0.9
+      },
+      {
+        "name": "medieval texts",
+        "type": "concept",
+        "context": "...the complexities involved in representing medieval texts accurately...",
+        "confidence": 0.8
+      },
+      {
+        "name": "original manuscripts",
+        "type": "concept",
+        "context": "...the importance of respecting the original manuscripts while acknowledging the subjective nature of editorial practices...",
+        "confidence": 0.8
+      }
+    ],
+    "source_answers": {
+      "1": "In \"Wat staat er eigenlijk? Over het editeren van Van den vos Reynaerde,\" Paul Wackers discusses the complexities surrounding the editing and representation of the text \"Van den vos Reynaerde,\" particularly focusing on the discrepancies in the acrostic attributed to the author, Willem, which is presented as \"biwilleme\" in Wikipedia but appears as \"biwbdleme\" in the manuscript [^2]. Wackers emphasizes that modern editions of the text often manipulate the original manuscript to create a more coherent representation, which may mislead readers into believing they are encountering the unaltered text [^2]. The main point of Wackers' discourse is to raise awareness among readers about the editorial choices made by scholars and the implications of these choices for the authenticity of the text [^2]. The entities involved in this discourse include the original author Willem, the editors of various editions, and the manuscripts themselves, such as the Comburg and Dyck handwritings, which are referenced as crucial sources in the editing process [^5]. However, the text does not delve deeply into authorship attribution beyond identifying Willem as the author; further exploration of the implications of authorship on editorial practices could enhance the discussion.",
+      "2": "Paul Wackers addresses the 'acrostic problem' in \"Wat staat er eigenlijk? Over het editeren van Van den vos Reynaerde\" by highlighting discrepancies between the acrostic attributed to the author Willem, which is presented as \"biwilleme\" in Wikipedia, and its actual appearance as \"biwbdleme\" in the manuscript [^3]. He emphasizes that modern editions often manipulate the original text to create a more coherent representation, leading to potential misconceptions about the authenticity of the text [^3]. Wackers argues that while the editorial choices made by scholars are often justified, they can obscure the original manuscript's integrity, which he believes should be respected [^1]. He suggests that the desire for an 'unreachable original' sometimes outweighs adherence to the surviving manuscripts, indicating that editorial practices are inherently subjective and influenced by modern interpretations [^1]. Regarding the context of the poem's creation, Wackers notes that the editorial history since the 19th century reflects ongoing debates about how to faithfully represent the text while acknowledging the limitations of available manuscripts [^3]. However, he does not delve deeply into the implications of authorship beyond identifying Willem, leaving a gap in the exploration of how authorship affects editorial practices.",
+      "3": "Paul Wackers substantiates his claims in \"Wat staat er eigenlijk? Over het editeren van Van den vos Reynaerde\" by providing detailed analyses of the editorial practices surrounding the text, particularly focusing on the discrepancies in the acrostic attributed to the author Willem. He highlights that the acrostic appears as \"biwbdleme\" in the manuscript, contrasting with the Wikipedia presentation of \"biwilleme,\" thereby illustrating the manipulation of the original text in modern editions [^1]. Wackers employs a critical examination of manuscript sources, such as the Comburg and Dyck handwritings, to demonstrate how editorial choices can obscure the integrity of the original work [^2]. He discusses three methods of editing—diplomatic, critical, and reconstructive—and emphasizes the complexities involved in representing medieval texts accurately, noting that modern editions often fail to convey the original manuscript's nuances [^3]. His degree of certainty appears high as he argues for the importance of respecting the original manuscripts while acknowledging the subjective nature of editorial practices [^1]. However, the context does not provide specific quantitative measures of certainty or statistical analyses to support his claims, which could further strengthen his argument."
+    },
+    "extraction_method": "llm_structured_extraction",
+    "extractor_version": "1.0"
+  }
+}

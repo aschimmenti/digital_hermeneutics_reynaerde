@@ -1,0 +1,139 @@
+@prefix ex: <http://example.org/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hico: <http://purl.org/emmedi/hico/> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:facts_daele_2005 {
+    ex:Ghent a crm:E53_Place ;
+        crm:P1_is_identified_by ex:Ghent_appellation .
+
+    ex:Le_couronnement_de_Renart a crm:E89_Propositional_Object ;
+        crm:P1_is_identified_by ex:Le_couronnement_de_Renart_appellation .
+
+    ex:daele_2005 a fabio:JournalArticle ;
+        dcterms:date "2005" ;
+        dcterms:title "De robotfoto van de Reynaertdichter Bricoleren met de overgeleverde wrakstukken: 'cisterciënzers', 'grafelijke hof' en 'Reynaertmaterie'" ;
+        frbr:partOf ex:tiecelijn_vol_18 .
+
+    ex:social_milieu a crm:E55_Type ;
+        rdfs:label "social milieu" .
+
+    ex:Boudelo a crm:E53_Place ;
+        crm:P1_is_identified_by ex:Boudelo_appellation .
+
+    ex:Boudelo_appellation a crm:E41_Appellation ;
+        rdfs:label "Boudelo" .
+
+    ex:Cistercian a crm:E74_Group ;
+        crm:P1_is_identified_by ex:Cistercian_appellation .
+
+    ex:Cistercian_appellation a crm:E41_Appellation ;
+        rdfs:label "Cistercian" .
+
+    ex:Cistercian_order a crm:E74_Group ;
+        crm:P1_is_identified_by ex:Cistercian_order_appellation .
+
+    ex:Cistercian_order_appellation a crm:E41_Appellation ;
+        rdfs:label "Cistercian order" .
+
+    ex:Ghent_appellation a crm:E41_Appellation ;
+        rdfs:label "Ghent" .
+
+    ex:Le_couronnement_de_Renart_appellation a crm:E41_Appellation ;
+        rdfs:label "Le couronnement de Renart" .
+
+    ex:Van_den_vos_Reynaerde a crm:E89_Propositional_Object ;
+        crm:P1_is_identified_by ex:Van_den_vos_Reynaerde_appellation .
+
+    ex:Van_den_vos_Reynaerde_appellation a crm:E41_Appellation ;
+        rdfs:label "Van den vos Reynaerde" .
+
+    ex:Willem_van_Boudelo_appellation a crm:E41_Appellation ;
+        rdfs:label "Willem van Boudelo" .
+
+    ex:circa_1250 a crm:E52_Time-Span ;
+        rdfs:label "circa 1250" .
+
+    ex:early_13th_century a crm:E52_Time-Span ;
+        rdfs:label "early 13th century" .
+
+    ex:tiecelijn_journal a fabio:Journal ;
+        dcterms:title "Tiecelijn" .
+
+    ex:tiecelijn_vol_18 a fabio:JournalVolume ;
+        prism:volume "18" ;
+        dcterms:title "Tiecelijn" ;
+        frbr:partOf ex:tiecelijn_journal .
+
+    ex:Willem_van_Boudelo a crm:E21_Person ;
+        crm:P1_is_identified_by ex:Willem_van_Boudelo_appellation .
+}
+
+ex:assertion_daele_2005 {
+    ex:Cistercian_order crm:P107_has_current_or_former_member ex:Willem_van_Boudelo .
+
+    ex:Van_den_vos_Reynaerde_Creation a crm:E65_Creation ;
+        crm:P14_carried_out_by ex:Willem_van_Boudelo ;
+        crm:P15_was_influenced_by ex:Cistercian ;
+        crm:P4_has_time-span ex:circa_1250 ;
+        crm:P94_has_created ex:Van_den_vos_Reynaerde .
+
+    ex:Willem_van_Boudelo_Birth a crm:E67_Birth ;
+        crm:P4_has_time-span ex:early_13th_century ;
+        crm:P98_brought_into_life ex:Willem_van_Boudelo .
+
+    ex:Willem_van_Boudelo_Cistercian_convers_Activity a crm:E7_Activity ;
+        crm:P14_carried_out_by ex:Willem_van_Boudelo ;
+        crm:P1_is_identified_by ex:Willem_van_Boudelo_Cistercian_convers_Activity_appellation .
+
+    ex:Willem_van_Boudelo_Death a crm:E69_Death ;
+        crm:P100_was_death_of ex:Willem_van_Boudelo ;
+        crm:P7_took_place_at ex:Boudelo .
+
+    ex:Willem_van_Boudelo_Cistercian_convers_Activity_appellation a crm:E41_Appellation ;
+        rdfs:label "Cistercian convers" .
+}
+
+ex:provenance_daele_2005 {
+    ex:assertion_daele_2005 prov:wasGeneratedBy ex:interpretation_act_daele_2005_van_daele .
+
+    ex:interpretation_act_daele_2005_van_daele hico:hasInterpretationCriterion ex:ComparativeAnalysis,
+            ex:Comparativeanalysis,
+            ex:HypothesisBased ;
+        hico:hasInterpretationType ex:HistoricalInterpretation,
+            ex:LinguisticInterpretation ;
+        hico:isExtractedFrom ex:daele_2005 ;
+        cwrc:hasCertainty cwrc:medium_certainty ;
+        prov:wasAssociatedWith ex:van_daele .
+}
+
+ex:pubInfo_daele_2005 {
+    ex:pub_daele_2005 prov:generatedAtTime "2025-10-28T11:43:41+00:00"^^xsd:dateTime ;
+        prov:wasAttributedTo ex:Gpt4oMiniAgent ;
+        prov:wasDerivedFrom ex:daele_2005 .
+
+    ex:Gpt4oMiniAgent a prov:SoftwareAgent ;
+        rdfs:label "gpt-4o-mini" ;
+        prov:actedOnBehalfOf ex:aschimmenti .
+
+    ex:aschimmenti a prov:Person ;
+        rdfs:label "aschimmenti" .
+
+    ex:daele_2005 a prov:Entity .
+}
+
+ex:head_daele_2005 {
+    ex:pub_daele_2005 a np:Nanopublication ;
+        np:hasAssertion ex:assertion_daele_2005 ;
+        np:hasProvenance ex:provenance_daele_2005 ;
+        np:hasPublicationInfo ex:pubInfo_daele_2005 .
+}

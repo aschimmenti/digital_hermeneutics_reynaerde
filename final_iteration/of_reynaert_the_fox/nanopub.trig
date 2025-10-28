@@ -1,0 +1,131 @@
+@prefix ex: <http://example.org/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hico: <http://purl.org/emmedi/hico/> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:facts_of_reynaert_the_fox {
+    ex:Old_French a crm:E56_Language ;
+        rdfs:label "Old French" .
+
+    ex:Roman_de_Renart a crm:E89_Propositional_Object ;
+        crm:P1_is_identified_by ex:Roman_de_Renart_appellation .
+
+    ex:of_reynaert_the_fox a fabio:Book ;
+        dcterms:date "2009" ;
+        dcterms:title "Of Reynaert the Fox: Text and facing translation of Van den vos Reynaerde" .
+
+    ex:Dampierre_family a crm:E4_Period ;
+        rdfs:label "Dampierre family" .
+
+    ex:Flemish_aristocracy a crm:E4_Period ;
+        rdfs:label "Flemish aristocracy" .
+
+    ex:King_Nobel a crm:E21_Person ;
+        crm:P1_is_identified_by ex:King_Nobel_appellation .
+
+    ex:King_Nobel_appellation a crm:E41_Appellation ;
+        rdfs:label "King Nobel" .
+
+    ex:Reynaert_the_Fox a crm:E21_Person ;
+        crm:P1_is_identified_by ex:Reynaert_the_Fox_appellation .
+
+    ex:Reynaert_the_Fox_appellation a crm:E41_Appellation ;
+        rdfs:label "Reynaert the Fox" .
+
+    ex:Roman_de_Renart_appellation a crm:E41_Appellation ;
+        rdfs:label "Roman de Renart" .
+
+    ex:Van_den_vos_Reynaerde_appellation a crm:E41_Appellation ;
+        rdfs:label "Van den vos Reynaerde" .
+
+    ex:Willem_appellation a crm:E41_Appellation ;
+        rdfs:label "Willem" .
+
+    ex:thirteenth_century a crm:E52_Time-Span ;
+        rdfs:label "thirteenth century" .
+
+    ex:Van_den_vos_Reynaerde a crm:E89_Propositional_Object ;
+        crm:P1_is_identified_by ex:Van_den_vos_Reynaerde_appellation .
+
+    ex:Willem a crm:E21_Person ;
+        crm:P1_is_identified_by ex:Willem_appellation .
+}
+
+ex:assertion_of_reynaert_the_fox {
+    ex:Van_den_vos_Reynaerde_Creation a crm:E65_Creation ;
+        crm:P14_carried_out_by ex:Willem ;
+        crm:P15_was_influenced_by ex:Flemish_aristocracy ;
+        crm:P4_has_time-span ex:thirteenth_century ;
+        crm:P94_has_created ex:Van_den_vos_Reynaerde .
+
+    ex:Willem_Flemish_aristocracy_Activity a crm:E7_Activity ;
+        crm:P14_carried_out_by ex:Willem ;
+        crm:P1_is_identified_by ex:Willem_Flemish_aristocracy_Activity_appellation .
+
+    ex:Old_French_Speaker a crm:E55_Type ;
+        crm:P1_is_identified_by ex:Old_French_Speaker_appellation .
+
+    ex:Old_French_Speaker_appellation a crm:E41_Appellation ;
+        rdfs:label "Old French Speaker" .
+
+    ex:Van_den_vos_Reynaerde crm:P67_refers_to ex:Dampierre_family,
+            ex:King_Nobel,
+            ex:Reynaert_the_Fox .
+
+    ex:Willem_Flemish_aristocracy_Activity_appellation a crm:E41_Appellation ;
+        rdfs:label "Flemish aristocracy" .
+
+    ex:Willem crm:P2_has_type ex:Old_French_Speaker .
+}
+
+ex:provenance_of_reynaert_the_fox {
+    ex:assertion_of_reynaert_the_fox prov:wasGeneratedBy ex:interpretation_act_of_reynaert_the_fox_bouwman_a_besamusca_b .
+
+    ex:interpretation_act_of_reynaert_the_fox_bouwman_a_besamusca_b hico:hasInterpretationCriterion ex:AudienceAnalysis,
+            ex:CharacterAnalysis,
+            ex:ComparativeLiterature,
+            ex:ContextualizationOfFeudalSociety,
+            ex:ContextualizationOfSocioPoliticalTensions,
+            ex:GeographicalAssessment,
+            ex:HypothesisBased,
+            ex:LinguisticCompetenceAssessment,
+            ex:ManuscriptEvidence,
+            ex:SocialStatusAssessment,
+            ex:SocioPoliticalAnalysis,
+            ex:ThematicExploration ;
+        hico:hasInterpretationType ex:HistoricalInterpretation ;
+        hico:isExtractedFrom ex:of_reynaert_the_fox ;
+        cwrc:hasCertainty cwrc:medium_certainty ;
+        prov:wasAssociatedWith ex:bouwman_a_besamusca_b .
+}
+
+ex:pubInfo_of_reynaert_the_fox {
+    ex:pub_of_reynaert_the_fox prov:generatedAtTime "2025-10-28T11:43:41+00:00"^^xsd:dateTime ;
+        prov:wasAttributedTo ex:Gpt4oMiniAgent ;
+        prov:wasDerivedFrom ex:of_reynaert_the_fox .
+
+    ex:Gpt4oMiniAgent a prov:SoftwareAgent ;
+        rdfs:label "gpt-4o-mini" ;
+        prov:actedOnBehalfOf ex:aschimmenti .
+
+    ex:aschimmenti a prov:Person ;
+        rdfs:label "aschimmenti" .
+
+    ex:of_reynaert_the_fox a prov:Entity .
+}
+
+ex:head_of_reynaert_the_fox {
+    ex:pub_of_reynaert_the_fox a np:Nanopublication ;
+        np:hasAssertion ex:assertion_of_reynaert_the_fox ;
+        np:hasProvenance ex:provenance_of_reynaert_the_fox ;
+        np:hasPublicationInfo ex:pubInfo_of_reynaert_the_fox .
+}
